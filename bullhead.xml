@@ -3,12 +3,12 @@
   <RomName>Cosmic-OS_bullhead_7.1.1</RomName>
   <VersionName><![CDATA[ Cosmic-OS_bullhead_7.1.1_20170317_1.4-OFFICIAL ]]></VersionName>
   <VersionNumber type="integer">20170317</VersionNumber>
-  <DirectUrl>https://excellmedia.dl.sourceforge.net/project/cosmic-os/bullhead/Cosmic-OS_bullhead_7.1.1_20170317_1.4-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/bullhead</HttpUrl>
+  <DirectUrl>https://dl.pixelrom.xyz/releases/Cosmic%20OS/Cosmic-OS_bullhead_7.1.1_20170317_1.4-OFFICIAL.zip</DirectUrl>
+  <HttpUrl>https://dl.pixelrom.xyz/releases/Cosmic%20OS/</HttpUrl>
   <Android>7.1.1</Android>
   <CheckMD5>e2fa7e88fb673bfeb3e35b454a2fee65</CheckMD5>
   <FileSize type="integer">389708894</FileSize>
-  <Developer></Developer>
+  <Developer>argraur</Developer>
   <WebsiteURL nil="true">cosmic-os.com</WebsiteURL>
   <DonateURL nil="true"/>
   <Changelog>====================
