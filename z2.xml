@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROM>
+  <RomName>Cosmic-OS_z2_plus_7.1.1</RomName>
+  <VersionName><![CDATA[ Cosmic-OS_z2_plus_7.1.1_20170317_1.4-OFFICIAL ]]></VersionName>
+  <VersionNumber type="integer">20170317</VersionNumber>
+  <DirectUrl>https://excellmedia.dl.sourceforge.net/project/cosmic-os/z2/Cosmic-OS_z2_plus_7.1.1_20170317_1.4-OFFICIAL.zip</DirectUrl>
+  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/z2</HttpUrl>
+  <Android>plus</Android>
+  <CheckMD5>a714af4154b11f0d00a6a429816ee8fd</CheckMD5>
+  <FileSize type="integer">495719738</FileSize>
+  <Developer>Silv3r79</Developer>
+  <WebsiteURL nil="true">cosmic-os.com</WebsiteURL>
+  <DonateURL nil="true"/>
+  <Changelog></Changelog>
+</ROM>
