@@ -1,0 +1,460 @@
+====================
+     03-17-2017
+====================
+
+   * build/
+61ade09  envsetup: source OTA functions  [Kshitij Gupta]
+f5b3033  envsetup: Export some variables  [Kshitij Gupta]
+   * manifest/
+7e953c9  Track Vendor/ota  [GitHub]
+18fabd1  Track new ota app  [GitHub]
+   * packages/apps/Settings/
+21738d9  Add me as a maintainer (#24)  [Kshitij Gupta]
+99b57f5  DeviceInfoSettings : Plug in new OTA Updater  [Kshitij Gupta]
+   * vendor/cos/
+7f556df  Fix build-cos.sh (#17)  [Kshitij Gupta]
+dc924a2  Add zuk z2 (#19)  [Kshitij Gupta]
+a0f0f06  common: Fix derp in OTA props  [Kshitij Gupta]
+5f9aebb  common: updates for OTA  [Kshitij Gupta]
+   * vendor/ota/
+3e57666  OTA: Update bacon (17/03/2017)  [Kshitij Gupta]
+53dfcf8  OTA: make the script functional  [Kshitij Gupta]
+312a0fc  OTA: Cosmic-ify and improvements  [Kshitij Gupta]
+884960a  gen_manifest: improve this a little bit  [Kshitij Gupta]
+c39b0d2  OTA : Add manifest generation script  [Kshitij Gupta]
+
+====================
+     03-16-2017
+====================
+   * OTA_COS/
+4ca396f  update oneplus2 16/03/17  [Aditya Upreti]
+   * hardware/samsung/
+c9bdb4d  Automatic translation import  [Abhisek Devkota]
+   * packages/apps/Nfc/
+fce8ec8  Automatic translation import  [Abhisek Devkota]
+   * packages/apps/Snap/
+91d6eab  Automatic translation import  [Abhisek Devkota]
+
+====================
+     03-15-2017
+====================
+   * OTA_COS/
+74e7c22  Onyx: Update to 13/03/2017  [Harsh Shandilya]
+   * packages/apps/OTAUpdates/
+a519187  MainActivity : Validate URL before launching intent  [Harsh Shandilya]
+   * packages/apps/Settings/
+57df740  Make 'stay awake' also work for wireless charging  [Sagar Shah]
+6ddfa9b  Add me :D (#23)  [Aditya Upreti]
+
+====================
+     03-14-2017
+====================
+   * OTA_COS/
+0f66d66  Update j5  [Aditya Upreti]
+   * frameworks/av/
+708d480  libstagefright: Adds some parsing capability  [Sagar Shah]
+823b450  stagefright: Fix playback for mkv files with lacing  [Sagar Shah]
+ea6defb  stagefright: Pass AAC profile from MatroskaExtractor  [Sagar Shah]
+89738bb  Support MPEG4 codec in Matroska files  [Sagar Shah]
+   * hardware/qcom/media-caf/msm8974/
+4ff5e65  mm-video-v4l2: vdec: Fix makefile derp introduced in d443c0d  [Ashwin Ramesh]
+   * hardware/samsung/
+2981f79  power: Cleanup hint handling  [Christopher N. Hesse]
+15b6309  power: Discard hints in power save mode  [Christopher N. Hesse]
+f70cf8a  power: Keep boostpulse fd opened  [Christopher N. Hesse]
+f21fbdb  power: Keep boostpulse fd opened  [Christopher N. Hesse]
+a042209  liblights: Always apply linear scaling if max brightness isn't 255  [Luca Stefani]
+
+====================
+     03-13-2017
+====================
+   * OTA_COS/
+2fefbdc  Add j5 :D  [Aditya Upreti]
+   * build/
+b3cd54d  roomservice: It's 15 characters, not 7  [Kshitij Gupta]
+1c4ccd5  roomservice: allow replacing already existing    *s using deps  [Kshitij Gupta]
+ca6eaf5  Fix roomservice  [Kshitij Gupta]
+   * manifest/
+d097934  default: Add devices remote for Cosmic-Devices  [Kshitij Gupta]
+   * packages/services/Telecomm/
+d6df4ff  Fix incall  [aditheking]
+
+====================
+     03-12-2017
+====================
+   * OTA_COS/
+c4a21da  update oneplus2 12/03/17  [Aditya Upreti]
+   * frameworks/base/
+5589e8e  Forward port CM Screen Security settings (1/2)  [Sagar Shah]
+ea89faa  Add UserContentObserver from LaOS  [Sagar Shah]
+   * manifest/
+7dfc2e3  Minor fix in build script name (#7)  [Sagar Shah]
+   * packages/apps/Galaxy/
+8cba6eb  Clock size and font [2/2]  [Sagar Shah]
+a12e84c  Galaxy: Lockscreen music visualizer  [Sagar Shah]
+   * packages/apps/Settings/
+5dbbc14  Settings: forward port lock pattern grid size (2/2)  [Sagar Shah]
+1f67a99  Lockscreen PIN quick unlock [2/2]  [Sagar Shah]
+bf06b63  Fix Build  [Sagar Shah]
+
+====================
+     03-11-2017
+====================
+
+   * frameworks/base/
+b4bf0f3  Visualizer: take it out off CM  [Sagar Shah]
+d9b8f49  SystemUI: use new visualizer from Eleven  [Sagar Shah]
+1a13423  Remove default wallpaper  [Sagar Shah]
+ab866d2  Clock size and font [1/2]  [Sagar Shah]
+55be511  Lockscreen PIN quick unlock [1/2]  [Sagar Shah]
+4c63a28  qs: FlashlightTile: Long press to launch default camera  [Sagar Shah]
+0671b3b  Disable app verification and enable non market apps installation (#16)  [Sagar Shah]
+886ddec  Revert "Use Stock volte icon"  [Sagar Shah]
+18957ce  [1/2] Frameworks_base: Double tap to wake on doze  [Sagar Shah]
+a54f293  Add isPackageInstalled boolean  [Sagar Shah]
+   * manifest/
+0926e49  Add OmniJaws  [Sagar Shah]
+   * packages/apps/Galaxy/
+a7ce0bf  Fix Build  [Sagar Shah]
+   * packages/apps/OTAUpdates/
+1c118a8  OTAUpdates : Use a ListView for credits  [Harsh Shandilya]
+   * packages/apps/Settings/
+3d451d6  Gesturesettings: Remove AmbientDisplay bits, redundant with SlimDim (which has more options anyways)  [Sagar Shah]
+5b99294  [1/2] Settings: SlimDoze 7.1.1  [Sagar Shah]
+6c067b7  Revert "Custom Ambient display options (2/2)"  [Sagar Shah]
+   * vendor/cos/
+46b738d  Use KAMod instead of KA (#16)  [Sagar Shah]
+cc94395  Add OmniJaws  [Sagar Shah]
+
+====================
+     03-10-2017
+====================
+   * OTA_COS/
+7b8419e  OTA: Update bacon (0310)  [Kshitij Gupta]
+d7115fa  update oneplus2 10/03/17  [Kshitij Gupta]
+   * build/
+53f6429  Merge tag 'android-7.1.1_r25' of https://android.googlesource.com/platform/build into n7.1  [Sagar Shah]
+   * frameworks/av/
+9182f92  Merge tag 'android-7.1.1_r25' of https://android.googlesource.com/platform/frameworks/av into n7.1  [Sagar Shah]
+   * frameworks/base/
+1b784b8  [2/2] frameworks_base: SlimDoze 7.1.1  [Sagar Shah]
+1565a48  Revert "Custom ambient display settings (1/2)"  [Sagar Shah]
+7b1bda8  Import Custom PackageUtils from Omni  [Sagar Shah]
+87710f9  base: qs weather: Start Google Weather on LongClick  [Sagar Shah]
+f7f4747  Partial screenshot: fix SystemUI fc  [Sagar Shah]
+872ad17  Play nice when OmniJaws is not installed  [Sagar Shah]
+59730d1  Cleanup OmniJaws  [Sagar Shah]
+b138246  [1/2] base: SystemUI: OmniJaws qs tile integration  [Sagar Shah]
+9254b20  Revert "Force Pixel exclusive services [1/2]"  [Kshitij Gupta]
+8f3a3e0  Merge tag 'android-7.1.1_r25' of https://android.googlesource.com/platform/frameworks/base into n7.1  [Sagar Shah]
+55e6347  Use Stock volte icon pulled from op3 Signed-off-by: FireLord1 <firelord.xda@gmail.com>  [Sagar Shah]
+fbc8b8d  keyguard: Allow disabling fingerprint wake-and-unlock  [Sagar Shah]
+e68993b  fix brightness button conflict while sliding brightness slider  [Sagar Shah]
+   * manifest/
+4c24166  Android 7.1.1 Release 25  [Sagar Shah]
+   * packages/apps/Galaxy/
+fadef9e  Galaxy: add OmniJaws config  [Sagar Shah]
+   * packages/apps/Gallery2/
+6c7a67b  Change Icons  [Sagar Shah]
+   * packages/apps/OTAUpdates/
+cea9329  Cleanout cruft  [Harsh Shandilya]
+   * packages/apps/PackageInstaller/
+4d703e7  Merge tag 'android-7.1.1_r25' of https://android.googlesource.com/platform/packages/apps/PackageInstaller into n7.1  [Sagar Shah]
+2274efa  PackageInstaller: Add tint mode to icons  [Sagar Shah]
+   * packages/apps/Settings/
+37787dd  Add OmniJaws longpress/tile 'more settings' action  [Sagar Shah]
+   * system/core/
+0eefb00  Merge pull request #1 from kunalshah912/n7.1  [GitHub]
+e74fe1a  Create "theme extras" directory  [kunalshah]
+c0e0567  Revert "Create "theme extras" directory"  [kunalshah]
+   * vendor/cos/
+3beca6a  ROMOVE TITAN (#15)  [Sagar Shah]
+e71c05a  Revert "Enable Google Assistant"  [Kshitij Gupta]
+
+====================
+     03-09-2017
+====================
+   * OTA_COS/
+66d6595  update oneplus2 08/03/17  [Harsh Shandilya]
+   * hardware/samsung/
+3c99507  Automatic translation import  [Abhisek Devkota]
+   * packages/apps/OTAUpdates/
+bd83acc  Revert "OTAUpdates : No Launcher activity for you!"  [Harsh Shandilya]
+0f450da  Missed these in 435631d  [Harsh Shandilya]
+   * packages/apps/Snap/
+50b1a98  Automatic translation import  [Abhisek Devkota]
+379fd77  Snap/Strings: sensivity -> sensitivity  [Harry Youd]
+
+====================
+     03-08-2017
+====================
+
+   * frameworks/base/
+59d0e0b  Revert "Add a protected broadcast for Masquerade events"  [Sagar Shah]
+20a891c  base: Force authorize all calling packages by Masquerade (2/3)  [Sagar Shah]
+38ad22b  OMS7: Rootless Security Update Preparation for March 2017  [Sagar Shah]
+   * hardware/qcom/display-caf/msm8996/
+938e782  display: Fix ColorMetaData  [Rashed Abdel-Tawab]
+d5d627d  display-caf: msm8996: Use ColorMetaData in SDM in hwc2  [Rashed Abdel-Tawab]
+718be10  display-caf: 8996: Add color metadata to libgralloc1  [Rashed Abdel-Tawab]
+   * hardware/samsung/
+65c65bd  power: Initialize device power paths  [Christopher N. Hesse]
+d9106e9  power: Cleanup touchkey handling  [Christopher N. Hesse]
+   * manifest/
+67cc2de  Welcome to Theme Interfacer! [3/4]  [Sagar Shah]
+   * packages/apps/Settings/
+006982c  Development: Allow all Masquerade calling packages for debugging (3/3)  [Sagar Shah]
+87be4e1  Settings: Expose styles in the manifest for themes  [Sagar Shah]
+f0614c8  Settings: Expose "ALL" hardcoded and @android colors  [Sagar Shah]
+8c1a23a  Settings: Expose and add tint mode to custom icons  [Sagar Shah]
+   * packages/apps/Snap/
+99f0e2e  Revert "SnapdragonCamera: Camera switches from bayer and mono on switching to front camera"  [Rashed Abdel-Tawab]
+404e429  Snap: grant android.permission.RECEIVE_BOOT_COMPLETED permisions  [Martin Bouchet]
+   * packages/apps/ThemeInterfacer/
+e1a375d  Welcome to Theme Interfacer! [1/4]  [Sagar Shah]
+5c98db7  AndroidManifest: Add protected broadcasts  [Sagar Shah]
+958cb7a  JobService: new RestartService job  [Sagar Shah]
+944bb37  Broadcast authorization result  [Sagar Shah]
+9c6b96b  Introducing Signature check in Masquerade (1/3)  [Sagar Shah]
+17b8b7c  Add missing exception handling in setDefaultAudible  [Sagar Shah]
+2b1257e  Rewrite the way we handle sound overlays  [Sagar Shah]
+5743df1  This is not how you convert long to String ;_;  [Sagar Shah]
+2ac1950  Improve code style  [Sagar Shah]
+e85915a  Unify logging  [Sagar Shah]
+8016046  Use Log.e() instead of printStackTrace();  [Sagar Shah]
+03e279d  Masquerade: Update README with new org/branch  [Sagar Shah]
+54d7254  Release 24: Iron out the rootless commits  [Sagar Shah]
+b1d8272  JobService: Restart UI job depends on substratum command  [Sagar Shah]
+a066ba1  JobService: add "directory creation" job  [Sagar Shah]
+f3a4b64  Update gradle dependencies  [Sagar Shah]
+4d4f226  Release 23: Introduce the rootless solution for Masquerade [3/3]  [Sagar Shah]
+5aa0c31  Finalize masquerade rootless functionality with Substratum [2/3]  [Sagar Shah]
+522bbe7  Rewrite Masquerade for UID system ops [1/3]  [Sagar Shah]
+efee085  OMS7-N: Allow Play Store to filter out OMS-only themes  [Sagar Shah]
+4a7a8df  Makefile cleanup  [Sagar Shah]
+   * system/sepolicy/
+0f857b3  Welcome to Theme Interfacer! [2/4]  [Sagar Shah]
+86436b4  sepolicy: Redo masquerade rules  [Sagar Shah]
+194d741  sepolicy: Fix application of bootanimation  [Sagar Shah]
+0d12b83  sepolicy: allow masquerade to read and write theme assets  [Sagar Shah]
+facb816  sepolicy: rename masquerade domain and allow JobService in system_server  [Sagar Shah]
+cff19a5  initial policy edits for masquerade to operate rootless  [Sagar Shah]
+   * vendor/cos/
+1e61fec  Remove prebuilt Substratum  [Sagar Shah]
+37e4007  Add s5 devices (#14)  [Sagar Shah]
+2f90f10  Update substratum for rootless  [Sagar Shah]
+2eee502  Welcome to Theme Interfacer! [4/4]  [Sagar Shah]
+
+====================
+     03-07-2017
+====================
+
+   * external/libnfc-nci/
+9a85f1a  Merge tag 'android-7.1.1_r25' into cm-14.1  [Dan Pasanen]
+   * frameworks/base/
+1f2a7bc  Fix left logo doubling with center and right position  [Sagar Shah]
+4d1ab16  StatusBar Custom Logos: Bring Them Back [1/2] - Use a Much Cleaner Implementation without RecreateStatusbar() - Dont Push Too much crap in layout - Adapt for Cosmic-OS  [Sagar Shah]
+5313875  [SQUASH] FWB: Cosmic-OS Logo on Status Bar (1/2) - Changes for N - Center, Right, Left - InvertedStatusbar color fix - Code changes and cleanup from original commit so it refreshes the settings immediately  [Sagar Shah]
+1f64556  SysUI: Add LTE Tile  [Sagar Shah]
+3681296  Update Italian translation (#14)  [Sagar Shah]
+e863ca5  Update Italian translation (#15)  [Sagar Shah]
+19e9d23  FWB: Give power dialogs own set of volume icons for themes  [Sagar Shah]
+b489854  Move value for the Build.CUR_DEVELOPMENT constant into libcore  [Sagar Shah]
+b8fce1c  Remove FastJNI optimization on AssetManager to avoid dead lock.  [Sagar Shah]
+cf1425b  Bluetooth: Prioritize Bluetooth state change intent to start Service  [Sagar Shah]
+21351d17  base: add vector for notification volume mute  [Sagar Shah]
+ca4f3c3  hwui: Remove deprecated compiler flag  [Sagar Shah]
+1d2f807  Battery icon: don't show PowerSaving symbol when showing Critical Level  [Sagar Shah]
+dd1717b  Optimize quick qs scroller commit  [Sagar Shah]
+877ba05  Only enable auto brightness toggle when also enabed for QS  [Sagar Shah]
+d3bd6f5  OMS: Add hide annotation to MODIFY_OVERLAYS permission  [Sagar Shah]
+7d24635  Revert "Force Expanded Notifications (1/2)"  [Sagar Shah]
+   * libcore/
+648af82  VMRuntime: Default unset targetSdkVersion to 10000 rather than 0.  [Sagar Shah]
+   * packages/apps/Galaxy/
+3032365  Custom logos ,Bring it Back[2/2]  [Sagar Shah]
+3cf304d  [SQUASH] Cosmic-OS Statusbar Logo (2/2)  [Sagar Shah]
+aa97a6e  Revert "Force Expanded Notifications (2/2)"  [Sagar Shah]
+   * packages/services/Telephony/
+c11589b  Telephony: Number of slot should start with 1  [Sagar Shah]
+a846864  Telephony: Further improve network selection  [Sagar Shah]
+2cebbd2  Telephony: Improve NetworkSelection  [Sagar Shah]
+abc848e  Fix Lte Tile  [Sagar Shah]
+3e0b7d4  Allow MobileNetworkSettings to be invoked for selected SIM.  [Sagar Shah]
+
+====================
+     03-06-2017
+====================
+
+   * packages/apps/OTAUpdates/
+d387193  MainActivity : Remove a hardcode  [Harsh Shandilya]
+bb8affb  Fix up makefile  [Harsh Shandilya]
+eb8011c  Constants : Move OTA props to persist.* namespace  [Harsh Shandilya]
+435631d  OTAUpdates : Drop all pre lollipop hacks  [Harsh Shandilya]
+aa2f39a  OTAUpdates : Refactor and Gradle-ify  [Harsh Shandilya]
+04349db  OTAUpdates : SDK25 or gtfo  [Harsh Shandilya]
+99fb096  OTAUpdates : Deprecate SDK 19 and mdpi resolutions  [Harsh Shandilya]
+36ffa50  OTAUpdates : Compile android-support-v4  [Harsh Shandilya]
+68992f0  OTAUpdates : Cleanup docs  [Harsh Shandilya]
+b0c4c4e  OTAUpdates : No Launcher activity for you!  [Harsh Shandilya]
+   * packages/services/OmniJaws/
+37a7a66  Change Settings to Weather settings  [Alex Cruz]
+803dc7f  Clean up unused imports, simpify few things  [Alex Cruz]
+b037bb6  Add menu item to search for Chronus icons  [Alex Cruz]
+6405ef2  Fix potential actionbar npe  [Alex Cruz]
+536d220  Move the README to where is seen by users on Github  [Alex Cruz]
+70a359e  Ignore .idea from git  [Alex Cruz]
+a2334fc  Fix errors caused by lack of apache http legacy  [Alex Cruz]
+dbc5fa5  Import to Android Studio  [Alex Cruz]
+
+====================
+     03-05-2017
+====================
+   * OTA_COS/
+2dedfc8  update OnePlus2 05/03/17  [Harsh Shandilya]
+   * build/
+e2a6c0b  build: add BOARD_GLOBAL_C[PP]FLAGS to TARGET_GLOBAL_C[PP]FLAGS  [Sagar Shah]
+   * frameworks/av/
+d915374  libstagefright: squash exynos4 support  [Sagar Shah]
+   * frameworks/base/
+0d9a902  sensors: Allow opting out of default batch size  [Sagar Shah]
+   * frameworks/native/
+d599573  sensor: Skip additional permission request checks  [Sagar Shah]
+d7af8e6  Support forcing all screenshots into a CPU consumer  [Sagar Shah]
+fd1e219  sensor: Allow devices to skip the permission request  [Sagar Shah]
+03aca19  sf: Exynos4: further improve workaround for swapBuffers bug  [Sagar Shah]
+2b359d5  sf: Exynos4: improve workaround for swapBuffers bug  [Sagar Shah]
+886b300  sf: exynos4: set proper usage and flags for propietary HWC  [Sagar Shah]
+7180d77  sf: Exynos4: fix workaround for swapBuffers bug when there is no hwc  [Sagar Shah]
+f637da3  sf: Workaround for swapBuffers bug on exynos4  [Sagar Shah]
+   * hardware/libhardware/
+8428881  exynos4: switch FIMC1 and ION  [Sagar Shah]
+   * hardware/qcom/audio-caf/msm8916/
+1e33348  hal: dolby: Only set C_KEY if ACDB License is enabled.  [Ethan Chen]
+   * hardware/qcom/audio-caf/msm8996/
+daf6387  policy_hal: Fix mismerges  [Bruno Martins]
+b19cd09  audio policy: fix capture indication to sound trigger service.  [Bruno Martins]
+1a7ddf2  audio policy: fix media volume after ringtone  [Bruno Martins]
+   * hardware/qcom/media-caf/apq8084/
+14eb24c  Clean code, avoid warnings  [Corinna Vinschen]
+5dc3774  mm-video-v4l12: update stride info for YUV420P and YUV420SP  [Corinna Vinschen]
+f0b7ad5  mm-video-v4l2: vdec: fix fps issues in arbitrary mode  [Corinna Vinschen]
+c8ff894  apq8084: Kill logspam  [Corinna Vinschen]
+   * hardware/samsung/
+f154b17  lights: Add a log tag  [Christopher N. Hesse]
+209f5de  lights: Cleanup read/write API  [Christopher N. Hesse]
+b5b9500  lights: Remove superfluous log newlines  [Christopher N. Hesse]
+354f713  power: Remove superfluous log newlines  [Christopher N. Hesse]
+   * manifest/
+01cf85a  Track qcom_binaries from Cosmic-OS org  [Sagar Shah]
+c3a4943  Add missing arm-eabi-4.8 toolchain  [Sagar Shah]
+   * system/core/
+9229770  init: disable flash_recovery  [Sagar Shah]
+
+====================
+     03-04-2017
+====================
+
+   * hardware/qcom/audio-caf/msm8996/
+37a40b7  hal: Don't try to record using 3-mic unless we mean it  [Bruno Martins]
+6ae6c52  hal: Haxed header  [Bruno Martins]
+4e134c7  audio: Fix flac offload not working  [Bruno Martins]
+933a41f  hal: Fix build with HDMI disabled  [Bruno Martins]
+6fe781d  audio: Fix complilation warnings under Clang  [Bruno Martins]
+7f4762c  msm8996: fix werror when AUDIO_FEATURE_ENABLED_DTS_EAGLE is enabled  [Bruno Martins]
+1ab693a  audio: Extend platform parser to allow device name aliasing  [Bruno Martins]
+7219c37  hal: post_proc: enabled / disable volume listener based on prop  [Bruno Martins]
+1edbe04  hal: Support the audio amplifier hook  [Bruno Martins]
+45bfdf3  hal: Allow building hardware audio encoders  [Bruno Martins]
+0c47743  audio: Use direct    * pathmap  [Bruno Martins]
+   * hardware/qcom/display-caf/msm8996/
+1272662  hwc2: Only set display_width and display_height when equal to zero  [Bruno Martins]
+fd7ddeb  hwc2: Handle empty lists in AcceptDisplayChanges  [Bruno Martins]
+887eec2  msm8996: hwc2: check for null layers in layer map  [Bruno Martins]
+8424508  hwc2 : Fix layer updating flag  [Bruno Martins]
+20385d1  gralloc: Return an error if the buffer was not mapped  [Bruno Martins]
+34d03c0  Revert "Revert "gralloc: Default to 601 color space""  [Bruno Martins]
+a5fcbbb  hwc2: Workaround use after free by surfaceflinger  [Bruno Martins]
+199abf8  hwc2: Update composition types on AcceptDisplayChanges  [Bruno Martins]
+d673594  Revert "gralloc: Default to 601 color space"  [Bruno Martins]
+34897a4  gralloc: Disable UBWC for writeback buffers  [Bruno Martins]
+146dd0b  hwc2: Initialize color mode to native  [Bruno Martins]
+db8fa62  hwc2 : Allow only top most cursor layer  [Bruno Martins]
+947cd07  Revert "gralloc: Return an error if the buffer was not mapped"  [Bruno Martins]
+85b388b  hwc2: Fix solid fill  [Bruno Martins]
+f8a30bc  sdm:hwc2: Store higher order mode id in case of clash  [Bruno Martins]
+fe9f9d2  gralloc: Return an error if the buffer was not mapped  [Bruno Martins]
+87ce127  hwc2: Fix retire fences  [Bruno Martins]
+8d5f85e  hwc2: Always store a release fence if a layer is presented  [Bruno Martins]
+9a986c9  hwc2: Use current frames retire fence only for the primary  [Bruno Martins]
+d8ac9b2  8996/HWC2: Return this frame's retire fence  [Bruno Martins]
+6c0a368  hwc2: Remove default mode application at boot.  [Bruno Martins]
+6dfe748  hwc2: Support HWC2_CAPABILITY_SKIP_CLIENT_COLOR_TRANSFORM  [Bruno Martins]
+c4aa085  hwc: Set ioprio for vsync thread  [Bruno Martins]
+83e0b90  sdm: Always include kernel headers  [Bruno Martins]
+c2113b5  sdm: Add support for legacy extension library  [Bruno Martins]
+3b4dd74  Fix duplicate copy file rules  [Bruno Martins]
+b7ed0eb  display: Cleanup flags  [Bruno Martins]
+30eff2a  Don't build lights module if vendor supplies it  [Bruno Martins]
+0984402  display: Use    * pathmap  [Bruno Martins]
+   * hardware/qcom/media-caf/apq8084/
+39f5c42  mm-video: venc: Correct a typo in variable name  [Corinna Vinschen]
+5d8cba9  mm-core: Kill logspam  [Corinna Vinschen]
+3d984fa  mm-video-v4l2: vidc: vdec: handle flush while codec config ETB for hevc decoder  [Corinna Vinschen]
+d526b31  mm-video-v4l2: vdec: Exit if default set format failed for output port also  [Corinna Vinschen]
+87210e9  mm-video: vdec: hevc: Avoid crash while handling extra data  [Corinna Vinschen]
+14561f9  mm-video-v4l2: vidc: vdec: Update stride and scanlines  [Corinna Vinschen]
+7472018  mm-video-v4l2: vidc: vdec: handle codec config ETB's properly  [Corinna Vinschen]
+e9d4e08  mm-video-v4l2: vdec: insert timestamps qeued by client in TS queue  [Corinna Vinschen]
+330e37f  mm-video-v4l2: vdec: Always send NC VOPS to the driver  [Corinna Vinschen]
+004017b  mm-video-v4l2: vdec: streamoff while freeing first output buffer  [Corinna Vinschen]
+8f0cd4d  mm-video: vidc: Adjust timestamp if actual ts < previous ts  [Corinna Vinschen]
+ee8caaa  mm-video-v4l2: vidc: Amend debug log macros  [Corinna Vinschen]
+1ea52b2  mm-video-v4l2: vdec: skip fillbuffer in port reconfiguration  [Corinna Vinschen]
+ed01934  mm-video: vidc: Avoid setting invalid timestamp of eos NAL  [Corinna Vinschen]
+839e27b  mm_video: vidc: Update buffer geometry with stride and scanline  [Corinna Vinschen]
+c0dbc19  mm-video-v4l2: vidc: Enforce non-negative timestamp deltas  [Corinna Vinschen]
+b924473   mm-video: vdec: hevc: hybrid: Call request buffer after configure  [Corinna Vinschen]
+3e183ef  mm-video-v4l2: vdec: fix invalid stride and scanlines issue  [Corinna Vinschen]
+8daba65  mm-video: vdec: Get updated resolution along with output buffers  [Corinna Vinschen]
+264baf9  mm-video: vdec: Correct video driver's crop parameters handling  [Corinna Vinschen]
+6c3734d  mm-video: Release driver buffers correctly  [Corinna Vinschen]
+4b79ce3  mm-video-v4l2: venc: fix static code analyzer issue.  [Corinna Vinschen]
+4c5e961  mm-video-v4l2: venc: Add check for overriding level based on LTR count  [Corinna Vinschen]
+4c1ee7e  apq8084: mm-video: vidc: Add missing setting of msgcode  [Corinna Vinschen]
+bc81f39  Revert "mm-video: vdec: Set frame rate if computed fps is more than existing fps"  [Corinna Vinschen]
+a70a451  mm-video: vidc: disable dynamic buffer mode and adaptive playback  [Corinna Vinschen]
+5ee4641  mm-video: vidc: Missing release of pending input buffers to client  [Corinna Vinschen]
+f15a6f2  mm-video: vdec: fix multiple downscalar issues  [Corinna Vinschen]
+48e5c7b  media-caf apq8084: Fix typo in video decoder error check for debug output  [Corinna Vinschen]
+09f054c  mm-video-v4l2: vdec: Request buffer for input port after client reconfigures  [Corinna Vinschen]
+2b518d4  mm-video-v4l2: vdec: Remove DivxDrm Decrypt support  [Corinna Vinschen]
+a0a4751  mm-video: Remove old video component  [Corinna Vinschen]
+6f63bab  mm-video-v4l2: vdec: allocate secure buffer as native_handle  [Corinna Vinschen]
+0709eec  omx_venc: Handle output buffer parameter in secure mode  [Corinna Vinschen]
+64ab009  libstagefrighthw: Remove padding in encoder_nativehandle_buffer_type  [Corinna Vinschen]
+91560c0  mm-video-v4l2: venc: update metadata-type used for HAL1 based recording  [Corinna Vinschen]
+833f262  DO NOT MERGE mm-video-v4l2: venc: add checks before  accessing heap pointers  [Corinna Vinschen]
+98fc0bf  DO NOT MERGE Fix wrong nAllocLen  [Corinna Vinschen]
+90d68f7  mm-video-v4l2: venc: Avoid processing ETBs/FTBs in invalid states  [Corinna Vinschen]
+b8fddb8  mm-video-v4l2: vdec: Avoid processing ETBs/FTBs in invalid states  [Corinna Vinschen]
+974b8f9  mm-video-v4l2: venc: add safety checks for freeing buffers  [Corinna Vinschen]
+ac2d333  mm-video-v4l2: vidc: validate omx param/config data  [Corinna Vinschen]
+e38e96b  mm-video-v4l2: vdec: add safety checks for freeing buffers  [Corinna Vinschen]
+97efe7e  Revert "mm-video-v4l2: vidc: venc: Update color conversion decision"  [Corinna Vinschen]
+3e6d314  mm-video-v4l2: venc: Accept Venus color format in opaque mode  [Corinna Vinschen]
+67dc1b7  mm-video-v4l2: vidc: venc: Update color conversion decision  [Corinna Vinschen]
+27b6276  mm-video-v4l2: vidc: venc: make color conversion independent of filledlen  [Corinna Vinschen]
+853c6e3  mm-video-vidc: change buffer index logic in EBD  [Corinna Vinschen]
+a7757ea  mm-video-vidc: Handle ETB with EOS for NV12 ENCODEABLE format  [Corinna Vinschen]
+5dd926c  mm-video-v4l2: Check for correct error code  [Corinna Vinschen]
+   * hardware/qcom/media-caf/msm8996/
+f560987  mm-video: Disable proprietary extension  [Bruno Martins]
+e79c703  venc: Fix VQZip issue  [Bruno Martins]
+989b425  vidc: Fix makefiles  [Bruno Martins]
+8fa0e3a  media: Avoid collision with FFMPEG plugin  [Bruno Martins]
+2ae2c3d  media: Use    * pathmap  [Bruno Martins]
+   * hardware/samsung/
+0fdef0c  audio: Add support for Audience EarSmart ICs  [Christopher N. Hesse]
+68f8fb6  Automatic translation import  [Abhisek Devkota]
+
