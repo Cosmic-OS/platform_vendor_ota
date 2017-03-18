@@ -1,0 +1,45 @@
+====================
+     03-17-2017
+====================
+
+   * build/
+61ade09  envsetup: source OTA functions  [Kshitij Gupta]
+f5b3033  envsetup: Export some variables  [Kshitij Gupta]
+   * device/zuk/z2_plus/
+369ba0b  Official  [silver]
+   * kernel/zuk/msm8996/
+2655091  Merge pull request #2 from SuperLamic/usb  [GitHub]
+a8f0028  drivers: cclogic: patch usb state after setting no plug  [Ondrej Hlavac]
+   * manifest/
+7e953c9  Track Vendor/ota  [GitHub]
+18fabd1  Track new ota app  [GitHub]
+   * packages/apps/Settings/
+21738d9  Add me as a maintainer (#24)  [Kshitij Gupta]
+99b57f5  DeviceInfoSettings : Plug in new OTA Updater  [Kshitij Gupta]
+   * vendor/cos/
+7f556df  Fix build-cos.sh (#17)  [Kshitij Gupta]
+dc924a2  Add zuk z2 (#19)  [Kshitij Gupta]
+a0f0f06  common: Fix derp in OTA props  [Kshitij Gupta]
+5f9aebb  common: updates for OTA  [Kshitij Gupta]
+   * vendor/ota/
+9d6279e  OTA: Update oneplus2 (17/03/2017) (#2)  [Kshitij Gupta]
+67e07c9  OTA: Discard and update to remote before making changes  [Kshitij Gupta]
+9e8f3d6  OTA: Add bullhead (17/03) (#1)  [Kshitij Gupta]
+3e57666  OTA: Update bacon (17/03/2017)  [Kshitij Gupta]
+53dfcf8  OTA: make the script functional  [Kshitij Gupta]
+312a0fc  OTA: Cosmic-ify and improvements  [Kshitij Gupta]
+884960a  gen_manifest: improve this a little bit  [Kshitij Gupta]
+c39b0d2  OTA : Add manifest generation script  [Kshitij Gupta]
+
+====================
+     03-16-2017
+====================
+   * OTA_COS/
+4ca396f  update oneplus2 16/03/17  [Aditya Upreti]
+   * hardware/samsung/
+c9bdb4d  Automatic translation import  [Abhisek Devkota]
+   * kernel/zuk/msm8996/
+e5f6678  drivers: gpio: Only modify home status if key is home key  [Álvaro Brey]
+0fe78b8  drivers: fpc/gpio cleanup  [Álvaro Brey]
+24f3248  z2_plus: Fix home button bug  [Álvaro Brey]
+   * packages/apps/Nfc/
