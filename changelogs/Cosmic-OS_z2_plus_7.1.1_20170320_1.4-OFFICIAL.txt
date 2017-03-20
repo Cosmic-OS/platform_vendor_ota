@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_z2_plus_7.1.1</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_z2_plus_7.1.1_20170320_1.4-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20170320</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/z2_plus/Cosmic-OS_z2_plus_7.1.1_20170320_1.4-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/z2_plus</HttpUrl>
-  <Android>7.1.1</Android>
-  <CheckMD5>3edeb199b8031580d87718a8f626f7dd</CheckMD5>
-  <FileSize type="integer">495727528</FileSize>
-  <Developer>Silv3r79</Developer>
-  <WebsiteURL nil="true">cosmic-os.com</WebsiteURL>
-  <DonateURL nil="true"/>
-  <Changelog>====================
+====================
      03-20-2017
 ====================
 
@@ -55,5 +42,4 @@ f18fc62  Rename Developer Options to Advanced  [Sagar Shah]
    * vendor/ota/
 823efd7  OTA: Update lettuce (19/03/2017)  [Sagar Shah]
 
-====================</Changelog>
-</ROM>
+====================
