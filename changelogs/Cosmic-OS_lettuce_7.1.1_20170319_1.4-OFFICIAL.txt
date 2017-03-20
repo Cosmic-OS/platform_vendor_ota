@@ -1,0 +1,45 @@
+====================
+     03-19-2017
+====================
+
+   * external/DUtils/
+a307ebf  Kill App action: remove the killed app from Recents list  [Sagar Shah]
+6cf693f  Separate one handed mode icons [2/2]  [Sagar Shah]
+   * frameworks/base/
+1b1e8c8e483  Add Animated Cosmic-OS logo to empty recents view * Based on these Commits: https://github.com/ResurrectionRemix/android_frameworks_base/commit/e739b9609fa8ec1fc63f65c62d937d30c8730079 https://github.com/PAC-ROM/android_frameworks_base/commit/7ce03a4a2768af282f68a6aa2393060db293ca46  [Sagar Shah]
+29bb6172566  Location tile easy toggle single tap: make it cycle modes  [Sagar Shah]
+5b42d9c7f22  [BUG] fix NullPointerException in Notification.java  [Sagar Shah]
+c6bc8861643  Location tile: dynamic icon state also when easy toggle enabled  [Sagar Shah]
+21f0ccfa7b5  Fix for wakelock being held during bootup and idle scenario.  [Sagar Shah]
+76717698805  Expose Screenshot flash and background colors  [Sagar Shah]
+496791b5c40  OmniJaws: Expose temperature text in DetailedWeatherView  [Sagar Shah]
+73e8f20a607  Add location to Easy toggle [1/2]  [Sagar Shah]
+1ba84d5a3d2  Fix unmatched clock fonts  [Kshitij Gupta]
+   * packages/apps/DUI/
+77089bd  Separate one handed mode icons [1/2]  [Sagar Shah]
+   * packages/apps/Galaxy/
+6becc880d  Add location to Easy toggle [2/2]  [Sagar Shah]
+   * packages/apps/OTAUpdates/
+42983e09  Preferences : Remove all unsupported entries  [Harsh Shandilya]
+   * packages/apps/Settings/
+aa775fe5c  Add CosmicDoze to Settings[1/2]  [Jenkins]
+0c467e6fe  Settings: Update Substratum dashboard icon  [Sagar Shah]
+d5bac2431  Development: fix the switch state  [Sagar Shah]
+cada91e18  Bring back main dashboard background color  [Sagar Shah]
+d6bbd6ce7  Use JobScheduler in AirplaneModeCondition  [Sagar Shah]
+ef6349410  Revert "Remove summary text for Backup & reset."  [Sagar Shah]
+f18fc62fd  Rename Developer Options to Advanced  [Sagar Shah]
+1b3de26c9  Add even more summaries in Settings  [Sagar Shah]
+
+====================
+     03-18-2017
+====================
+
+   * build/
+a9e55f734  releasetools: Add ASCII art for the flashable  [Kshitij Gupta]
+e385b632f  envsetup: Make it pretty  [Kshitij Gupta]
+fa43998f2  envsetup: No column please  [Kshitij Gupta]
+   * manifest/
+3234e9d  manifest: Track OTA from halogenOS and cleanup  [Kshitij Gupta]
+   * packages/apps/OTAUpdates/
+56a39f2c  src : Convert tabs to spaces and strip whitespace  [Harsh Shandilya]

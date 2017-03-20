@@ -6,8 +6,8 @@ function write_xml() {
   echo "  <RomName>$product</RomName>"
   echo "  <VersionName><![CDATA[ $version ]]></VersionName>"
   echo "  <VersionNumber type=\"integer\">"${date}"</VersionNumber>"
-  echo "  <DirectUrl>https://excellmedia.dl.sourceforge.net/project/cosmic-os/$device/${version}.zip</DirectUrl>"
-  echo "  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/$device</HttpUrl>"
+  echo "  <DirectUrl>$durl</DirectUrl>"
+  echo "  <HttpUrl>$url</HttpUrl>"
   echo "  <Android>$android</Android>"
   echo "  <CheckMD5>"$(md5sum $OUT/$version.zip | awk '{print $1}')"</CheckMD5>"
   echo "  <FileSize type=\"integer\">"$(stat --printf="%s" $OUT/${version}.zip)"</FileSize>"
@@ -27,6 +27,8 @@ function update_target() {
         GPG_SIGN=true
       elif [ "$var" == "-d" ]; then
         CUSTOM_DATE=true
+      elif [ "$var" == "-u" ]; then
+        CUSTOM_URL=true
       fi
     done
     version="$COS_VERSION"
@@ -40,6 +42,15 @@ function update_target() {
       date=$(date -d "$mdate" +'%Y%m%d'); 
     else
       date=$(date +%Y%m%d)
+    fi
+    if [ "$CUSTOM_URL" == true ]; then
+      printf 'Enter Direct URL: '
+      read -r durl
+      printf 'Enter HTTP URL: '
+      read -r url
+    else
+      durl="https://downloads.sourceforge.net/project/cosmic-os/$device/${version}.zip"
+      url="https://sourceforge.net/projects/cosmic-os/files/$device"
     fi
     version=$(echo $version | sed -e "s/${version_date}/${date}/g")
     cd $(gettop)/vendor/ota
