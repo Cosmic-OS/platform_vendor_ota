@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROM>
+  <RomName>Cosmic-OS_kenzo_7.1.1</RomName>
+  <VersionName><![CDATA[ Cosmic-OS_kenzo_7.1.1_20170323_1.4-OFFICIAL ]]></VersionName>
+  <VersionNumber type="integer">20170323</VersionNumber>
+  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/kenzo/Cosmic-OS_kenzo_7.1.1_20170323_1.4-OFFICIAL.zip</DirectUrl>
+  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/kenzo</HttpUrl>
+  <Android>7.1.1</Android>
+  <CheckMD5>167e2101386450d891c610e6204d6fa3</CheckMD5>
+  <FileSize type="integer">501555078</FileSize>
+  <Developer>rocknegi</Developer>
+  <WebsiteURL nil="true">cosmic-os.com</WebsiteURL>
+  <DonateURL nil="true"/>
+  <Changelog>====================
+     03-23-2017
+====================
+
+   * device/xiaomi/kenzo/
+a956c03  remove my derp  [rocknegi]
+7ea32a8  kenzo: Use stock Acdb id's  [rocknegi]
+6fe346c  kenzo: Use MIUI Stable build fingerprint  [rocknegi]
+59274d1  kenzo: Move camera props to msm8956-common  [rocknegi]
+4ecb96e  kenzo: Add libc hax for camera  [rocknegi]
+606bb47  kenzo: Move libshims from msm8956-common  [rocknegi]
+   * device/xiaomi/msm8956-common/
+be18e35  msm8956: Enable lowpower record and radio power save  [rocknegi]
+f413f90  Revert "msm8956: Re-enable XML audio policy"  [rocknegi]
+fe0fb70  msm8956: Add camera props  [rocknegi]
+d60a5c7  msm8956: Let cameraservice close native handles  [rocknegi]
+c2835d5  msm8956: Move libshims to device repo  [rocknegi]
+   * packages/apps/Snap/
+3deda7f  Automatic translation import  [Abhisek Devkota]
+   * vendor/cos/
+aad8a59  Drop Oneplus 3  [GitHub]
+
+====================
+     03-22-2017
+====================
+
+   * build/
+5deb786  Make SuperSU opt-in, instead [1/2]  [Kshitij Gupta]
+b7c9ebb  envsetup: Don't print ASCII twice on brunch  [Kshitij Gupta]
+3d146ca  Make Launcher3 optional [1/2]  [Kshitij Gupta]
+   * manifest/
+80fdb14  hals: Don't sync hardware/qcom/camera  [Kshitij Gupta]
+ce7339f  Track qcom_common from Lineage  [Kshitij Gupta]
+7025f5f  cm: Sync the new cryptfs_hw repo  [Kshitij Gupta]
+   * vendor/cos/
+75f21c9  common: Include KernelAdiutor only when including root  [Kshitij Gupta]
+d99050e  devices: Remove some unmaintained devices  [Kshitij Gupta]
+fbf17b6  prebuilt: Update Chromium  [Kshitij Gupta]
+a45b0f3  Introduce Chromium compiled from source  [Kshitij Gupta]
+79a16b2  Make SuperSU opt-in, instead [2/2]  [Kshitij Gupta]
+6f7d9ab  Make Launcher3 optional [2/2]  [Kshitij Gupta]
+b62d950  common: Add phonograph  [Kshitij Gupta]
+   * vendor/ota/
+9b1b1e3  OTA: Update bacon (22/03/2017)  [Kshitij Gupta]</Changelog>
+</ROM>
