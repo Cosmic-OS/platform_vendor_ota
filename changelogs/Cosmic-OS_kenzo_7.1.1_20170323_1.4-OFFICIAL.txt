@@ -10,7 +10,7 @@ a956c03  remove my derp  [rocknegi]
 4ecb96e  kenzo: Add libc hax for camera  [rocknegi]
 606bb47  kenzo: Move libshims from msm8956-common  [rocknegi]
    * device/xiaomi/msm8956-common/
-be18e35  msm8956: Enable lowpower record and radio power save  [rocknegi]
+18bdba7  kenzo: Add highspeed recording profiles  [rocknegi]
 f413f90  Revert "msm8956: Re-enable XML audio policy"  [rocknegi]
 fe0fb70  msm8956: Add camera props  [rocknegi]
 d60a5c7  msm8956: Let cameraservice close native handles  [rocknegi]
