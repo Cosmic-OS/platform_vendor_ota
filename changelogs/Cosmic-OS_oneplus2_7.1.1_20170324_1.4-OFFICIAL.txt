@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_oneplus2_7.1.1</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_oneplus2_7.1.1_20170324_1.4-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20170324</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/oneplus2/Cosmic-OS_oneplus2_7.1.1_20170324_1.4-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/oneplus2</HttpUrl>
-  <Android>7.1.1</Android>
-  <CheckMD5>96219d9aa7307fcf5c8cb335d3360291</CheckMD5>
-  <FileSize type="integer">515087363</FileSize>
-  <Developer>kunal shah</Developer>
-  <WebsiteURL nil="true">cosmic-os.com</WebsiteURL>
-  <DonateURL nil="true"/>
-  <Changelog>====================
+====================
      03-24-2017
 ====================
 
@@ -55,5 +42,4 @@ b62d950  common: Add phonograph  [Kshitij Gupta]
      03-21-2017
 ====================
 
-   * frameworks/base/</Changelog>
-</ROM>
+   * frameworks/base/
