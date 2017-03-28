@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_oneplus2_7.1.1</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_oneplus2_7.1.1_20170328_1.4-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20170328</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/oneplus2/Cosmic-OS_oneplus2_7.1.1_20170328_1.4-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/oneplus2</HttpUrl>
-  <Android>7.1.1</Android>
-  <CheckMD5>1b14385586c4cd0032465248dc45d0aa</CheckMD5>
-  <FileSize type="integer">499743182</FileSize>
-  <Developer>kunal shah</Developer>
-  <WebsiteURL nil="true">cosmic-os.com</WebsiteURL>
-  <DonateURL nil="true"/>
-  <Changelog>====================
+====================
      03-28-2017
 ====================
 
@@ -55,5 +42,4 @@ d758485  policy_hal: Line up default features with rest of HAL  [Michael Bestas]
    * packages/apps/Galaxy/
 948edf5  Allow to set a different battery style for tile and statusbar [2/2]  [Sagar Shah]
    * packages/apps/Settings/
-0beca89  Make SmartBar Dialog's parent style be DeviceDefault  [Sagar Shah]</Changelog>
-</ROM>
+0beca89  Make SmartBar Dialog's parent style be DeviceDefault  [Sagar Shah]
