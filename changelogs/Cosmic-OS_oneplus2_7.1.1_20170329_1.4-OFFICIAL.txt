@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_oneplus2_7.1.1</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_oneplus2_7.1.1_20170329_1.4-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20170329</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/oneplus2/Cosmic-OS_oneplus2_7.1.1_20170329_1.4-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/oneplus2</HttpUrl>
-  <Android>7.1.1</Android>
-  <CheckMD5>04ecfa760fb689855ba6c4114a43d09a</CheckMD5>
-  <FileSize type="integer">499738826</FileSize>
-  <Developer>kunal shah</Developer>
-  <WebsiteURL nil="true">cosmic-os.com</WebsiteURL>
-  <DonateURL nil="true"/>
-  <Changelog>====================
+====================
      03-29-2017
 ====================
 
@@ -55,5 +42,4 @@ b8c512a  MediaProfiles: Enhance profiles for extended usecases  [Kshitij Gupta]
 4cceb2c  Location tile: new icons  [Sagar Shah]
 aa22510  Location tile: add high accuracy state icon  [Sagar Shah]
 bf77747  Fix intermittent slowness in resolver activity towards end of day.  [Sagar Shah]
-b8de918  Allow to set a different battery style for tile and statusbar [1/2]  [Sagar Shah]</Changelog>
-</ROM>
+b8de918  Allow to set a different battery style for tile and statusbar [1/2]  [Sagar Shah]
