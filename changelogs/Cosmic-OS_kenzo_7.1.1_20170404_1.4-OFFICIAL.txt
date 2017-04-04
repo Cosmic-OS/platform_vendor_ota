@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_kenzo_7.1.1</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_kenzo_7.1.1_20170404_1.4-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20170404</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/kenzo/Cosmic-OS_kenzo_7.1.1_20170404_1.4-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/kenzo</HttpUrl>
-  <Android>7.1.1</Android>
-  <CheckMD5>e2c17405725c849bff4e2c8a4869bafe</CheckMD5>
-  <FileSize type="integer">501538070</FileSize>
-  <Developer>rocknegi</Developer>
-  <WebsiteURL nil="true">cosmic-os.com</WebsiteURL>
-  <DonateURL nil="true"/>
-  <Changelog>====================
+====================
      04-04-2017
 ====================
 
@@ -55,5 +42,4 @@ d062bdc  Merge remote-tracking branch 'caf/LA.BF64.1.2.3_rb1.9' into cm-14.1-caf
 ====================
 
    * vendor/ota/
-64903c5  OTA: Update lettuce (31/03/2017)  [Sagar Shah]</Changelog>
-</ROM>
+64903c5  OTA: Update lettuce (31/03/2017)  [Sagar Shah]
