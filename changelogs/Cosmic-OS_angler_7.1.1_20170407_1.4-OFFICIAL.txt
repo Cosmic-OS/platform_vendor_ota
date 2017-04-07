@@ -1,0 +1,45 @@
+====================
+     04-07-2017
+====================
+
+   * device/huawei/angler/
+b03dcc6  Removed GMS identifier  [GitHub]
+   * packages/apps/Settings/
+6639e75  cos_about_logo replaced with cos_mod_version_icon  [Diazz72]
+   * vendor/opengapps/sources/all/
+8201760  TalkBack all-21 5.2.0 (nodpi)  [Nicholas Buse]
+   * vendor/opengapps/sources/arm/
+687577c  Keep arm-16 3.4.665.06.30 (nodpi)  [Nicholas Buse]
+   * vendor/opengapps/sources/arm64/
+77e4f30  Slides arm64-19 1.7.132.06.45 (480)  [Nicholas Buse]
+
+====================
+     04-06-2017
+====================
+
+   * hardware/samsung/
+5781c8e  power: Remove unused variables  [Christopher N. Hesse]
+e37aedd  lights: Put back fd checks before closing  [Christopher N. Hesse]
+
+====================
+     04-05-2017
+====================
+
+   * device/huawei/angler/
+1ce44dc  PRODUCT_NAME misspell fix  [GitHub]
+   * packages/apps/Snap/
+673547e  CaptureUI: fix crash on setOrientation  [codeworkx]
+   * vendor/cos/
+11032fe  devices: add Oneplus2 (#24)  [Aditya Upreti]
+
+====================
+     04-04-2017
+====================
+
+   * packages/apps/Snap/
+a8285ad  Snap: Fix effect and picture program overlay buttons  [Daniel Hillenbrand]
+65aa6fd  Always apply frame size reduction to panorama pictures  [Daniel Hillenbrand]
+9e8d919  Never ignore finger swipes in gallery mode  [Daniel Hillenbrand]
+b9da2b0  Fix record time sometimes not seen  [Daniel Hillenbrand]
+   * vendor/ota/
+8d14f62  OTA: Update kenzo (04/04/2017) (#13)  [Kshitij Gupta]
