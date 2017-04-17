@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROM>
+  <RomName>Cosmic-OS_A7010a48_7.1.1</RomName>
+  <VersionName><![CDATA[ Cosmic-OS_angler_7.1.1_20170416_1.4-OFFICIAL ]]></VersionName>
+  <VersionNumber type="integer">20170416</VersionNumber>
+  <DirectUrl>https://sourceforge.net/projects/cosmic-os/files/A7010a48/Cosmic-OS_A7010a48_7.1.1_20170416_1.4-OFFICIAL.zip/download</DirectUrl>
+  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/A7010a48/</HttpUrl>
+  <Android>7.1.1</Android>
+  <CheckMD5>55142928e0409749c6026c67103d93e7</CheckMD5>
+  <FileSize type="integer">481258374</FileSize>
+  <Developer>Ganesh Varma</Developer>
+  <WebsiteURL nil="true">cosmic-os.com</WebsiteURL>
+  <DonateURL nil="true"/>
+  <Changelog>https://forum.xda-developers.com/showpost.php?p=71882816&postcount=2</Changelog>
