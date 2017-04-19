@@ -1,14 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
   <RomName>Cosmic-OS_A7010a48_7.1.1</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_angler_7.1.1_20170416_1.4-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20170416</VersionNumber>
-  <DirectUrl>https://sourceforge.net/projects/cosmic-os/files/A7010a48/Cosmic-OS_A7010a48_7.1.1_20170416_1.4-OFFICIAL.zip/download</DirectUrl>
+  <VersionName><![CDATA[ Cosmic-OS_A7010a48_7.1.1_20170419_1.4-OFFICIAL ]]></VersionName>
+  <VersionNumber type="integer">20170419</VersionNumber>
+  <DirectUrl>https://sourceforge.net/projects/cosmic-os/files/A7010a48/Cosmic-OS_A7010a48_7.1.1_20170419_1.4-OFFICIAL.zip/download</DirectUrl>
   <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/A7010a48/</HttpUrl>
   <Android>7.1.1</Android>
-  <CheckMD5>55142928e0409749c6026c67103d93e7</CheckMD5>
-  <FileSize type="integer">481258374</FileSize>
+  <CheckMD5>aecbc027eb5c6d9504c8aacd84621aa8</CheckMD5>
+  <FileSize type="integer">475368903</FileSize>
   <Developer>Ganesh Varma</Developer>
   <WebsiteURL nil="true">cosmic-os.com</WebsiteURL>
   <DonateURL nil="true"/>
-  <Changelog>https://forum.xda-developers.com/showpost.php?p=71882816&postcount=2</Changelog>
+  <Changelog>====================
+     04-19-2017
+====================
+
+   * device/lenovo/A7010a48/
+1409678  sepolicy denial fixes  [ganeshi4u]
+e7a6114  building this from source  [ganeshi4u]
+   * frameworks/base/
+06e657f  Force Expanded Notifications [1/2] (#18)  [Aditya Upreti]
+   * kernel/lenovo/A7010a48-up/
+4210291  update defconfig  [ganeshi4u]
+   * packages/apps/Galaxy/
+118dd35  Force Expanded Notifications [2/2] (#3)  [Aditya Upreti]
+   * packages/apps/OTAUpdates/
+3712237  MainActivity: Fix duplication in info fields  [Harsh Shandilya]
+   * packages/apps/Settings/
+bc50c5b  Add Lenovo K4 Note(A7010a48) (#37)  [Aditya Upreti]
+   * vendor/lenovo/A7010a48/
+37a316a  this is needed  [ganeshi4u]
+c02182a  added fingerprintd from stock  [ganeshi4u]
+70a0110  clean up omx  [ganeshi4u]
+cc94c8a  remove unnecessary drm blobs  [ganeshi4u]
+6734219  OMX updates  [ganeshi4u]
+
+====================
+     04-18-2017
+====================
+
+   * kernel/lenovo/A7010a48-up/
+caa5972f  staging/android/ion : fix a race condition in the ion driver  [ganeshi4u]
+b4a77d5  packet: fix race condition in packet_set_ring  [ganeshi4u]
+5481f88  arm64: make sys_call_table const  [ganeshi4u]
+cde872c  UPSTREAM: perf: Fix race in swevent hash  [ganeshi4u]
+b71ac8f  ext4: fix potential use after free in __ext4_journal_stop  [ganeshi4u]
+29fa260  HID: core: prevent out-of-bound readings  [ganeshi4u]
+5d40a90  tty: Prevent ldisc drivers from re-using stale tty fields  [ganeshi4u]
+a8d1ba5  perf: Fix race in swevent hash  [ganeshi4u]
+bde0bd0  xc2028: avoid use after free  [ganeshi4u]
+ead3738  sg: Fix double-free when drives detach during SG_IO In sg_common_write(), we free the block request and return -ENODEV if the device is detached in the middle of the SG_IO ioctl().
+5c80ba8  android: fiq_debugger: fix cut-off help message  [ganeshi4u]
+d1d7724  staging: Remove logger and alarm-dev from android Makefile  [ganeshi4u]
+123e576  staging: Remove the Android alarm-dev driver  [ganeshi4u]
+0080a6b  staging: Remove the Android logger driver  [ganeshi4u]
+88b3c3e  msm: null pointer dereferencing  [ganeshi4u]
+ab98242  arm64: kernel: perf: add cpu hotplug notifier  [ganeshi4u]
+6e1e24c  UPSTREAM: proc: actually make proc_fd_permission() thread-friendly  [ganeshi4u]
+0ba0336  mt6735: Fix RDS struct mismatch between user-space and kernel-space  [ganeshi4u]
+64f9114  slub: do not assert not having lock in removing freed partial  [ganeshi4u]
+62ae564  mm: slub: work around unneeded lockdep warning  [ganeshi4u]</Changelog>

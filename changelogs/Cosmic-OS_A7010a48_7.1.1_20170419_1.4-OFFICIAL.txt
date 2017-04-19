@@ -1,0 +1,240 @@
+====================
+     04-19-2017
+====================
+
+   * device/lenovo/A7010a48/
+1409678  sepolicy denial fixes  [ganeshi4u]
+e7a6114  building this from source  [ganeshi4u]
+   * frameworks/base/
+06e657f  Force Expanded Notifications [1/2] (#18)  [Aditya Upreti]
+   * kernel/lenovo/A7010a48-up/
+4210291  update defconfig  [ganeshi4u]
+   * packages/apps/Galaxy/
+118dd35  Force Expanded Notifications [2/2] (#3)  [Aditya Upreti]
+   * packages/apps/OTAUpdates/
+3712237  MainActivity: Fix duplication in info fields  [Harsh Shandilya]
+   * packages/apps/Settings/
+bc50c5b  Add Lenovo K4 Note(A7010a48) (#37)  [Aditya Upreti]
+   * vendor/lenovo/A7010a48/
+37a316a  this is needed  [ganeshi4u]
+c02182a  added fingerprintd from stock  [ganeshi4u]
+70a0110  clean up omx  [ganeshi4u]
+cc94c8a  remove unnecessary drm blobs  [ganeshi4u]
+6734219  OMX updates  [ganeshi4u]
+
+====================
+     04-18-2017
+====================
+
+   * kernel/lenovo/A7010a48-up/
+caa5972f  staging/android/ion : fix a race condition in the ion driver  [ganeshi4u]
+b4a77d5  packet: fix race condition in packet_set_ring  [ganeshi4u]
+5481f88  arm64: make sys_call_table const  [ganeshi4u]
+cde872c  UPSTREAM: perf: Fix race in swevent hash  [ganeshi4u]
+b71ac8f  ext4: fix potential use after free in __ext4_journal_stop  [ganeshi4u]
+29fa260  HID: core: prevent out-of-bound readings  [ganeshi4u]
+5d40a90  tty: Prevent ldisc drivers from re-using stale tty fields  [ganeshi4u]
+a8d1ba5  perf: Fix race in swevent hash  [ganeshi4u]
+bde0bd0  xc2028: avoid use after free  [ganeshi4u]
+ead3738  sg: Fix double-free when drives detach during SG_IO In sg_common_write(), we free the block request and return -ENODEV if the device is detached in the middle of the SG_IO ioctl(). Unfortunately, sg_finish_rem_req() also tries to free srp->rq, so we end up freeing rq->cmd in the already free rq object, and then free the object itself out from under the current user. This ends up corrupting random memory via the list_head on the rq object. The most common crash trace I saw is this:   ------------[ cut here ]------------   kernel BUG at block/blk-core.c:1420!   Call Trace:   [<ffffffff81281eab>] blk_put_request+0x5b/0x80   [<ffffffffa0069e5b>] sg_finish_rem_req+0x6b/0x120 [sg]   [<ffffffffa006bcb9>] sg_common_write.isra.14+0x459/0x5a0 [sg]   [<ffffffff8125b328>] ? selinux_file_alloc_security+0x48/0x70   [<ffffffffa006bf95>] sg_new_write.isra.17+0x195/0x2d0 [sg]   [<ffffffffa006cef4>] sg_ioctl+0x644/0xdb0 [sg]   [<ffffffff81170f80>] do_vfs_ioctl+0x90/0x520   [<ffffffff81258967>] ? file_has_perm+0x97/0xb0   [<ffffffff811714a1>] SyS_ioctl+0x91/0xb0   [<ffffffff81602afb>] tracesys+0xdd/0xe2     RIP [<ffffffff81281e04>] __blk_put_request+0x154/0x1a0 The solution is straightforward: just set srp->rq to NULL in the failure branch so that sg_finish_rem_req() doesn't attempt to re-free it. Additionally, since sg_rq_end_io() will never be called on the object when this happens, we need to free memory backing ->cmd if it isn't embedded in the object itself. KASAN was extremely helpful in finding the root cause of this bug. Change-Id: I8c2389a4e2e1b5f753a47f8af60502a761b891b5 Signed-off-by: Calvin Owens <calvinowens@fb.com> Acked-by: Douglas Gilbert <dgilbert@interlog.com> Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>  [ganeshi4u]
+5c80ba8  android: fiq_debugger: fix cut-off help message  [ganeshi4u]
+d1d7724  staging: Remove logger and alarm-dev from android Makefile  [ganeshi4u]
+123e576  staging: Remove the Android alarm-dev driver  [ganeshi4u]
+0080a6b  staging: Remove the Android logger driver  [ganeshi4u]
+88b3c3e  msm: null pointer dereferencing  [ganeshi4u]
+ab98242  arm64: kernel: perf: add cpu hotplug notifier  [ganeshi4u]
+6e1e24c  UPSTREAM: proc: actually make proc_fd_permission() thread-friendly  [ganeshi4u]
+0ba0336  mt6735: Fix RDS struct mismatch between user-space and kernel-space  [ganeshi4u]
+64f9114  slub: do not assert not having lock in removing freed partial  [ganeshi4u]
+62ae564  mm: slub: work around unneeded lockdep warning  [ganeshi4u]
+
+====================
+     04-17-2017
+====================
+
+   * kernel/lenovo/A7010a48-up/
+3fec50f  regenerated defconfig  [ganeshi4u]
+262ed53  Linux 3.18.45  [ganeshi4u]
+9e78e3a  imported volte branch of zerodivision  [ganeshi4u]
+   * manifest/
+ed88b95  Track IMS from correct remote (#10)  [Aditya Upreti]
+   * packages/apps/OTAUpdates/
+d1f350e  OTAUpdates : Chem lab rebase  [Harsh Shandilya]
+   * packages/apps/Settings/
+e2d1831  Adding Support For A6000 (#35)  [Kshitij Gupta]
+   * vendor/cos/
+db66277  Adding Support For A6000 (#28)  [Kshitij Gupta]
+   * vendor/ota/
+6d505c4  setup OTA for K4 note(A7010a48) (#15)  [Aditya Upreti]
+
+====================
+     04-16-2017
+====================
+
+   * device/lenovo/A7010a48/
+1ff6d00  add magisk as root  [ganeshi4u]
+39f8bd7  we are official now  [ganeshi4u]
+bf53222  sepolicy changes  [ganeshi4u]
+3a6c602  cosmify  [ganeshi4u]
+   * manifest/
+19167af  Track IMS repo from Cosmic-OS (#9)  [Sagar Shah]
+   * vendor/cos/
+09f0b04  add support for Lenovo K4 Note (A7010a48) (#27)  [Aditya Upreti]
+
+====================
+     04-15-2017
+====================
+
+   * device/lenovo/A7010a48/
+a124fb0  enable public layer vector support  [ganeshi4u]
+68bada2  update patches  [ganeshi4u]
+de9e0b0  updated ramdisk files  [ganeshi4u]
+   * hardware/qcom/audio/default/
+2627639  msm8960: define HFP_ASM_RX_TX 24  [David Marble]
+   * packages/apps/Settings/
+2174a80  Update custom_strings.xml (#34)  [Aditya Upreti]
+d0293aa  Update dev_info.xml (#33)  [Aditya Upreti]
+   * vendor/cos/
+88eb6af  Update cos.devices (#26)  [Aditya Upreti]
+
+====================
+     04-14-2017
+====================
+
+   * device/lenovo/A7010a48/
+8d83ddb  sepolicy changes  [ganeshi4u]
+43bff66  sepolicy fixes  [ganeshi4u]
+2ba8fbc  merge all configs into one single file  [ganeshi4u]
+b083748  bring up xos  [ganeshi4u]
+
+====================
+     04-13-2017
+====================
+
+   * packages/apps/Nfc/
+3090980  Nfc: Include android-support-v4 for the NXP stack  [Dan Pasanen]
+
+====================
+     04-12-2017
+====================
+
+   * device/lenovo/A7010a48/
+b20f85a  Revert "Fix Deep-Sleep"  [ganeshi4u]
+2c04deb  Revert "ota update center implementation(test)"  [ganeshi4u]
+cce4b87  Revert "workaround for user builds"  [ganeshi4u]
+   * vendor/lenovo/A7010a48/
+9e8be8f  updated libgui_ext * possible fix for blur in Screenshots and images.  [ganeshi4u]
+46f2ab2  updated drom blobs & plugins  [ganeshi4u]
+f15b8bb  update to latest omx blobs  [ganeshi4u]
+50be589  added missing drm blobs  [ganeshi4u]
+410e371  update & add missing omx blobs  [ganeshi4u]
+
+====================
+     04-11-2017
+====================
+
+   * device/lenovo/A7010a48/
+fd562ee  workaround for user builds  [ganeshi4u]
+b626754  ota update center implementation(test)  [ganeshi4u]
+   * hardware/qcom/display-caf/msm8960/
+09cce1b  hwcomposer: Fix regression in hwc_sync  [Arne Coucheron]
+   * packages/apps/Snap/
+2ecc334  CameraControls: Toggle the status of disabled views  [Daniel Hillenbrand]
+7e10f00  Never remove unsupported controls  [Daniel Hillenbrand]
+30ba558  WideAnglePanoramaUI: Correctly position the progressbar  [Daniel Hillenbrand]
+
+====================
+     04-10-2017
+====================
+
+   * device/lenovo/A7010a48/
+b035c0b  Fix Deep-Sleep  [ganeshi4u]
+   * packages/apps/Snap/
+f262e1a  Snap: CaptureModule: set switcher index on resume  [codeworkx]
+0540403  Snap: CaptureUI: fix ModuleSwitcher being invisible  [codeworkx]
+   * vendor/lenovo/A7010a48/
+4c8b453  Fix Gps for 2GB Variants  [ganeshi4u]
+ba591b5  Fix Deep sleep  [ganeshi4u]
+   * vendor/ota/
+76ad8a9  OTA: Update lettuce (09/04/2017)  [Sagar Shah]
+
+====================
+     04-09-2017
+====================
+
+   * frameworks/base/
+ac26827  BatteryService: add dash charging support  [Sagar Shah]
+c78a636  Make roaming indicator optional [1/2]  [Sagar Shah]
+42fa35d  Revert "All tile scroller for quickbar settings [1/2] & Auto calculate quickbar tiles amount" (#17)  [Sagar Shah]
+9736607  Fix partial screenshot not working when dragging from left or top border  [Sagar Shah]
+b8763f7  Hold "volume up" during boot to disable all overlays  [Sagar Shah]
+9f7d24a  Themes: Expose Keyboard Shortcuts Dialog  [Sagar Shah]
+ada2d43  SmartBar: allow set custom buttons opacity when Pulse is active [3/3]  [Sagar Shah]
+b27971a  [Stability]: fix system_server crash issue caused by fd leak.  [Sagar Shah]
+81ac694  Fix for black screen at boot up in N-MR1  [Sagar Shah]
+cc9e04c  Restart persistent process if start timeout.  [Sagar Shah]
+80ecdb7  Fix race condition when writing UidState of appops.  [Sagar Shah]
+7a3e338  clean receivers completely when forceStop the process  [Sagar Shah]
+6994f82  Ensure that the decor view is attached to window.  [Sagar Shah]
+fcd6111  Bad token of activity when do the launch work at the app process side.  [Sagar Shah]
+848f516  [Process] remove duplicated incorrectly code in ProcessRecord  [Sagar Shah]
+056f5d1  fix foreground process will be mistakenly killed when it uses content provider.  [Sagar Shah]
+b70d658  fix anr when concurrent request provider  [Sagar Shah]
+c29179a  Frameworks/base: Fix old code in MediaPlayer  [Sagar Shah]
+   * kernel/lenovo/A7010a48/
+ef61532  Revert CONFIG_MTK_COMBO_CHIP-MT6735  [Mohancm100]
+   * kernel/lenovo/A7010a48-up/
+ef61532  Revert CONFIG_MTK_COMBO_CHIP-MT6735  [Mohancm100]
+   * packages/apps/DUI/
+955a760  SmartBar: allow set custom buttons opacity when Pulse is active [1/3]  [Sagar Shah]
+5ca8c72  SmartBar editor: Let's use the blue!  [Sagar Shah]
+   * packages/apps/Galaxy/
+8b27e3c  Make roaming indicator optional [2/2]  [Sagar Shah]
+91af03c  Revert "All tile scroller for quickbar settings [2/2]" (#2)  [Sagar Shah]
+98ecb9f  Fix pulse nav buttons opacity option dependency  [Sagar Shah]
+0303778  SmartBar: allow set custom buttons opacity when Pulse is active [2/3]  [Sagar Shah]
+648d9a0  Fling navbar: don't save custom logo img on sdcard if size>max  [Sagar Shah]
+   * packages/apps/Settings/
+21f044e  cos_about_logo replaced with cos_mod_version_icon (#27)  [Kshitij Gupta]
+   * packages/apps/ThemeInterfacer/
+4bb0234  Fix failed authorization toast on restartService  [Sagar Shah]
+ec4ec54  JobService: Fix inital font application  [Sagar Shah]
+ef295bf  JobService: fix initial theme dir creation  [Sagar Shah]
+82daa36  Run RestartService immediately if called  [Sagar Shah]
+   * vendor/cos/
+f821669  Update WallpaperPickerGoogle to 1.0.149781330  [Sagar Shah]
+
+====================
+     04-08-2017
+====================
+
+   * device/lenovo/A7010a48/
+28321a2  Add GPS Shim  [ganeshi4u]
+   * packages/apps/Settings/
+4719696  Update OnePlus2 maintainer (#28)  [Kshitij Gupta]
+   * vendor/ota/
+813128c  OTA: Update angler (07/04/2017) (#14)  [Aditya Upreti]
+
+====================
+     04-07-2017
+====================
+
+
+====================
+     04-06-2017
+====================
+
+   * device/lenovo/A7010a48/
+f50dfcd  Revert "this service isn't needed anymore"  [ganeshi4u]
+b6c31a4  Revert "update camera wrapper"  [ganeshi4u]
+a04d69a  update camera wrapper  [ganeshi4u]
+9ab52eb  added missing midi permission  [ganeshi4u]
+   * hardware/samsung/
+3fa2b69  power: Align to AOSP API  [Christopher N. Hesse]
+5781c8e  power: Remove unused variables  [Christopher N. Hesse]
+e37aedd  lights: Put back fd checks before closing  [Christopher N. Hesse]
+   * vendor/lenovo/A7010a48/
+664e44c  Revert "causes crashes & possible reason for battery drain"  [ganeshi4u]
+9352a05  Revert "build halsensor from source with wrapper"  [ganeshi4u]
+88dddb0  build halsensor from source with wrapper  [ganeshi4u]
+
