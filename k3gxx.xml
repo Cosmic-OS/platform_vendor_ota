@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROM>
+  <RomName>Cosmic-OS_k3gxx_7.1.1</RomName>
+  <VersionName><![CDATA[ Cosmic-OS_k3gxx_7.1.1_20170420_1.4-OFFICIAL ]]></VersionName>
+  <VersionNumber type="integer">20170420</VersionNumber>
+  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/k3gxx/Cosmic-OS_k3gxx_7.1.1_20170420_1.4-OFFICIAL.zip</DirectUrl>
+  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/k3gxx</HttpUrl>
+  <Android>7.1.1</Android>
+  <CheckMD5>b90429a5a9edd05d523db0544806b5e6</CheckMD5>
+  <FileSize type="integer">375664130</FileSize>
+  <Developer>Rohit Nayak</Developer>
+  <WebsiteURL nil="true">cosmic-os.com</WebsiteURL>
+  <DonateURL nil="true"/>
+  <Changelog>*First bring up k3gxx official support</Changelog>
+</ROM>
