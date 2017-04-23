@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_A7010a48_7.1.1</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_A7010a48_7.1.1_20170423_1.4-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20170423</VersionNumber>
-  <DirectUrl>https://sourceforge.net/projects/cosmic-os/files/A7010a48/Cosmic-OS_A7010a48_7.1.1_20170423_1.4-OFFICIAL.zip/download</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/A7010a48/</HttpUrl>
-  <Android>7.1.1</Android>
-  <CheckMD5>25088eaf95bd68ce7f1e94fb8bea6875</CheckMD5>
-  <FileSize type="integer">481116806</FileSize>
-  <Developer>Ganesh Varma</Developer>
-  <WebsiteURL nil="true">cosmic-os.com</WebsiteURL>
-  <DonateURL nil="true"/>
-  <Changelog>====================
+====================
      04-23-2017
 ====================
 
@@ -26,6 +13,7 @@ a6cb0b2  arm64: make sys_call_table const  [ganeshi4u]
 4194c9a  tty: Prevent ldisc drivers from re-using stale tty fields  [ganeshi4u]
 f241b31  perf: Fix race in swevent hash  [ganeshi4u]
 5f931a2  xc2028: avoid use after free  [ganeshi4u]
+0ad967b  sg: Fix double-free when drives detach during SG_IO In sg_common_write(), we free the block request and return -ENODEV if the device is detached in the middle of the SG_IO ioctl(). Unfortunately, sg_finish_rem_req() also tries to free srp->rq, so we end up freeing rq->cmd in the already free rq object, and then free the object itself out from under the current user. This ends up corrupting random memory via the list_head on the rq object. The most common crash trace I saw is this:   ------------[ cut here ]------------   kernel BUG at block/blk-core.c:1420!   Call Trace:   [<ffffffff81281eab>] blk_put_request+0x5b/0x80   [<ffffffffa0069e5b>] sg_finish_rem_req+0x6b/0x120 [sg]   [<ffffffffa006bcb9>] sg_common_write.isra.14+0x459/0x5a0 [sg]   [<ffffffff8125b328>] ? selinux_file_alloc_security+0x48/0x70   [<ffffffffa006bf95>] sg_new_write.isra.17+0x195/0x2d0 [sg]   [<ffffffffa006cef4>] sg_ioctl+0x644/0xdb0 [sg]   [<ffffffff81170f80>] do_vfs_ioctl+0x90/0x520   [<ffffffff81258967>] ? file_has_perm+0x97/0xb0   [<ffffffff811714a1>] SyS_ioctl+0x91/0xb0   [<ffffffff81602afb>] tracesys+0xdd/0xe2     RIP [<ffffffff81281e04>] __blk_put_request+0x154/0x1a0 The solution is straightforward: just set srp->rq to NULL in the failure branch so that sg_finish_rem_req() doesn't attempt to re-free it. Additionally, since sg_rq_end_io() will never be called on the object when this happens, we need to free memory backing ->cmd if it isn't embedded in the object itself. KASAN was extremely helpful in finding the root cause of this bug. Change-Id: I8c2389a4e2e1b5f753a47f8af60502a761b891b5 Signed-off-by: Calvin Owens <calvinowens@fb.com> Acked-by: Douglas Gilbert <dgilbert@interlog.com> Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>  [ganeshi4u]
 f2e6f83  android: fiq_debugger: fix cut-off help message  [ganeshi4u]
 6829ac6  staging: Remove logger and alarm-dev from android Makefile  [ganeshi4u]
 78d9f5b  staging: Remove the Android alarm-dev driver  [ganeshi4u]
@@ -213,5 +201,4 @@ f262e1a  Snap: CaptureModule: set switcher index on resume  [codeworkx]
 4c8b453  Fix Gps for 2GB Variants  [ganeshi4u]
 ba591b5  Fix Deep sleep  [ganeshi4u]
    * vendor/ota/
-76ad8a9  OTA: Update lettuce (09/04/2017)  [Sagar Shah]</Changelog>
-</ROM>
+76ad8a9  OTA: Update lettuce (09/04/2017)  [Sagar Shah]
