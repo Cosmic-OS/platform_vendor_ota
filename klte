@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROM>
+  <RomName>Cosmic-OS_klte_7.1.1</RomName>
+  <VersionName><![CDATA[ Cosmic-OS_klte_7.1.1_20170409_1.4-OFFICIAL ]]></VersionName>
+  <VersionNumber type="integer">20170409</VersionNumber>
+  <DirectUrl>https://sourceforge.net/projects/cosmic-os/files/klte/Cosmic-OS_klte_7.1.1_20170409_1.4-OFFICIAL.zip</DirectUrl>
+  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/klte/</HttpUrl>
+  <Android>7.1.1</Android>
+  <CheckMD5>821fdfe52f1373c7be3d0c233d24fead</CheckMD5>
+  <FileSize type="integer">382500000</FileSize>
+  <Developer>Michael Albert</Developer>
+  <WebsiteURL nil="true">cosmic-os.com</WebsiteURL>
+  <DonateURL nil="true"/>
+  <Changelog>====================
+     04-09-2017
+====================
+
+   * frameworks/base/
+ac26827f09e  BatteryService: add dash charging support  [Sagar Shah]
+c78a636f760  Make roaming indicator optional [1/2]  [Sagar Shah]
+42fa35d3dd7  Revert "All tile scroller for quickbar settings [1/2] & Auto calculate quickbar tiles amount" (#17)  [Sagar Shah]
+973660778e1  Fix partial screenshot not working when dragging from left or top border  [Sagar Shah]
+b8763f749d5  Hold "volume up" during boot to disable all overlays  [Sagar Shah]
+9f7d24a03f3  Themes: Expose Keyboard Shortcuts Dialog  [Sagar Shah]
+ada2d433a36  SmartBar: allow set custom buttons opacity when Pulse is active [3/3]  [Sagar Shah]
+b27971a1bab  [Stability]: fix system_server crash issue caused by fd leak.  [Sagar Shah]
+81ac694b46a  Fix for black screen at boot up in N-MR1  [Sagar Shah]
+cc9e04c1e96  Restart persistent process if start timeout.  [Sagar Shah]
+80ecdb716e7  Fix race condition when writing UidState of appops.  [Sagar Shah]
+7a3e33882ab  clean receivers completely when forceStop the process  [Sagar Shah]
+6994f82a7bc  Ensure that the decor view is attached to window.  [Sagar Shah]
+fcd6111e0b5  Bad token of activity when do the launch work at the app process side.  [Sagar Shah]
+848f5161944  [Process] remove duplicated incorrectly code in ProcessRecord  [Sagar Shah]
+056f5d1fc46  fix foreground process will be mistakenly killed when it uses content provider.  [Sagar Shah]
+b70d65804b5  fix anr when concurrent request provider  [Sagar Shah]
+c29179a7998  Frameworks/base: Fix old code in MediaPlayer  [Sagar Shah]
+   * packages/apps/DUI/
+955a760  SmartBar: allow set custom buttons opacity when Pulse is active [1/3]  [Sagar Shah]
+5ca8c72  SmartBar editor: Let's use the blue!  [Sagar Shah]
+   * packages/apps/Galaxy/
+8b27e3c72  Make roaming indicator optional [2/2]  [Sagar Shah]
+91af03c45  Revert "All tile scroller for quickbar settings [2/2]" (#2)  [Sagar Shah]
+98ecb9fc2  Fix pulse nav buttons opacity option dependency  [Sagar Shah]
+030377848  SmartBar: allow set custom buttons opacity when Pulse is active [2/3]  [Sagar Shah]
+648d9a09c  Fling navbar: don't save custom logo img on sdcard if size>max  [Sagar Shah]
+   * packages/apps/ThemeInterfacer/
+4bb0234  Fix failed authorization toast on restartService  [Sagar Shah]
+ec4ec54  JobService: Fix inital font application  [Sagar Shah]
+ef295bf  JobService: fix initial theme dir creation  [Sagar Shah]
+82daa36  Run RestartService immediately if called  [Sagar Shah]
+   * vendor/cos/
+f821669  Update WallpaperPickerGoogle to 1.0.149781330  [Sagar Shah]
+
+====================</Changelog>
+</ROM>
