@@ -1,0 +1,130 @@
+====================
+     04-29-2017
+====================
+
+   * device/qcom/common/
+0dc3673  recovery: Use    * pathmap for recovery  [Michael Bestas]
+
+====================
+     04-28-2017
+====================
+
+   * hardware/samsung/
+a58b7d9  AdvancedDisplay - Rename default scenario  [Abhisek Devkota]
+   * packages/apps/OTAUpdates/
+e9ad28a  OTAUpdates: Minor tweaking  [Harsh Shandilya]
+   * vendor/ota/
+0d33b16  Create klte (#20)  [Aditya Upreti]
+
+====================
+     04-27-2017
+====================
+
+   * packages/apps/OTAUpdates/
+c2769e8  DownloadRom: set a user-friendly title  [Simao Gomes Viana]
+
+====================
+     04-26-2017
+====================
+
+   * hardware/qcom/audio-caf/msm8996/
+6bace74  msm8996: audio: Add l/r mic swapping when using stereo mics  [Rashed Abdel-Tawab]
+
+====================
+     04-25-2017
+====================
+
+   * hardware/samsung/
+9432ff3  mkbootimg: add exynos subdir to possible_dtb_dirs  [Jesse Chan]
+5e4fbe0  power: Sanity check touchscreen path  [Paul Keith]
+
+====================
+     04-24-2017
+====================
+
+   * hardware/qcom/audio-caf/msm8996/
+fc1c0d9  Add special case for stereo camcorder  [Ethan Chen]
+   * packages/apps/Settings/
+536123d  Galaxy Grand Prime Bringup As Official. (#38)  [Aditya Upreti]
+   * vendor/ota/
+f7dc938  update-2(23-04-2017) A7010a48 (#19)  [Aditya Upreti]
+
+====================
+     04-23-2017
+====================
+
+   * hardware/qcom/audio-caf/msm8996/
+97baada  hal: Featureize APE/VORBIS/WMA offload support  [dianlujitao]
+
+====================
+     04-22-2017
+====================
+
+
+====================
+     04-21-2017
+====================
+
+   * hardware/qcom/audio-caf/msm8916/
+41cd40d  Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.15' into cm-14.1-caf-8916  [Michael Bestas]
+   * hardware/qcom/audio-caf/msm8994/
+ce39c30  Merge remote-tracking branch 'caf/LA.BF64.1.2.3_rb1.12' into cm-14.1-caf-8994  [Michael Bestas]
+   * hardware/qcom/display-caf/msm8994/
+434068f  Fix duplicate copy file rules  [Michael Bestas]
+   * hardware/qcom/media-caf/msm8994/
+5f3d105  Merge remote-tracking branch 'caf/LA.BF64.1.2.3_rb1.12' into cm-14.1-caf-8994  [Michael Bestas]
+   * hardware/samsung/
+1961bdb  Automatic translation import  [Abhisek Devkota]
+   * packages/apps/Snap/
+58fa0bd  Automatic translation import  [Abhisek Devkota]
+
+====================
+     04-20-2017
+====================
+
+   * vendor/ota/
+86a4641  OTA: Update k3gxx (20/04/2017) (#18)  [Aditya Upreti]
+a90bb84  add missing tag ¯\_(ツ)_/¯ (#17)  [Aditya Upreti]
+6b8adcb  update-1 Lenovo K4(A7010a48) (#16)  [Aditya Upreti]
+
+====================
+     04-19-2017
+====================
+
+   * frameworks/base/
+06e657f  Force Expanded Notifications [1/2] (#18)  [Aditya Upreti]
+   * packages/apps/Galaxy/
+118dd35  Force Expanded Notifications [2/2] (#3)  [Aditya Upreti]
+   * packages/apps/OTAUpdates/
+3712237  MainActivity: Fix duplication in info fields  [Harsh Shandilya]
+   * packages/apps/Settings/
+bc50c5b  Add Lenovo K4 Note(A7010a48) (#37)  [Aditya Upreti]
+
+====================
+     04-18-2017
+====================
+
+
+====================
+     04-17-2017
+====================
+
+   * manifest/
+ed88b95  Track IMS from correct remote (#10)  [Aditya Upreti]
+   * packages/apps/OTAUpdates/
+d1f350e  OTAUpdates : Chem lab rebase  [Harsh Shandilya]
+   * packages/apps/Settings/
+e2d1831  Adding Support For A6000 (#35)  [Kshitij Gupta]
+   * vendor/cos/
+db66277  Adding Support For A6000 (#28)  [Kshitij Gupta]
+   * vendor/ota/
+6d505c4  setup OTA for K4 note(A7010a48) (#15)  [Aditya Upreti]
+
+====================
+     04-16-2017
+====================
+
+   * manifest/
+19167af  Track IMS repo from Cosmic-OS (#9)  [Sagar Shah]
+   * vendor/cos/
+09f0b04  add support for Lenovo K4 Note (A7010a48) (#27)  [Aditya Upreti]
