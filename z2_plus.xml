@@ -1,59 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
-  <RomName>Cosmic-OS_z2_plus_7.1.1</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_z2_plus_7.1.1_20170320_1.4-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20170320</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/z2_plus/Cosmic-OS_z2_plus_7.1.1_20170320_1.4-OFFICIAL.zip</DirectUrl>
+  <RomName>Cosmic-OS_z2_plus_7.1.2</RomName>
+  <VersionName><![CDATA[ Cosmic-OS_z2_plus_7.1.2_20170506_1.5-OFFICIAL.zip ]]></VersionName>
+  <VersionNumber type="integer">20170506</VersionNumber>
+  <DirectUrl>https://sourceforge.net/projects/cosmic-os/files/z2_plus/Cosmic-OS_z2_plus_7.1.2_20170506_1.5-OFFICIAL.zip/download</DirectUrl>
   <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/z2_plus</HttpUrl>
-  <Android>7.1.1</Android>
-  <CheckMD5>3edeb199b8031580d87718a8f626f7dd</CheckMD5>
+  <Android>7.1.2</Android>
+  <CheckMD5>84ca5722716bc810ee713de490cbce1</CheckMD5>
   <FileSize type="integer">495727528</FileSize>
-  <Developer>Silv3r79</Developer>
+  <Developer>MR.HACKER</Developer>
   <WebsiteURL nil="true">cosmic-os.com</WebsiteURL>
   <DonateURL nil="true"/>
   <Changelog>====================
-     03-20-2017
+     04-26-2017
 ====================
 
-   * build/
-f4738d3  releasetools: Add ASCII art for the flashable  [Kshitij Gupta]
-   * hardware/samsung/
-51bd12c  audio: add support for bluetooth wideband voice calls  [Christopher N. Hesse]
-   * vendor/cos/
-aef7155  common: Check with GitHub before setting official  [Kshitij Gupta]
+   * hardware/qcom/audio-caf/msm8996/
+6bace74  msm8996: audio: Add l/r mic swapping when using stereo mics  [Rashed Abdel-Tawab]
+
+====================
+     04-25-2017
+====================
+
+   * external/libchrome/
+7a6a376  Disable all NEON in BoringSSL if has_broken_neon is set.  [B--B]
+   * hardware/libhardware_legacy/
+c7a2a93  wifi: Change USES_TI_MAC80211 to a BoardConfig flag  [B--B]
+
+====================
+     04-24-2017
+====================
+
+   * hardware/qcom/audio-caf/msm8996/
+fc1c0d9  Add special case for stereo camcorder  [Ethan Chen]
    * vendor/ota/
-36ee6be  manifest: Add support for custom download URLs  [Kshitij Gupta]
-f2f8f23  manifest: Don't hardcode a sourceforge mirror  [Kshitij Gupta]
+f7dc938  update-2(23-04-2017) A7010a48 (#19)  [Aditya Upreti]
 
 ====================
-     03-19-2017
+     04-23-2017
 ====================
 
-   * external/DUtils/
-a307ebf  Kill App action: remove the killed app from Recents list  [Sagar Shah]
-6cf693f  Separate one handed mode icons [2/2]  [Sagar Shah]
-   * frameworks/base/
-29bb617  Location tile easy toggle single tap: make it cycle modes  [Sagar Shah]
-5b42d9c  [BUG] fix NullPointerException in Notification.java  [Sagar Shah]
-c6bc886  Location tile: dynamic icon state also when easy toggle enabled  [Sagar Shah]
-21f0ccf  Fix for wakelock being held during bootup and idle scenario.  [Sagar Shah]
-7671769  Expose Screenshot flash and background colors  [Sagar Shah]
-496791b  OmniJaws: Expose temperature text in DetailedWeatherView  [Sagar Shah]
-73e8f20  Add location to Easy toggle [1/2]  [Sagar Shah]
-   * packages/apps/DUI/
-77089bd  Separate one handed mode icons [1/2]  [Sagar Shah]
-   * packages/apps/Galaxy/
-6becc88  Add location to Easy toggle [2/2]  [Sagar Shah]
-   * packages/apps/Settings/
-0c467e6  Settings: Update Substratum dashboard icon  [Sagar Shah]
-d5bac24  Development: fix the switch state  [Sagar Shah]
-cada91e  Bring back main dashboard background color  [Sagar Shah]
-d6bbd6c  Use JobScheduler in AirplaneModeCondition  [Sagar Shah]
-ef63494  Revert "Remove summary text for Backup & reset."  [Sagar Shah]
-f18fc62  Rename Developer Options to Advanced  [Sagar Shah]
-1b3de26  Add even more summaries in Settings  [Sagar Shah]
-   * vendor/ota/
-823efd7  OTA: Update lettuce (19/03/2017)  [Sagar Shah]
-
-====================</Changelog>
+   * external/boringssl/
+576f4e3  Make CRYPTO_is_NEON_capable aware of the buggy CPU.  [B--B]
+9ad8889  Don't set a default armcap state in dynamic armcap modes.  [B--B]
+8faeb68  Rewrite ARM feature detection.  [B--B]
+a5030bd  Remove CRYPTO_set_NEON_functional.  [B--B]
+   * external/stagefright-plugins/
+3846013  Revert "codecs: Disable AC3/EAC3"  [Jesse Chan]
+   * hardware/qcom/audio-caf/msm8996/
+97baada  hal: Featureize APE/VORBIS/WMA offload support  [dianlujitao]</Changelog>
 </ROM>
