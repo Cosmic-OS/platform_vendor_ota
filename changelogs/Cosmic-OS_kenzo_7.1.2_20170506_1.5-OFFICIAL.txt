@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_kenzo_7.1.1</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_kenzo_7.1.2_20170506_1.5-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20170506</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/kenzo/Cosmic-OS_kenzo_7.1.2_20170506_1.5-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/kenzo</HttpUrl>
-  <Android>7.1.1</Android>
-  <CheckMD5>1434034708acb52cdf923515a96a1043</CheckMD5>
-  <FileSize type="integer">508094035</FileSize>
-  <Developer>rocknegi</Developer>
-  <WebsiteURL nil="true">cosmic-os.com</WebsiteURL>
-  <DonateURL nil="true"/>
-  <Changelog>====================
+====================
      05-06-2017
 ====================
 
@@ -55,5 +42,4 @@ a219252  Merge tag 'android-7.1.2_r8' into aosp-7.1.2  [B--B]
    * frameworks/base/
 72e757d  Add Pulse Lava Lamp start and end colours (1/3)  [Sagar Shah]
    * packages/apps/Settings/
-c3cab1f  Misc Fixes after Rebase  [Sagar Shah]</Changelog>
-</ROM>
+c3cab1f  Misc Fixes after Rebase  [Sagar Shah]
