@@ -1,0 +1,45 @@
+====================
+     05-20-2017
+====================
+
+   * bootable/recovery/
+12b81ab  Revert "recovery:updater: Changes to support 32->64 bit upgrades"  [B--B]
+   * device/samsung/j5-common/
+68e6e59  Update BoardConfigCommon.mk  [GitHub]
+4186c37  j5-common: Use our hardware samsung  [GitHub]
+a33abf4  Cos-ify  [SoUnd001]
+   * device/samsung/j5ltexx/
+15a2eec  Little clean up  [SoUnd001]
+4ee6060  j5ltexx: Unify fn  [SoUnd001]
+94faefa  j5ltexx: Add y  [SoUnd001]
+   * hardware/qcom/fm/
+0001d44  fix fm  [SoUnd001]
+   * packages/apps/Settings/
+c47a9fa  More j5's (#45)  [Aditya Upreti]
+   * packages/services/Telecomm/
+72fd5a0  work around incall issue  [SoUnd001]
+
+====================
+     05-19-2017
+====================
+
+   * device/samsung/j5-common/
+77cff7f  j5-common: Duplicate  [GitHub]
+1d5e504  j5-common: Enable core control  [GitHub]
+981c613  j5-common: Move some stuff  [GitHub]
+52fc63d  j5-common: Speed up boot batter  [GitHub]
+de67f69  j5-common: Reduce boot time a little  [GitHub]
+c61a339  j5-common: Disable distinguishable 3g  [SoUnd001]
+6382f41  j5-common: More f2fs  [SoUnd001]
+34a56a4  j5-common: Clean up useless shims  [SoUnd001]
+   * kernel/samsung/j5lte/
+e572d60  config: Enable pstore [2/2]  [GitHub]
+3a4ee3f  config: Enable pstore [1/2]  [GitHub]
+bc09b51  dts: Change max temp  [SoUnd001]
+76cd5f4  SafetyNet bypass: Show androidboot.verifiedbootstate=green  [SoUnd001]
+b814384  kernel: Only expose su when daemon is running  [SoUnd001]
+56184e2  j5: This probably will have no effect but let's edit it  [SoUnd001]
+6558fbb  j53g: Modify for H  [SoUnd001]
+3a2074a  lineageos_j53g_defconfig [1/2] I can't clone kernel right now sorry for spam of commits  [SoUnd001]
+3d979d9  Patch our charger to use 1A include earlier cherry-pick for the charging driver we are using actually lol xD  [SoUnd001]
+6efe538  I hate life  [SoUnd001]
