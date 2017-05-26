@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROM>
+  <RomName>Cosmic-OS_wbl7511_7.1.2</RomName>
+  <VersionName><![CDATA[ Cosmic-OS_wbl7511_7.1.2_20170525_1.5-OFFICIAL ]]></VersionName>
+  <VersionNumber type="integer">20170525</VersionNumber>
+  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/wbl7511/Cosmic-OS_wbl7511_7.1.2_20170525_1.5-OFFICIAL.zip</DirectUrl>
+  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/wbl7511</HttpUrl>
+  <Android>7.1.2</Android>
+  <CheckMD5>9f73d1b1bc158b68db0a30cf2244e6c1</CheckMD5>
+  <FileSize type="integer">663516885</FileSize>
+  <Developer>Iacob Ionut</Developer>
+  <WebsiteURL nil="true">cosmic-os.com</WebsiteURL>
+  <DonateURL nil="true"/>
+  <Changelog>====================
+     05-25-2017
+====================
+
+   * vendor/gionee/wbl7511/
+   Fixed Audio
+   Fixed Camera
+   Fixed RIL
+   Fixed FMRadio
+   Fixed Bluetooth
+   Fixed Hotspot
