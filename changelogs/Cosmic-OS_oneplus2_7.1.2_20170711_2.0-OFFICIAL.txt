@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_oneplus2_7.1.2</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_oneplus2_7.1.2_20170711_2.0-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20170711</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/oneplus2/Cosmic-OS_oneplus2_7.1.2_20170711_2.0-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/oneplus2</HttpUrl>
-  <Android>7.1.2</Android>
-  <CheckMD5>99b353337c6d0ae9e24536ac83dab18d</CheckMD5>
-  <FileSize type="integer">456020680</FileSize>
-  <Developer>kunalshah</Developer>
-  <WebsiteURL nil="true">cosmic-os.com</WebsiteURL>
-  <DonateURL nil="true"/>
-  <Changelog>====================
+====================
      07-11-2017
 ====================
 
@@ -55,5 +42,4 @@ cfa2874  Fix visibility of single-line view in expanded group notification  [Sag
 1fa8080  Add flashlight notification reminder  [Sagar Shah]
 5accf22  Add Sound tile to Quick Settings  [Sagar Shah]
 6ae0643  Add Music QS Tile  [Sagar Shah]
-d1eccda  Add Sync QS Tile  [Sagar Shah]</Changelog>
-</ROM>
+d1eccda  Add Sync QS Tile  [Sagar Shah]
