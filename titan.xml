@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROM>
+  <RomName>Cosmic-OS_lettuce_7.1.2</RomName>
+  <VersionName><![CDATA[ Cosmic-OS_titan_7.1.2_20170711_2.0-OFFICIAL ]]></VersionName>
+  <VersionNumber type="integer">20170711</VersionNumber>
+  <DirectUrl>https://sourceforge.net/projects/cosmic-os/files/titan/Cosmic-OS_titan_7.1.2_20170711_2.0-OFFICIAL.zip/download</DirectUrl>
+  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/titan</HttpUrl>
+  <Android>7.1.2</Android>
+  <CheckMD5>a6bfb86b72565f5d4a28b3bf91146f92</CheckMD5>
+  <FileSize type="integer">334289250</FileSize>
+  <Developer>Sagar Shah</Developer>
+  <WebsiteURL nil="true">cosmic-os.com</WebsiteURL>
+  <DonateURL nil="true"/>
+  <Changelog>
+  
+====================
+     07-11-2017
+====================
+
+   * frameworks/base/
+8849da4  Fix Build  [Sagar Shah]
+
+====================
+     07-10-2017
+====================
+
+   * frameworks/base/
+30ce250  Night auto brightness: restore user brightness values also after reboot  [Sagar Shah]
+d04f226  Fix my derp in Night Light brightness mode options  [Sagar Shah]
+c2a24d6  Fix manual brightness going to 0 after reboot  [Sagar Shah]
+f6bdba4  Night light auto low brightness: wider action [1/2]  [Sagar Shah]
+db7cbdc  Night light tile brightness: merge the two options into one [1/2]  [Sagar Shah]
+cb3a3b7  Night mode tile brightness: allow to set a different value [1/2]  [Sagar Shah]
+cd8b449  Night tile: automatically set a lower brightness when active [1/2]  [Sagar Shah]
+1714532  Net monitor: fix visual glitch on statusbar expand when autohide enabled  [Sagar Shah]
+27243bc  Align recent 'Clear All' text with 'Free Ram' text  [Sagar Shah]
+0f43094  Fix Build  [Sagar Shah]
+d9f8d19  QS WiFi easy toggle: if enabled, long press for detail view  [Sagar Shah]
+c173b55  Data tile quick toggle: apply the custom behavior also to mini tiles bar  [Sagar Shah]
+71126cd  Data tile: make it customizable by the user [1/2]  [Sagar Shah]
+8983a95  QS: WiFi easy toggle [1/2]  [Sagar Shah]
+34c4403  QS BT easy toggle: if enabled, long press for detail view  [Sagar Shah]
+fe33f6e  QS: BT easy toggle [1/2]  [Sagar Shah]
+520f9dd  Add QSDetailItems  [Sagar Shah]
+66322b8  Add advanced location tile  [Sagar Shah]
+8ce0873  Speed up the volume panel timeout  [Sagar Shah]
+71f0c44  base: Speed a couple more things up  [Sagar Shah]
+c942455  Navbar tile: one tap to enable/disable, long tap to choose nav type  [Sagar Shah]
+14e86af  Add membar to recents options [1/2]  [Sagar Shah]
+56f62c4  Recents fab button improvements  [Sagar Shah]
+7c5ef3b  Recents Clear All Button Tweaks and Add FAB to Recents Panel  [Sagar Shah]
+75e0f2e  Immersive Recents [1/2]  [Sagar Shah]
+cfa2874  Fix visibility of single-line view in expanded group notification  [Sagar Shah]
+852ad26  Remove useless "battery" option from statusbar icons blacklist  [Sagar Shah]
+1fa8080  Add flashlight notification reminder  [Sagar Shah]
+5accf22  Add Sound tile to Quick Settings  [Sagar Shah]
+6ae0643  Add Music QS Tile  [Sagar Shah]
+d1eccda  Add Sync QS Tile  [Sagar Shah]
+df55e4e  Base: fix facelock crash when lock screen is disabled  [Sagar Shah]
+ba93ab0  Updated Fling Icons to CosmicOS  [Sagar Shah]</Changelog>
+</ROM>
