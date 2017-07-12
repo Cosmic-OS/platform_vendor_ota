@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_titan_7.1.2</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_titan_7.1.2_20170712_2.0-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20170712</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/titan/Cosmic-OS_titan_7.1.2_20170712_2.0-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/titan</HttpUrl>
-  <Android>7.1.2</Android>
-  <CheckMD5>8ec37f3d8e9c2aedf0268e4264955d96</CheckMD5>
-  <FileSize type="integer">334293966</FileSize>
-  <Developer>jackcicci</Developer>
-  <WebsiteURL nil="true">cosmic-os.com</WebsiteURL>
-  <DonateURL nil="true"/>
-  <Changelog>update titan
+update titan
 ====================
      07-12-2017
 ====================
@@ -56,5 +43,4 @@ f6bdba4  Night light auto low brightness: wider action [1/2]  [Sagar Shah]
 db7cbdc  Night light tile brightness: merge the two options into one [1/2]  [Sagar Shah]
 cb3a3b7  Night mode tile brightness: allow to set a different value [1/2]  [Sagar Shah]
 cd8b449  Night tile: automatically set a lower brightness when active [1/2]  [Sagar Shah]
-1714532  Net monitor: fix visual glitch on statusbar expand when autohide enabled  [Sagar Shah]</Changelog>
-</ROM>
+1714532  Net monitor: fix visual glitch on statusbar expand when autohide enabled  [Sagar Shah]
