@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_potter_7.1.2</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_potter_7.1.2_20170712_2.0-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20170712</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/potter/Cosmic-OS_potter_7.1.2_20170712_2.0-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/potter</HttpUrl>
-  <Android>7.1.2</Android>
-  <CheckMD5></CheckMD5>
-  <FileSize type="integer"></FileSize>
-  <Developer>Manik Chathli</Developer>
-  <WebsiteURL nil="true">cosmic-os.com</WebsiteURL>
-  <DonateURL nil="true"/>
-  <Changelog>====================
+====================
      07-08-2017
 ====================
 
@@ -55,5 +42,4 @@ d106101ff  Version bump to NJH47B  [Sagar Shah]
 c0baf36e7  NHG47L  [Sagar Shah]
    * frameworks/av/
 93ff0d866  Merge tag 'LA.UM.5.6.r1-05100-89xx.0' of http://source.codeaurora.org/quic/la/platform/frameworks/av into n-mr2  [Sagar Shah]
-   * frameworks/base/</Changelog>
-</ROM>
+   * frameworks/base/
