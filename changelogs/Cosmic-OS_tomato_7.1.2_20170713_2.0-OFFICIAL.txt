@@ -1,0 +1,45 @@
+====================
+     07-13-2017
+====================
+
+   * frameworks/native/
+d6127fd  native: Add phone-xxhdpi-4096-hwui-memory property config  [Sagar Shah]
+2fc9a55  native: add phone-xxhdpi-4096-dalvik-heap property config  [Sagar Shah]
+   * packages/apps/SnapdragonCamera/
+47b2c64  Automatic translation import  [maxwen]
+   * vendor/cos/
+0291b56  Add Garlic to Official Devices  [Sagar Shah]
+   * vendor/ota/
+74f42b6  Update titan  (#35)  [Kshitij Gupta]
+
+====================
+     07-12-2017
+====================
+
+   * kernel/cyanogen/msm8916/
+e06e743  MiniVelocity_v2.1: Update LineageOS's Def-Config  [Shoaib0597]
+2150f75  MakeFile: Disable "maybe-uninitialized" Warning  [Shoaib0597]
+851fe19  Boot with SELinux Set to Permissive (SD-615)  [Shoaib0597]
+cbb6fa7  Quick Charge: Fix Fundamental Working Process  [Shoaib0597]
+d7d45e1  Quick Charge: Introduce a Charging-Profiles System  [Shoaib0597]
+39ac76b  Quick Charge: Reduce OverHead and Improve Current (mA) Processing  [Shoaib0597]
+1120639  Quick Charge: Seperate AC and USB Charging Interfaces  [Shoaib0597]
+be366e4b  Quick Charge: Support BQ24157 and FAN5405 ICs  [Shoaib0597]
+99204ed  Introduce Quick Charge v1.0  [Shoaib0597]
+da79ad9  Raise the Maximum Current-Limit (mA) to 1000 mA (FAN5405-DTB)  [Shoaib0597]
+6e83464  Fix Compilation Error (WakeLock Toggles)  [Shoaib0597]
+7da71f4  Add WakeLock Toggles (9) with Optimizations  [Shoaib0597]
+d82d8ad  Tune the Task-Scheduler for Power-Savings  [Shoaib0597]
+fb5b5d1  Use Lowest GPU-Frequency as Initial Power Level  [Shoaib0597]
+30b15dd  Alter GPU-Frequencies to Save Power  [Shoaib0597]
+809ebfe  Tune-Up for Cortex-A53/ARMv8 Architecture  [Shoaib0597]
+b222cb0  Add System-Wide Power Efficient Workqueues with all Updates  [Shoaib0597]
+0c36e6a  Add kCAL Colour Control v2.0 with Optimized Updates  [Shoaib0597]
+ff82b95  Use BFQ as the Default I/O Scheduler  [Shoaib0597]
+   * vendor/cos/
+22c310c  wt88047 : Add device (#51)  [Sagar Shah]
+d0bf5cb  Add A6000 to Official lunch menu (#50)  [Sagar Shah]
+   * vendor/ota/
+e8d2f53  OTA Update Potter (#34)  [Sagar Shah]
+
+====================
