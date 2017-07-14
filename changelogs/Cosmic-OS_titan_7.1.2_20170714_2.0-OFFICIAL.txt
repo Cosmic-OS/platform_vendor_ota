@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_titan_7.1.2</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_titan_7.1.2_20170714_2.0-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20170714</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/titan/Cosmic-OS_titan_7.1.2_20170714_2.0-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/titan</HttpUrl>
-  <Android>7.1.2</Android>
-  <CheckMD5>f05b5517b4c987027cabe189ce73c1f4</CheckMD5>
-  <FileSize type="integer">334291558</FileSize>
-  <Developer>jackcicci</Developer>
-  <WebsiteURL nil="true">cosmic-os.com</WebsiteURL>
-  <DonateURL nil="true"/>
-  <Changelog>OTA update titan
+OTA update titan
 
 ====================
      07-14-2017
@@ -56,5 +43,5 @@ e8d2f53  OTA Update Potter (#34)  [Sagar Shah]
 
 ====================
      07-11-2017
-====================</Changelog>
-</ROM>
+====================
+
