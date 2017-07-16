@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_titan_7.1.2</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_titan_7.1.2_20170716_2.0-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20170716</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/titan/Cosmic-OS_titan_7.1.2_20170716_2.0-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/titan</HttpUrl>
-  <Android>7.1.2</Android>
-  <CheckMD5>6a32ccbc75cde6077b684a8ea4d9f727</CheckMD5>
-  <FileSize type="integer">334287863</FileSize>
-  <Developer>jackcicci</Developer>
-  <WebsiteURL nil="true">cosmic-os.com</WebsiteURL>
-  <DonateURL nil="true"/>
-  <Changelog>Ota update titan
+Ota update titan
 
 ====================
      07-16-2017
@@ -57,5 +44,4 @@ f420624  build: enhance and extend support for SDCLANG  [Sagar Shah]
 a99f8c9  CamcorderProfile: Add 1440p camcorder profile  [Kshitij Gupta]
 627badc  Camera : allow camera to use power key as shutter  [Kshitij Gupta]
 
-====================</Changelog>
-</ROM>
+====================
