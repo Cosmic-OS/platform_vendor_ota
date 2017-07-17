@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_oneplus2_7.1.2</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_oneplus2_7.1.2_20170717_2.0-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20170717</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/oneplus2/Cosmic-OS_oneplus2_7.1.2_20170717_2.0-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/oneplus2</HttpUrl>
-  <Android>7.1.2</Android>
-  <CheckMD5>2eceed2017a32add8538c2c92ddaecf6</CheckMD5>
-  <FileSize type="integer">433586918</FileSize>
-  <Developer>kunalshah</Developer>
-  <WebsiteURL nil="true">cosmic-os.com</WebsiteURL>
-  <DonateURL nil="true"/>
-  <Changelog>====================
+====================
      07-17-2017
 ====================
 
@@ -54,5 +41,5 @@ f420624  build: enhance and extend support for SDCLANG  [Sagar Shah]
 a99f8c9  CamcorderProfile: Add 1440p camcorder profile  [Kshitij Gupta]
 627badc  Camera : allow camera to use power key as shutter  [Kshitij Gupta]
    * vendor/ota/
-003911e  OTA: Update tomato (13/07/2017) (#36)  [Sagar Shah]</Changelog>
-</ROM>
+003911e  OTA: Update tomato (13/07/2017) (#36)  [Sagar Shah]
+
