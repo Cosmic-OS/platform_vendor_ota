@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_athene_7.1.2</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_athene_7.1.2_20170718_2.0-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20170718</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/athene/Cosmic-OS_athene_7.1.2_20170718_2.0-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/athene</HttpUrl>
-  <Android>7.1.2</Android>
-  <CheckMD5>06b9a5b84fc1c522b8f51a1e20b93790</CheckMD5>
-  <FileSize type="integer">359604708</FileSize>
-  <Developer>Keerten</Developer>
-  <WebsiteURL nil="true">cosmic-os.com</WebsiteURL>
-  <DonateURL nil="true"/>
-  <Changelog>====================
+====================
      07-18-2017
 ====================
 
@@ -55,5 +42,4 @@ bbbd71c  Add Device : Z00L (#52)  [Sagar Shah]
 f420624  build: enhance and extend support for SDCLANG  [Sagar Shah]
    * frameworks/av/
 0d42421  Camera: Add support for manual 3A.  [Kshitij Gupta]
-   * frameworks/base/</Changelog>
-</ROM>
+   * frameworks/base/
