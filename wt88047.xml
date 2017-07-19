@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROM>
+  <RomName>Cosmic-OS_wt88047_7.1.2</RomName>
+  <VersionName><![CDATA[ Cosmic-OS_wt88047_7.1.2_20170718_2.0-OFFICIAL ]]></VersionName>
+  <VersionNumber type="integer">20170718</VersionNumber>
+  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/wt88047/Cosmic-OS_wt88047_7.1.2_20170719_2.0-OFFICIAL.zip</DirectUrl>
+  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/wt88047</HttpUrl>
+  <Android>7.1.2</Android>
+  <CheckMD5></CheckMD5>
+  <FileSize type="integer"></FileSize>
+  <Developer>Keertesh</Developer>
+  <WebsiteURL nil="true">cosmic-os.com</WebsiteURL>
+  <DonateURL nil="true"/>
+  <Changelog></Changelog>
+</ROM>
