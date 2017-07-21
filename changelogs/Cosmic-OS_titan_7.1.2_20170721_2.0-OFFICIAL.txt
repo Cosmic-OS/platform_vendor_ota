@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_titan_7.1.2</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_titan_7.1.2_20170721_2.0-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20170721</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/titan/Cosmic-OS_titan_7.1.2_20170721_2.0-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/titan</HttpUrl>
-  <Android>7.1.2</Android>
-  <CheckMD5>2875c255497ef9418cce8311b3cffeae</CheckMD5>
-  <FileSize type="integer">334278570</FileSize>
-  <Developer>jackcicci</Developer>
-  <WebsiteURL nil="true">cosmic-os.com</WebsiteURL>
-  <DonateURL nil="true"/>
-  <Changelog>OTA update Titan 
+OTA update Titan 
 
 ====================
      07-21-2017
@@ -57,5 +44,4 @@ e0c7b5a  OTA: Update oneplus2 (17/07/2017) (#39)  [Sidharth Soni]
    * hardware/qcom/audio-caf/msm8996/
 f8fcd59  Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into HEAD  [Luca Stefani]
    * hardware/qcom/display-caf/msm8996/
-3005091  Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into HEAD  [Luca Stefani]</Changelog>
-</ROM>
+3005091  Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into HEAD  [Luca Stefani]
