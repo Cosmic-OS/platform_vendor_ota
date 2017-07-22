@@ -1,0 +1,46 @@
+update titan
+====================
+     07-12-2017
+====================
+
+   * vendor/cos/
+22c310c  wt88047 : Add device (#51)  [Sagar Shah]
+d0bf5cb  Add A6000 to Official lunch menu (#50)  [Sagar Shah]
+   * vendor/ota/
+2d3a242  Create titan.xml  [GitHub]
+9b8f423  Delete titan.xml  [GitHub]
+6ce7fb7  Update titan.xml  [GitHub]
+7959ad1  Create titan.xml  [GitHub]
+9372504  OTA: Update lettuce (11/07/2017)  [Sagar Shah]
+
+====================
+     07-11-2017
+====================
+
+   * frameworks/base/
+8849da4  Fix Build  [Sagar Shah]
+
+====================
+     07-10-2017
+====================
+
+   * device/motorola/msm8226-common/
+cd2993d  Update config.xml  [GitHub]
+   * device/motorola/titan/
+483777f  Update cos.dependencies  [GitHub]
+77b8b13  Update cos.dependencies  [GitHub]
+e957f49  Cosmify  [GitHub]
+923dd63  Update cos.mk  [GitHub]
+a67569d  Update BoardConfig.mk  [GitHub]
+5250a06  Update AndroidProducts.mk  [GitHub]
+3115808  Update and rename lineage.dependencies to cos.dependencies  [GitHub]
+f0eaaf8  Update and rename lineage.mk to cos.mk  [GitHub]
+   * frameworks/base/
+30ce250  Night auto brightness: restore user brightness values also after reboot  [Sagar Shah]
+d04f226  Fix my derp in Night Light brightness mode options  [Sagar Shah]
+c2a24d6  Fix manual brightness going to 0 after reboot  [Sagar Shah]
+f6bdba4  Night light auto low brightness: wider action [1/2]  [Sagar Shah]
+db7cbdc  Night light tile brightness: merge the two options into one [1/2]  [Sagar Shah]
+cb3a3b7  Night mode tile brightness: allow to set a different value [1/2]  [Sagar Shah]
+cd8b449  Night tile: automatically set a lower brightness when active [1/2]  [Sagar Shah]
+1714532  Net monitor: fix visual glitch on statusbar expand when autohide enabled  [Sagar Shah]
