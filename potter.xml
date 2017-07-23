@@ -1,59 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
   <RomName>Cosmic-OS_potter_7.1.2</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_potter_7.1.2_20170712_2.0-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20170712</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/potter/Cosmic-OS_potter_7.1.2_20170712_2.0-OFFICIAL.zip</DirectUrl>
+  <VersionName><![CDATA[ Cosmic-OS_potter_7.1.2_20170723_2.0-OFFICIAL ]]></VersionName>
+  <VersionNumber type="integer">20170723</VersionNumber>
+  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/potter/Cosmic-OS_potter_7.1.2_20170723_2.0-OFFICIAL.zip</DirectUrl>
   <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/potter</HttpUrl>
   <Android>7.1.2</Android>
-  <CheckMD5>38513e0f2b66bf450c3b987703c52e8f</CheckMD5>
-  <FileSize type="integer">376267317</FileSize>
+  <CheckMD5>a375c4d92b456cbf1b79ee2800dd0ee6</CheckMD5>
+  <FileSize type="integer">376681427</FileSize>
   <Developer>Manik Chathli</Developer>
   <WebsiteURL nil="true">cosmic-os.com</WebsiteURL>
   <DonateURL nil="true"/>
   <Changelog>====================
-     07-12-2017
+     07-23-2017
 ====================
 
-   * device/wingtech/wt88047/
-3d18ca5  Update cos.dependencies  [GitHub]
-e4f3cdd  Update vendorsetup.sh  [GitHub]
-439a160  wt88047 : Fix deps  [GitHub]
-f59ddae  wt88047 : Make Official :p :)  [GitHub]
-4f8b330  Rename tipsy.dependencies to cos.dependencies  [GitHub]
-f45920b  wt88047 : COS-ify  [GitHub]
-   * frameworks/base/
-8849da43cf7  Fix Build  [Sagar Shah]
+   * packages/resources/devicesettings/
+1ff6d8c  Automatic translation import  [Abhisek Devkota]
 
 ====================
-     07-11-2017
+     07-22-2017
 ====================
 
 
 ====================
-     07-10-2017
+     07-21-2017
 ====================
 
-   * frameworks/base/
-30ce250e6cb  Night auto brightness: restore user brightness values also after reboot  [Sagar Shah]
-d04f2266074  Fix my derp in Night Light brightness mode options  [Sagar Shah]
-c2a24d68630  Fix manual brightness going to 0 after reboot  [Sagar Shah]
-f6bdba4dea6  Night light auto low brightness: wider action [1/2]  [Sagar Shah]
-db7cbdcd3bc  Night light tile brightness: merge the two options into one [1/2]  [Sagar Shah]
-cb3a3b79171  Night mode tile brightness: allow to set a different value [1/2]  [Sagar Shah]
-cd8b4494174  Night tile: automatically set a lower brightness when active [1/2]  [Sagar Shah]
-17145324a9c  Net monitor: fix visual glitch on statusbar expand when autohide enabled  [Sagar Shah]
-27243bc2ba0  Align recent 'Clear All' text with 'Free Ram' text  [Sagar Shah]
-0f430946126  Fix Build  [Sagar Shah]
-d9f8d193e09  QS WiFi easy toggle: if enabled, long press for detail view  [Sagar Shah]
-c173b5540d2  Data tile quick toggle: apply the custom behavior also to mini tiles bar  [Sagar Shah]
-71126cd2eec  Data tile: make it customizable by the user [1/2]  [Sagar Shah]
-8983a9585dc  QS: WiFi easy toggle [1/2]  [Sagar Shah]
-34c4403fbe5  QS BT easy toggle: if enabled, long press for detail view  [Sagar Shah]
-fe33f6e6560  QS: BT easy toggle [1/2]  [Sagar Shah]
-520f9ddef58  Add QSDetailItems  [Sagar Shah]
-66322b8ed42  Add advanced location tile  [Sagar Shah]
-8ce087392b0  Speed up the volume panel timeout  [Sagar Shah]
-71f0c44eb65  base: Speed a couple more things up  [Sagar Shah]
-c942455fb17  Navbar tile: one tap to enable/disable, long tap to choose nav type  [Sagar Shah]</Changelog>
+
+====================
+     07-20-2017
+====================
+
+
+====================
+     07-19-2017
+====================
+
+   * vendor/ota/
+6eca1b5  OTA: Update athene (18/07/2017) (#40)  [Sagar Shah]
+
+====================
+     07-18-2017
+====================
+
+   * device/motorola/potter/
+76d2340  Change Official Command  [GitHub]
+   * kernel/motorola/msm8953/
+c00febd371e  Fix Derps  [GitHub]
+31b53fbf2bb  drivers: homebutton: expose screen off gesture entry  [Vachounet]
+   * vendor/ota/
+e0c7b5a  OTA: Update oneplus2 (17/07/2017) (#39)  [Sidharth Soni]
+
+====================
+     07-17-2017
+====================</Changelog>
 </ROM>
