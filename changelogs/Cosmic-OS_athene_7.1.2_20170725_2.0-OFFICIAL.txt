@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_athene_7.1.2</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_athene_7.1.2_20170725_2.0-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20170725</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/athene/Cosmic-OS_athene_7.1.2_20170725_2.0-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/athene</HttpUrl>
-  <Android>7.1.2</Android>
-  <CheckMD5>02e1513b7209badeed5b7b82c6930731</CheckMD5>
-  <FileSize type="integer">359611185</FileSize>
-  <Developer>Keerten</Developer>
-  <WebsiteURL nil="true">cosmic-os.com</WebsiteURL>
-  <DonateURL nil="true"/>
-  <Changelog>====================
+====================
      07-25-2017
 ====================
 
@@ -55,5 +42,4 @@ f2cae70  Remove 'Device is HD Capable' notification when VoLTE is enabled  [Keer
 
    * device/wingtech/wt88047/
 dee23ef  Update cos.dependencies  [GitHub]
-   * vendor/ota/</Changelog>
-</ROM>
+   * vendor/ota/
