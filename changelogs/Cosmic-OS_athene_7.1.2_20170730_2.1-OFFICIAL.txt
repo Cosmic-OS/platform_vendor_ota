@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_athene_7.1.2</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_athene_7.1.2_20170730_2.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20170730</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/athene/Cosmic-OS_athene_7.1.2_20170730_2.1-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/athene</HttpUrl>
-  <Android>7.1.2</Android>
-  <CheckMD5>0dc3381ae79bc845a7341d3ff11a315f</CheckMD5>
-  <FileSize type="integer">360237724</FileSize>
-  <Developer>Keerten</Developer>
-  <WebsiteURL nil="true">cosmic-os.com</WebsiteURL>
-  <DonateURL nil="true"/>
-  <Changelog>====================
+====================
      07-30-2017
 ====================
 
@@ -55,5 +42,4 @@ ac3fba7  CreditsAdapter: Use it's own contributors card layout  [Sagar Shah]
 ====================
 
 
-====================</Changelog>
-</ROM>
+====================
