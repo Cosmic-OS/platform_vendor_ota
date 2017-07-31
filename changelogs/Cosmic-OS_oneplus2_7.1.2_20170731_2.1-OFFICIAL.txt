@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_oneplus2_7.1.2</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_oneplus2_7.1.2_20170731_2.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20170731</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/oneplus2/Cosmic-OS_oneplus2_7.1.2_20170731_2.1-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/oneplus2</HttpUrl>
-  <Android>7.1.2</Android>
-  <CheckMD5>8663cb2a12ce923340d1ee99aa25f898</CheckMD5>
-  <FileSize type="integer">453315152</FileSize>
-  <Developer>kunalshah</Developer>
-  <WebsiteURL nil="true">cosmic-os.com</WebsiteURL>
-  <DonateURL nil="true"/>
-  <Changelog>====================
+====================
      07-31-2017
 ====================
 
@@ -55,5 +42,4 @@ ead1040  Create a vendor build.prop for verifying versions  [argraur]
      07-28-2017
 ====================
 
-   * frameworks/base/</Changelog>
-</ROM>
+   * frameworks/base/
