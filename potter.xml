@@ -1,58 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
   <RomName>Cosmic-OS_potter_7.1.2</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_potter_7.1.2_20170723_2.0-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20170723</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/potter/Cosmic-OS_potter_7.1.2_20170723_2.0-OFFICIAL.zip</DirectUrl>
+  <VersionName><![CDATA[ Cosmic-OS_potter_7.1.2_20170801_2.1-OFFICIAL ]]></VersionName>
+  <VersionNumber type="integer">20170801</VersionNumber>
+  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/potter/Cosmic-OS_potter_7.1.2_20170801_2.1-OFFICIAL.zip</DirectUrl>
   <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/potter</HttpUrl>
   <Android>7.1.2</Android>
-  <CheckMD5>a375c4d92b456cbf1b79ee2800dd0ee6</CheckMD5>
-  <FileSize type="integer">376681427</FileSize>
+  <CheckMD5>cf0a2379934c5d41080fa23377badbbf</CheckMD5>
+  <FileSize type="integer">377272622</FileSize>
   <Developer>Manik Chathli</Developer>
   <WebsiteURL nil="true">cosmic-os.com</WebsiteURL>
   <DonateURL nil="true"/>
   <Changelog>====================
-     07-23-2017
-====================
-
-   * packages/resources/devicesettings/
-1ff6d8c  Automatic translation import  [Abhisek Devkota]
-
-====================
-     07-22-2017
+     08-01-2017
 ====================
 
 
 ====================
-     07-21-2017
+     07-31-2017
 ====================
 
-
-====================
-     07-20-2017
-====================
-
-
-====================
-     07-19-2017
-====================
-
+   * vendor/cos/
+5d95360  Remove 'v'  [GitHub]
    * vendor/ota/
-6eca1b5  OTA: Update athene (18/07/2017) (#40)  [Sagar Shah]
+32d627f  Update wt88047.xml (#45)  [Sagar Shah]
+0afc3db  OTA: Update oneplus2 (31/07/2017) (#46)  [Sagar Shah]
 
 ====================
-     07-18-2017
+     07-30-2017
 ====================
 
-   * device/motorola/potter/
-76d2340  Change Official Command  [GitHub]
-   * kernel/motorola/msm8953/
-c00febd371e  Fix Derps  [GitHub]
-31b53fbf2bb  drivers: homebutton: expose screen off gesture entry  [Vachounet]
+   * packages/apps/Settings/
+05eb5545b  Update Crowdin configuration file  [Sagar Shah]
+   * vendor/cos/
+5f39d97  Common: Remove Backslash (#55)  [Sagar Shah]
    * vendor/ota/
-e0c7b5a  OTA: Update oneplus2 (17/07/2017) (#39)  [Sidharth Soni]
+a40f08d  OTA: Update athene (30/07/2017) (#44)  [Sagar Shah]
 
 ====================
-     07-17-2017
-====================</Changelog>
+     07-29-2017
+====================
+
+   * build/
+6b041af12  Make change and version bump to NZH54  [Sagar Shah]
+353a25457  Merge pull request #3 from argraur/n-mr2  [GitHub]
+de1670a51  Makefile: override vendor build.prop fingerprint  [argraur]
+ead104050  Create a vendor build.prop for verifying versions  [argraur]
+   * frameworks/opt/telephony/
+ec718116  Merge tag 'LA.UM.5.6.r1-05400-89xx.0' of http://source.codeaurora.org/quic/la/platform/frameworks/opt/telephony into n-mr2  [Sagar Shah]
+   * manifest/
+e375e1c7  manifest: Update to LA.UM.5.6.r1-05400-89xx.0  [Sagar Shah]
+   * packages/apps/CosmicWalls/
+b824ae5  Add Moar Stuffs  [Sagar Shah]
+   * packages/apps/Settings/
+078fc50ef  Merge tag 'LA.UM.5.6.r1-05400-89xx.0' of http://source.codeaurora.org/quic/la/platform/packages/apps/Settings into n-mr2  [Sagar Shah]
+   * packages/services/Telephony/
+c2e44977  Merge tag 'LA.UM.5.6.r1-05400-89xx.0' of http://source.codeaurora.org/quic/la/platform/packages/services/Telephony into n-mr2  [Sagar Shah]</Changelog>
 </ROM>
