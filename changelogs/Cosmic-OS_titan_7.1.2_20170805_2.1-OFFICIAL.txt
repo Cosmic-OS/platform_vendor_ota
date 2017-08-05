@@ -1,0 +1,47 @@
+OTA update Titan
+
+====================
+     08-05-2017
+====================
+
+   * build/
+3c8326b  generic_no_telephony: Allow devices to override AOSP audio_effects (#4)  [Sagar Shah]
+   * frameworks/base/
+5d64a07  Introduce color engine.  [Sagar Shah]
+   * packages/apps/Launcher3/
+89bd31d  Launcher3: Support color engine  [Sagar Shah]
+   * packages/apps/Settings/
+2ea2418  Settings: Make Expanded Desktop colors match settings accent  [Sagar Shah]
+c2d8ed8  Settings: Make shortcut icon colors match settings accent  [Sagar Shah]
+ef4ea5b  PreviewSeekbarPreferenceFragment: move viewpager creating into an AsyncTask  [Sagar Shah]
+d5bd93d  Settings: Support color engine  [Sagar Shah]
+   * vendor/cos/
+fd74818  sepolicy: Add Color Engine policy  [Sagar Shah]
+   * vendor/motorola/
+68a2007  msm8916-common: move gps.conf to device  [Ashwin Ramesh]
+   * vendor/ota/
+f7c4937  OTA Update for Potter (#47)  [Sagar Shah]
+
+====================
+     08-04-2017
+====================
+
+   * device/motorola/titan/
+d5c69e3  Update cos.dependencies  [GitHub]
+57d7a33  Update cos.dependencies  [GitHub]
+1649e7f  Update cos.dependencies  [GitHub]
+6eb8c4b  Update cos.dependencies  [GitHub]
+b3edb4b  Update cos.dependencies  [GitHub]
+d6a6d6a  Update cos.dependencies  [GitHub]
+   * hardware/qcom/media-caf/msm8916/
+ec78924  Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.23' into cm-14.1-caf-8916  [Michael Bestas]
+   * hardware/qcom/media-caf/msm8994/
+1afe59f  Merge remote-tracking branch 'caf/LA.BF64.1.2.3_rb1.15' into cm-14.1-caf-8994  [Michael Bestas]
+   * packages/resources/devicesettings/
+0f88d74  Automatic translation import  [Abhisek Devkota]
+
+====================
+     08-03-2017
+====================
+
+
