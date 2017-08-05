@@ -1,59 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
   <RomName>Cosmic-OS_titan_7.1.2</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_titan_7.1.2_20170722_2.0-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20170722</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/titan/Cosmic-OS_titan_7.1.2_20170722_2.0-OFFICIAL.zip</DirectUrl>
+  <VersionName><![CDATA[ Cosmic-OS_titan_7.1.2_20170805_2.1-OFFICIAL ]]></VersionName>
+  <VersionNumber type="integer">20170805</VersionNumber>
+  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/titan/Cosmic-OS_titan_7.1.2_20170805_2.1-OFFICIAL.zip</DirectUrl>
   <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/titan</HttpUrl>
   <Android>7.1.2</Android>
-  <CheckMD5>a45a17ae01ba99bd5f9e389395db5911</CheckMD5>
-  <FileSize type="integer">334166752</FileSize>
+  <CheckMD5>18528caf8d795f9033f2210a15b1ebc8</CheckMD5>
+  <FileSize type="integer">334994516</FileSize>
   <Developer>jackcicci</Developer>
   <WebsiteURL nil="true">cosmic-os.com</WebsiteURL>
   <DonateURL nil="true"/>
-  <Changelog>====================
-     07-22-2017
+  <Changelog>OTA update Titan
+
+====================
+     08-05-2017
 ====================
 
+   * build/
+3c8326b  generic_no_telephony: Allow devices to override AOSP audio_effects (#4)  [Sagar Shah]
+   * frameworks/base/
+5d64a07  Introduce color engine.  [Sagar Shah]
+   * packages/apps/Launcher3/
+89bd31d  Launcher3: Support color engine  [Sagar Shah]
+   * packages/apps/Settings/
+2ea2418  Settings: Make Expanded Desktop colors match settings accent  [Sagar Shah]
+c2d8ed8  Settings: Make shortcut icon colors match settings accent  [Sagar Shah]
+ef4ea5b  PreviewSeekbarPreferenceFragment: move viewpager creating into an AsyncTask  [Sagar Shah]
+d5bd93d  Settings: Support color engine  [Sagar Shah]
+   * vendor/cos/
+fd74818  sepolicy: Add Color Engine policy  [Sagar Shah]
+   * vendor/motorola/
+68a2007  msm8916-common: move gps.conf to device  [Ashwin Ramesh]
    * vendor/ota/
-036736d  OTA: Update titan (22/07/2017)  [jackcicci]
+f7c4937  OTA Update for Potter (#47)  [Sagar Shah]
 
 ====================
-     07-21-2017
+     08-04-2017
 ====================
 
    * device/motorola/titan/
-83d2d79  Update cos.dependencies  [GitHub]
+d5c69e3  Update cos.dependencies  [GitHub]
+57d7a33  Update cos.dependencies  [GitHub]
+1649e7f  Update cos.dependencies  [GitHub]
+6eb8c4b  Update cos.dependencies  [GitHub]
+b3edb4b  Update cos.dependencies  [GitHub]
+d6a6d6a  Update cos.dependencies  [GitHub]
+   * hardware/qcom/media-caf/msm8916/
+ec78924  Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.23' into cm-14.1-caf-8916  [Michael Bestas]
+   * hardware/qcom/media-caf/msm8994/
+1afe59f  Merge remote-tracking branch 'caf/LA.BF64.1.2.3_rb1.15' into cm-14.1-caf-8994  [Michael Bestas]
+   * packages/resources/devicesettings/
+0f88d74  Automatic translation import  [Abhisek Devkota]
 
 ====================
-     07-20-2017
-====================
-
-   * vendor/motorola/
-80a8a5d  athene: Remove 'Device is HD Capable' notification when VoLTE is enabled  [Ashwin Ramesh]
-
-====================
-     07-19-2017
-====================
-
-
-====================
-     07-18-2017
-====================
-
-   * vendor/ota/
-6eca1b5  OTA: Update athene (18/07/2017) (#40)  [Sagar Shah]
-
-====================
-     07-17-2017
-====================
-
-   * vendor/ota/
-e0c7b5a  OTA: Update oneplus2 (17/07/2017) (#39)  [Sidharth Soni]
-
-====================
-     07-16-2017
-====================
-
-   * device/motorola/msm8226-common/</Changelog>
+     08-03-2017
+====================</Changelog>
 </ROM>
