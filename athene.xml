@@ -1,59 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
   <RomName>Cosmic-OS_athene_7.1.2</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_athene_7.1.2_20170730_2.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20170730</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/athene/Cosmic-OS_athene_7.1.2_20170730_2.1-OFFICIAL.zip</DirectUrl>
+  <VersionName><![CDATA[ Cosmic-OS_athene_7.1.2_20170805_2.1-OFFICIAL ]]></VersionName>
+  <VersionNumber type="integer">20170805</VersionNumber>
+  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/athene/Cosmic-OS_athene_7.1.2_20170807_2.1-OFFICIAL.zip</DirectUrl>
   <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/athene</HttpUrl>
   <Android>7.1.2</Android>
-  <CheckMD5>0dc3381ae79bc845a7341d3ff11a315f</CheckMD5>
-  <FileSize type="integer">360237724</FileSize>
+  <CheckMD5></CheckMD5>
+  <FileSize type="integer"></FileSize>
   <Developer>Keerten</Developer>
   <WebsiteURL nil="true">cosmic-os.com</WebsiteURL>
   <DonateURL nil="true"/>
-  <Changelog>====================
-     07-30-2017
-====================
-
-   * build/
-6b041af  Make change and version bump to NZH54  [Sagar Shah]
-   * device/motorola/athene/
-1485b6d  Update cos.dependencies  [GitHub]
-   * frameworks/opt/telephony/
-ec71811  Merge tag 'LA.UM.5.6.r1-05400-89xx.0' of http://source.codeaurora.org/quic/la/platform/frameworks/opt/telephony into n-mr2  [Sagar Shah]
-   * manifest/
-e375e1c  manifest: Update to LA.UM.5.6.r1-05400-89xx.0  [Sagar Shah]
-   * packages/apps/CosmicWalls/
-b824ae5  Add Moar Stuffs  [Sagar Shah]
-   * packages/apps/Settings/
-05eb554  Update Crowdin configuration file  [Sagar Shah]
-   * packages/services/Telephony/
-c2e4497  Merge tag 'LA.UM.5.6.r1-05400-89xx.0' of http://source.codeaurora.org/quic/la/platform/packages/services/Telephony into n-mr2  [Sagar Shah]
-   * vendor/cos/
-b929c93  ExploreTheCosmos...!  [Sagar Shah]
-
-====================
-     07-29-2017
-====================
-
-
-====================
-     07-28-2017
-====================
-
-   * frameworks/base/
-7ff5865  Fix my mismerge  [Sagar Shah]
-   * packages/apps/OTAUpdates/
-ac3fba7  CreditsAdapter: Use it's own contributors card layout  [Sagar Shah]
-   * system/core/
-0374182  fingerprintd: Allow devices to use custom fingerprintd  [Sagar Shah]
-   * system/sepolicy/
-65835f1  system_app: Allow OTAUpdates to access the download directory  [Sagar Shah]
-
-====================
-     07-27-2017
-====================
-
-
-====================</Changelog>
+  <Changelog></Changelog>
 </ROM>
