@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_potter_7.1.2</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_potter_7.1.2_20170806_2.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20170806</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/potter/Cosmic-OS_potter_7.1.2_20170807_2.1-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/potter</HttpUrl>
-  <Android>7.1.2</Android>
-  <CheckMD5>90c93eca380d3592a7d0505de6edcd74</CheckMD5>
-  <FileSize type="integer">377728585</FileSize>
-  <Developer>Keerten</Developer>
-  <WebsiteURL nil="true">cosmic-os.com</WebsiteURL>
-  <DonateURL nil="true"/>
-  <Changelog>====================
+====================
      08-06-2017
 ====================
 
@@ -55,5 +42,4 @@ ec78924  Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.23' into cm-14.1-caf-
 
 
 ====================
-     08-01-2017</Changelog>
-</ROM>
+     08-01-2017
