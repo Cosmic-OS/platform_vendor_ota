@@ -9,12 +9,13 @@
 
    * device/wingtech/wt88047/
 865f858  wt88047: Update Defconfig Configs  [GitHub]
-80d9811  Use My bois kernel for sometime :P  [GitHub]
 
 ====================
      08-20-2017
 ====================
 
+   * device/wingtech/wt88047/
+80d9811  Use My bois kernel for sometime :P  [GitHub]
 
 ====================
      08-19-2017
@@ -42,4 +43,3 @@
 
 
 ====================
-     08-14-2017

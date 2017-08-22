@@ -6,8 +6,8 @@
   <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/wt88047/Cosmic-OS_wt88047_7.1.2_20170822_2.1-OFFICIAL.zip</DirectUrl>
   <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/wt88047</HttpUrl>
   <Android>7.1.2</Android>
-  <CheckMD5>a42496574c52f30f011587ab2774b5c4</CheckMD5>
-  <FileSize type="integer">330951697</FileSize>
+  <CheckMD5>b919f3a2fbf285c2034d946f08537ada</CheckMD5>
+  <FileSize type="integer">330882855</FileSize>
   <Developer>Keertesh</Developer>
   <WebsiteURL nil="true">cosmic-os.com</WebsiteURL>
   <DonateURL nil="true"/>
@@ -22,12 +22,13 @@
 
    * device/wingtech/wt88047/
 865f858  wt88047: Update Defconfig Configs  [GitHub]
-80d9811  Use My bois kernel for sometime :P  [GitHub]
 
 ====================
      08-20-2017
 ====================
 
+   * device/wingtech/wt88047/
+80d9811  Use My bois kernel for sometime :P  [GitHub]
 
 ====================
      08-19-2017
@@ -54,6 +55,5 @@
 ====================
 
 
-====================
-     08-14-2017</Changelog>
+====================</Changelog>
 </ROM>
