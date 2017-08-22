@@ -1,59 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
   <RomName>Cosmic-OS_wt88047_7.1.2</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_wt88047_7.1.2_20170730_2.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20170730</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/wt88047/Cosmic-OS_wt88047_7.1.2_20170730_2.1-OFFICIAL.zip</DirectUrl>
+  <VersionName><![CDATA[ Cosmic-OS_wt88047_7.1.2_20170822_2.1-OFFICIAL ]]></VersionName>
+  <VersionNumber type="integer">20170822</VersionNumber>
+  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/wt88047/Cosmic-OS_wt88047_7.1.2_20170822_2.1-OFFICIAL.zip</DirectUrl>
   <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/wt88047</HttpUrl>
   <Android>7.1.2</Android>
-  <CheckMD5>445efff511a6182c277966fd15b5d39c</CheckMD5>
-  <FileSize type="integer">323908046</FileSize>
+  <CheckMD5>a42496574c52f30f011587ab2774b5c4</CheckMD5>
+  <FileSize type="integer">330951697</FileSize>
   <Developer>Keertesh</Developer>
   <WebsiteURL nil="true">cosmic-os.com</WebsiteURL>
   <DonateURL nil="true"/>
   <Changelog>====================
-     07-30-2017
+     08-22-2017
+====================
+
+
+====================
+     08-21-2017
 ====================
 
    * device/wingtech/wt88047/
-6b06ba7  Update config.xml  [GitHub]
-   * vendor/cos/
-5f39d97  Common: Remove Backslash (#55)  [Sagar Shah]
-   * vendor/ota/
-a40f08d  OTA: Update athene (30/07/2017) (#44)  [Sagar Shah]
+865f858  wt88047: Update Defconfig Configs  [GitHub]
+80d9811  Use My bois kernel for sometime :P  [GitHub]
 
 ====================
-     07-29-2017
-====================
-
-   * build/
-6b041af  Make change and version bump to NZH54  [Sagar Shah]
-   * frameworks/opt/telephony/
-ec71811  Merge tag 'LA.UM.5.6.r1-05400-89xx.0' of http://source.codeaurora.org/quic/la/platform/frameworks/opt/telephony into n-mr2  [Sagar Shah]
-   * manifest/
-e375e1c  manifest: Update to LA.UM.5.6.r1-05400-89xx.0  [Sagar Shah]
-   * packages/apps/CosmicWalls/
-b824ae5  Add Moar Stuffs  [Sagar Shah]
-   * packages/apps/Settings/
-05eb554  Update Crowdin configuration file  [Sagar Shah]
-   * packages/services/Telephony/
-c2e4497  Merge tag 'LA.UM.5.6.r1-05400-89xx.0' of http://source.codeaurora.org/quic/la/platform/packages/services/Telephony into n-mr2  [Sagar Shah]
-
-====================
-     07-28-2017
+     08-20-2017
 ====================
 
 
 ====================
-     07-27-2017
+     08-19-2017
 ====================
 
-   * frameworks/base/
-7ff58651  Fix my mismerge  [Sagar Shah]
-   * packages/apps/OTAUpdates/
-ac3fba74  CreditsAdapter: Use it's own contributors card layout  [Sagar Shah]
-   * system/core/
-0374182  fingerprintd: Allow devices to use custom fingerprintd  [Sagar Shah]
-   * system/sepolicy/
-65835f1  system_app: Allow OTAUpdates to access the download directory  [Sagar Shah]</Changelog>
+
+====================
+     08-18-2017
+====================
+
+
+====================
+     08-17-2017
+====================
+
+
+====================
+     08-16-2017
+====================
+
+
+====================
+     08-15-2017
+====================
+
+
+====================
+     08-14-2017</Changelog>
 </ROM>
