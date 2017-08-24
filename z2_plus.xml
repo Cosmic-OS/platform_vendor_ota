@@ -1,52 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
   <RomName>Cosmic-OS_z2_plus_7.1.2</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_z2_plus_7.1.2_20170506_1.5-OFFICIAL.zip ]]></VersionName>
-  <VersionNumber type="integer">20170506</VersionNumber>
-  <DirectUrl>https://sourceforge.net/projects/cosmic-os/files/z2_plus/Cosmic-OS_z2_plus_7.1.2_20170506_1.5-OFFICIAL.zip/download</DirectUrl>
+  <VersionName><![CDATA[ Cosmic-OS_z2_plus_7.1.2_20170824_2.1-OFFICIAL ]]></VersionName>
+  <VersionNumber type="integer">20170824</VersionNumber>
+  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/z2_plus/Cosmic-OS_z2_plus_7.1.2_20170824_2.1-OFFICIAL.zip</DirectUrl>
   <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/z2_plus</HttpUrl>
   <Android>7.1.2</Android>
-  <CheckMD5>84ca5722716bc810ee713de490cbce1</CheckMD5>
-  <FileSize type="integer">495727528</FileSize>
-  <Developer>MR.HACKER</Developer>
+  <CheckMD5>e49eafcf7b09c258399601e33b6aee93</CheckMD5>
+  <FileSize type="integer">533864648</FileSize>
+  <Developer>miju12</Developer>
   <WebsiteURL nil="true">cosmic-os.com</WebsiteURL>
   <DonateURL nil="true"/>
   <Changelog>====================
-     04-26-2017
+     08-24-2017
 ====================
 
-   * hardware/qcom/audio-caf/msm8996/
-6bace74  msm8996: audio: Add l/r mic swapping when using stereo mics  [Rashed Abdel-Tawab]
 
 ====================
-     04-25-2017
+     08-23-2017
 ====================
 
-   * external/libchrome/
-7a6a376  Disable all NEON in BoringSSL if has_broken_neon is set.  [B--B]
-   * hardware/libhardware_legacy/
-c7a2a93  wifi: Change USES_TI_MAC80211 to a BoardConfig flag  [B--B]
 
 ====================
-     04-24-2017
+     08-22-2017
 ====================
 
-   * hardware/qcom/audio-caf/msm8996/
-fc1c0d9  Add special case for stereo camcorder  [Ethan Chen]
    * vendor/ota/
-f7dc938  update-2(23-04-2017) A7010a48 (#19)  [Aditya Upreti]
+30233f9  Wt88047: Update wt88047 (#54)  [Nico Franke]
+c5cc747  OTA: Update z2_plus (22/08/2017) (#53)  [Nico Franke]
 
 ====================
-     04-23-2017
+     08-21-2017
 ====================
 
-   * external/boringssl/
-576f4e3  Make CRYPTO_is_NEON_capable aware of the buggy CPU.  [B--B]
-9ad8889  Don't set a default armcap state in dynamic armcap modes.  [B--B]
-8faeb68  Rewrite ARM feature detection.  [B--B]
-a5030bd  Remove CRYPTO_set_NEON_functional.  [B--B]
-   * external/stagefright-plugins/
-3846013  Revert "codecs: Disable AC3/EAC3"  [Jesse Chan]
-   * hardware/qcom/audio-caf/msm8996/
-97baada  hal: Featureize APE/VORBIS/WMA offload support  [dianlujitao]</Changelog>
+
+====================
+     08-20-2017
+====================
+
+
+====================
+     08-19-2017
+====================
+
+   * vendor/cos/
+73ded67  Add Device: z2_plus (#56)  [Nico Franke]
+
+====================
+     08-18-2017
+====================
+
+
+====================
+     08-17-2017
+====================</Changelog>
 </ROM>
