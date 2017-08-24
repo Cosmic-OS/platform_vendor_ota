@@ -1,0 +1,45 @@
+====================
+     08-22-2017
+====================
+
+   * device/zuk/z2_plus/
+dd8d320  Reapply ramdisk tweaks  [miju12]
+fe3c797  Enable Dexpreopt  [miju12]
+6f63197  BoardConfig: add bootanimation boost  [miju12]
+abf9d4c  Modify liblight  [miju12]
+6a55485  z2_plus: rootdir: Enable ZRAM for msm8996 targets  [miju12]
+f7da069  SafetyNet bypass  [miju12]
+6c780c1  OPTIMIZE!  [miju12]
+
+====================
+     08-21-2017
+====================
+
+
+====================
+     08-20-2017
+====================
+
+
+====================
+     08-19-2017
+====================
+
+   * device/zuk/z2_plus/
+2da712d  #OFFICIAL  [miju12]
+c8209fd  update for eas  [miju12]
+8b47b23  update gps  [miju12]
+c746371  Re-enable BCL hotplug  [miju12]
+414d58c  Ramdisk restructure  [miju12]
+126a4be  op3: update boostframework overlays  [miju12]
+1642b66  Add Qualcomm Boost Framework  [miju12]
+b149899  op3: Ensure that perfd is properly started  [miju12]
+c0f7e34  EAS: Implement Vox Populi Power HAL  [miju12]
+1e2a22f  EAS: init: Initialise EAS default values  [miju12]
+82f6314  EAS: init: Start perfd after all perfd properties have been set  [miju12]
+eb9438d  EAS: init.qcom.rc: Create /data/misc/perfd  [miju12]
+973fbf0  EAS: Import Marlin perfd policies  [miju12]
+38b9e1d  EAS: Set ENABLE_SCHEDBOOST  [miju12]
+bd529a2  z2_plus: Add fling velocities props  [miju12]
+   * frameworks/base/
+9c4cdbe  Framework: Fix GSM signal strength  [miju12]
