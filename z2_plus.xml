@@ -1,28 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
   <RomName>Cosmic-OS_z2_plus_7.1.2</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_z2_plus_7.1.2_20170822_2.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20170822</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/z2_plus/Cosmic-OS_z2_plus_7.1.2_20170822_2.1-OFFICIAL.zip</DirectUrl>
+  <VersionName><![CDATA[ Cosmic-OS_z2_plus_7.1.2_20170824_2.1-OFFICIAL ]]></VersionName>
+  <VersionNumber type="integer">20170824</VersionNumber>
+  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/z2_plus/Cosmic-OS_z2_plus_7.1.2_20170824_2.1-OFFICIAL.zip</DirectUrl>
   <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/z2_plus</HttpUrl>
   <Android>7.1.2</Android>
-  <CheckMD5>bf87d08c9b0cf418b1153197b03b285d</CheckMD5>
-  <FileSize type="integer">534285254</FileSize>
+  <CheckMD5>e49eafcf7b09c258399601e33b6aee93</CheckMD5>
+  <FileSize type="integer">533864648</FileSize>
   <Developer>miju12</Developer>
   <WebsiteURL nil="true">cosmic-os.com</WebsiteURL>
   <DonateURL nil="true"/>
   <Changelog>====================
+     08-24-2017
+====================
+
+
+====================
+     08-23-2017
+====================
+
+
+====================
      08-22-2017
 ====================
 
-   * device/zuk/z2_plus/
-dd8d320  Reapply ramdisk tweaks  [miju12]
-fe3c797  Enable Dexpreopt  [miju12]
-6f63197  BoardConfig: add bootanimation boost  [miju12]
-abf9d4c  Modify liblight  [miju12]
-6a55485  z2_plus: rootdir: Enable ZRAM for msm8996 targets  [miju12]
-f7da069  SafetyNet bypass  [miju12]
-6c780c1  OPTIMIZE!  [miju12]
+   * vendor/ota/
+30233f9  Wt88047: Update wt88047 (#54)  [Nico Franke]
+c5cc747  OTA: Update z2_plus (22/08/2017) (#53)  [Nico Franke]
 
 ====================
      08-21-2017
@@ -38,22 +43,15 @@ f7da069  SafetyNet bypass  [miju12]
      08-19-2017
 ====================
 
-   * device/zuk/z2_plus/
-2da712d  #OFFICIAL  [miju12]
-c8209fd  update for eas  [miju12]
-8b47b23  update gps  [miju12]
-c746371  Re-enable BCL hotplug  [miju12]
-414d58c  Ramdisk restructure  [miju12]
-126a4be  op3: update boostframework overlays  [miju12]
-1642b66  Add Qualcomm Boost Framework  [miju12]
-b149899  op3: Ensure that perfd is properly started  [miju12]
-c0f7e34  EAS: Implement Vox Populi Power HAL  [miju12]
-1e2a22f  EAS: init: Initialise EAS default values  [miju12]
-82f6314  EAS: init: Start perfd after all perfd properties have been set  [miju12]
-eb9438d  EAS: init.qcom.rc: Create /data/misc/perfd  [miju12]
-973fbf0  EAS: Import Marlin perfd policies  [miju12]
-38b9e1d  EAS: Set ENABLE_SCHEDBOOST  [miju12]
-bd529a2  z2_plus: Add fling velocities props  [miju12]
-   * frameworks/base/
-9c4cdbe  Framework: Fix GSM signal strength  [miju12]</Changelog>
+   * vendor/cos/
+73ded67  Add Device: z2_plus (#56)  [Nico Franke]
+
+====================
+     08-18-2017
+====================
+
+
+====================
+     08-17-2017
+====================</Changelog>
 </ROM>
