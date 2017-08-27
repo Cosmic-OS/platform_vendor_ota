@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_wt88047_7.1.2</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_wt88047_7.1.2_20170827_2.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20170827</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/wt88047/Cosmic-OS_wt88047_7.1.2_20170827_2.1-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/wt88047</HttpUrl>
-  <Android>7.1.2</Android>
-  <CheckMD5>9748bb2e7d98d552ff5125bc1a3a7640</CheckMD5>
-  <FileSize type="integer">324367120</FileSize>
-  <Developer>Keertesh19</Developer>
-  <WebsiteURL nil="true">cosmic-os.com</WebsiteURL>
-  <DonateURL nil="true"/>
-  <Changelog>====================
+====================
      08-27-2017
 ====================
 
@@ -55,5 +42,4 @@ bf91552  Use Destroyer Kernel  [GitHub]
    * device/wingtech/wt88047/
 ec679d5  Update cos.dependencies  [GitHub]
 
-====================</Changelog>
-</ROM>
+====================
