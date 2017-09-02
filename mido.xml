@@ -1,1 +1,17 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<ROM>
+  <RomName>Cosmic-OS_mido_7.1.2</RomName>
+  <VersionName><![CDATA[ CCosmic-OS_mido_7.1.2_20170902_2.1-OFFICIAL ]]></VersionName>
+  <VersionNumber type="integer">20170902</VersionNumber>
+  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/z2_plus/Cosmic-OS_z2_plus_7.1.2_20170824_2.1-OFFICIAL.zip</DirectUrl>
+  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/mido</HttpUrl>
+  <Android>7.1.2</Android>
+  <CheckMD5>e49eafcf7b09c258399601e33b6aee93</CheckMD5>
+  <FileSize type="integer">533864648</FileSize>
+  <Developer>MakeMeCool</Developer>
+  <WebsiteURL nil="true">cosmic-os.com</WebsiteURL>
+  <DonateURL nil="true"/>
+  <Changelog>====================
+     09-02-2017
+====================</Changelog>
+</ROM>
