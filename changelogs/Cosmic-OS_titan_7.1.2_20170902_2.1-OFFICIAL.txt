@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_titan_7.1.2</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_titan_7.1.2_20170902_2.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20170902</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/titan/Cosmic-OS_titan_7.1.2_20170902_2.1-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/titan</HttpUrl>
-  <Android>7.1.2</Android>
-  <CheckMD5>85c9c1939e28d53397371e671b680917</CheckMD5>
-  <FileSize type="integer">334982863</FileSize>
-  <Developer>jackcicci</Developer>
-  <WebsiteURL nil="true">cosmic-os.com</WebsiteURL>
-  <DonateURL nil="true"/>
-  <Changelog>OTA update Titan
+OTA update Titan
 
 ====================
      09-02-2017
@@ -57,5 +44,4 @@ ff0aa81  Add strings for devices' custom gesture handlers  [Bruno Martins]
 9461b29  FIx sync fail (#12)  [Sidharth Soni]
 
 ====================
-     08-26-2017</Changelog>
-</ROM>
+     08-26-2017
