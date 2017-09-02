@@ -6,7 +6,7 @@
   <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/z2_plus/Cosmic-OS_z2_plus_7.1.2_20170824_2.1-OFFICIAL.zip</DirectUrl>
   <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/mido</HttpUrl>
   <Android>7.1.2</Android>
-  <CheckMD5>e49eafcf7b09c258399601e33b6aee93</CheckMD5>
+  <CheckMD5>eb9da479c2032396fb4c6f414f2c02f7</CheckMD5>
   <FileSize type="integer">533864648</FileSize>
   <Developer>MakeMeCool</Developer>
   <WebsiteURL nil="true">cosmic-os.com</WebsiteURL>
