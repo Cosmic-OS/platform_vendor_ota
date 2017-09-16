@@ -38,33 +38,5 @@ f5a8e83b  Equalizer: Check value size for get preset name  [Dan Pasanen]
 7da7e5ea  Equalizer: Check value size for get preset name  [Dan Pasanen]
    * hardware/qcom/audio-caf/msm8996/
 53c7f741  Equalizer: Check value size for get preset name  [Dan Pasanen]
-
-====================
-     09-15-2017
-====================
-
-
-====================
-     09-14-2017
-====================
-
-
-====================
-     09-13-2017
-====================
-
-
-====================
-     09-12-2017
-====================
-
-
-====================
-     09-11-2017
-====================
-
-   * hardware/qcom/media-caf/msm8974/
-209a13cf5  mm-video-v4l2: venc: Protect buffer from being freed while accessing  [Kevin F. Haggerty]
-
 ====================</Changelog>
 </ROM>
