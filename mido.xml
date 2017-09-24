@@ -1,42 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
   <RomName>Cosmic-OS_mido_7.1.2</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_mido_7.1.2_20170916_2.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20170916</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/mido/Cosmic-OS_mido_7.1.2_20170916_2.1-OFFICIAL.zip</DirectUrl>
+  <VersionName><![CDATA[ Cosmic-OS_mido_7.1.2_20170924_2.1-OFFICIAL ]]></VersionName>
+  <VersionNumber type="integer">20170924</VersionNumber>
+  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/mido/Cosmic-OS_mido_7.1.2_20170922_2.1-OFFICIAL.zip</DirectUrl>
   <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/mido</HttpUrl>
   <Android>7.1.2</Android>
-  <CheckMD5>6246bf1074f22d2f86e5684dcf41fc34</CheckMD5>
-  <FileSize type="integer">516407177</FileSize>
+  <CheckMD5></CheckMD5>
+  <FileSize type="integer"></FileSize>
   <Developer>MakeMeCool</Developer>
   <WebsiteURL nil="true">cosmic-os.com</WebsiteURL>
   <DonateURL nil="true"/>
   <Changelog>====================
+     09-22-2017
+====================
+    
+    * Mido OTA Changelog (24-09-2017)
+    
+     - Kernel is Improved
+     - Much Smoother than the Previous Build
+     - Fingerprint Updated with Stock MIUI 9 (7.0/NRD90M/V8.5.4.0.NCFMIED)
+     - Fingerprint is now very fast in this build
+    
+[NOTE : After Download of this OTA Package you can not direcly flash the package with the Updater App. The OTA pack 
+        Downloaded in Cosmic Folder of your device's Internal Storage. Please flash the Package in TWRP Recovery]    
+
+
+====================
+     09-21-2017
+====================
+
+
+====================
+     09-20-2017
+====================
+
+
+====================
+     09-19-2017
+====================
+
+
+====================
+     09-18-2017
+====================
+
+
+====================
+     09-17-2017
+====================
+
+
+====================
      09-16-2017
 ====================
 
-   * Mido OTA Changelog (16-09-2017)
-    
-     - Kernel Upstreamed(Linux Version Now 3.18.70)
-     - Much Smoother than the Previous Build
-     - Fingerprint Updated with Stock MIUI 9 (7.0/NRD90M/V8.5.4.0.NCFMIED)
-     - Fast Chnaging Support in Kernel
-     - Use more cores for faster app installation
-    
-[NOTE : After Download of this OTA Package you can not direcly flash the package with the Updater App. The OTA pack 
-        Downloaded in Cosmic Folder of your device's Internal Storage. Please flash the Package in TWRP Recovery]
-    
+   * vendor/ota/
+840e71e  Mido OTA Update 16-09-2017 (#60)  [Sidharth Soni]
+
+====================
+     09-15-2017
+====================
+
    * hardware/qcom/audio-caf/msm8916/
 7a797d40  Equalizer: Check value size for get preset name  [Dan Pasanen]
    * hardware/qcom/audio-caf/msm8952/
-0bf8b308  Equalizer: Check value size for get preset name  [Dan Pasanen]
-   * hardware/qcom/audio-caf/msm8960/
-01e8f3b2  Equalizer: Check value size for get preset name  [Dan Pasanen]
-   * hardware/qcom/audio-caf/msm8974/
-f5a8e83b  Equalizer: Check value size for get preset name  [Dan Pasanen]
-   * hardware/qcom/audio-caf/msm8994/
-7da7e5ea  Equalizer: Check value size for get preset name  [Dan Pasanen]
-   * hardware/qcom/audio-caf/msm8996/
-53c7f741  Equalizer: Check value size for get preset name  [Dan Pasanen]
-====================</Changelog>
+0bf8b308  Equalizer: Check value size for get preset name  [Dan Pasanen]</Changelog>
 </ROM>
