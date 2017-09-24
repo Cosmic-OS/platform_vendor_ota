@@ -1,0 +1,54 @@
+====================
+     09-22-2017
+====================
+
+* Mido OTA Changelog (24-09-2017)
+    
+     - Kernel is Improved
+     - Much Smoother than the Previous Build
+     - Fingerprint Updated with Stock MIUI 9 (7.0/NRD90M/V8.5.4.0.NCFMIED)
+     - Fingerprint is now very fast in this build
+    
+[NOTE : After Download of this OTA Package you can not direcly flash the package with the Updater App. The OTA pack 
+        Downloaded in Cosmic Folder of your device's Internal Storage. Please flash the Package in TWRP Recovery]    
+
+====================
+     09-21-2017
+====================
+
+
+====================
+     09-20-2017
+====================
+
+
+====================
+     09-19-2017
+====================
+
+
+====================
+     09-18-2017
+====================
+
+
+====================
+     09-17-2017
+====================
+
+
+====================
+     09-16-2017
+====================
+
+   * vendor/ota/
+840e71e  Mido OTA Update 16-09-2017 (#60)  [Sidharth Soni]
+
+====================
+     09-15-2017
+====================
+
+   * hardware/qcom/audio-caf/msm8916/
+7a797d40  Equalizer: Check value size for get preset name  [Dan Pasanen]
+   * hardware/qcom/audio-caf/msm8952/
+0bf8b308  Equalizer: Check value size for get preset name  [Dan Pasanen]
