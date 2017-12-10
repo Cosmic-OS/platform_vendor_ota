@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROM>
+  <RomName>Cosmic-OS_sanders_8.0.0</RomName>
+  <VersionName><![CDATA[ Cosmic-OS_Chronus_sanders_8.0.0_20171210_3.0.1-BETA ]]></VersionName>
+  <VersionNumber type="integer">20171210</VersionNumber>
+  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/sanders/Cosmic-OS_Chronus_sanders_8.0.0_20171210_3.0.1-BETA.zip</DirectUrl>
+  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/sanders</HttpUrl>
+  <Android>8.0.0</Android>
+  <CheckMD5>1709f0164cd521c9535543f7409c8179</CheckMD5>
+  <FileSize type="integer">411919622</FileSize>
+  <Developer>Keertesh</Developer>
+  <WebsiteURL nil="true">cosmic-os.github.io</WebsiteURL>
+  <DonateURL nil="true"/>paypal.me/Cosmic-OS</DonateURL>
+  <Changelog></Changelog>
+</ROM>
