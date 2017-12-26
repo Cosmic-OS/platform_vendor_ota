@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROM>
+  <RomName>Cosmic-OS_gemini_8.1.0</RomName>
+  <VersionName><![CDATA[ Cosmic-OS_Universe_gemini_8.1.0_20171226_3.1-OFFICIAL ]]></VersionName>
+  <VersionNumber type="integer">20171226</VersionNumber>
+  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/gemini/Cosmic-OS_Universe_gemini_8.1.0_20171226_3.1-OFFICIAL.zip</DirectUrl>
+  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/gemini</HttpUrl>
+  <Android>8.1.0</Android>
+  <CheckMD5>f6d2f599cacdd2a6c2568964bc8bdf79</CheckMD5>
+  <FileSize type="integer">476620617</FileSize>
+  <Developer>Sebastian</Developer>
+  <WebsiteURL nil="true">cosmic-os.github.io</WebsiteURL>
+  <DonateURL nil="true"/>paypal.me/Cosmic-OS</DonateURL>
+  <Changelog></Changelog>
+</ROM>
