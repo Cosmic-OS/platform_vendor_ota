@@ -1,57 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
-  <RomName>Cosmic-OS_mido_7.1.2</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_mido_7.1.2_20170909_2.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20170909</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/mido/Cosmic-OS_mido_7.1.2_20170909_2.1-OFFICIAL.zip</DirectUrl>
+  <RomName>Cosmic-OS_mido_8.1.0</RomName>
+  <VersionName><![CDATA[ Cosmic-OS_Universe_mido_8.1.0_20171229_3.1-OFFICIAL ]]></VersionName>
+  <VersionNumber type="integer">20171229</VersionNumber>
+  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/mido/Cosmic-OS_Universe_mido_8.1.0_20171229_3.1-OFFICIAL.zip</DirectUrl>
   <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/mido</HttpUrl>
-  <Android>7.1.2</Android>
-  <CheckMD5>c0426bdb63dac20726f75c88bbffcc03</CheckMD5>
-  <FileSize type="integer">516403633</FileSize>
-  <Developer>MakeMeCool</Developer>
-  <WebsiteURL nil="true">cosmic-os.com</WebsiteURL>
-  <DonateURL nil="true"/>
-  <Changelog>====================
-     09-09-2017
-====================
-
-
-====================
-     09-08-2017
-====================
-
-
-====================
-     09-07-2017
-====================
-
-
-====================
-     09-06-2017
-====================
-
-
-====================
-     09-05-2017
-====================
-
-
-====================
-     09-04-2017
-====================
-
-
-====================
-     09-03-2017
-====================
-
-
-====================
-     09-02-2017
-====================
-
-
-====================
-     09-01-2017
-====================</Changelog>
+  <Android>8.1.0</Android>
+  <CheckMD5></CheckMD5>
+  <FileSize type="integer"></FileSize>
+  <Developer>ManoloRey</Developer>
+  <WebsiteURL nil="true">cosmic-os.github.io</WebsiteURL>
+  <DonateURL nil="true"/>paypal.me/Cosmic-OS</DonateURL>
+  <Changelog></Changelog>
 </ROM>
