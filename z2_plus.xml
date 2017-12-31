@@ -1,57 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
-  <RomName>Cosmic-OS_z2_plus_7.1.2</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_z2_plus_7.1.2_20170824_2.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20170824</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/z2_plus/Cosmic-OS_z2_plus_7.1.2_20170824_2.1-OFFICIAL.zip</DirectUrl>
+  <RomName>Cosmic-OS_z2_plus_8.1.0</RomName>
+  <VersionName><![CDATA[ Cosmic-OS_Universe_z2_plus_8.1.0_20171231_3.1-OFFICIAL ]]></VersionName>
+  <VersionNumber type="integer">20171231</VersionNumber>
+  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/z2_plus/Cosmic-OS_Universe_z2_plus_8.1.0_20171231_3.1-OFFICIAL.zip</DirectUrl>
   <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/z2_plus</HttpUrl>
-  <Android>7.1.2</Android>
-  <CheckMD5>e49eafcf7b09c258399601e33b6aee93</CheckMD5>
-  <FileSize type="integer">533864648</FileSize>
+  <Android>8.1.0</Android>
+  <CheckMD5>0a7efb84f6d3da811982cdbf2575e390</CheckMD5>
+  <FileSize type="integer">497256412</FileSize>
   <Developer>miju12</Developer>
-  <WebsiteURL nil="true">cosmic-os.com</WebsiteURL>
-  <DonateURL nil="true"/>
-  <Changelog>====================
-     08-24-2017
-====================
-
-
-====================
-     08-23-2017
-====================
-
-
-====================
-     08-22-2017
-====================
-
-   * vendor/ota/
-30233f9  Wt88047: Update wt88047 (#54)  [Nico Franke]
-c5cc747  OTA: Update z2_plus (22/08/2017) (#53)  [Nico Franke]
-
-====================
-     08-21-2017
-====================
-
-
-====================
-     08-20-2017
-====================
-
-
-====================
-     08-19-2017
-====================
-
-   * vendor/cos/
-73ded67  Add Device: z2_plus (#56)  [Nico Franke]
-
-====================
-     08-18-2017
-====================
-
-
-====================
-     08-17-2017
-====================</Changelog>
+  <WebsiteURL nil="true">cosmic-os.github.io</WebsiteURL>
+  <DonateURL nil="true"/>paypal.me/Cosmic-OS</DonateURL>
+  <Changelog></Changelog>
 </ROM>
