@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
   <RomName>Cosmic-OS_mido_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Universe_mido_8.1.0_20171229_3.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20171229</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/mido/Cosmic-OS_Universe_mido_8.1.0_20171229_3.1-OFFICIAL.zip</DirectUrl>
+  <VersionName><![CDATA[ Cosmic-OS_Universe_mido_8.1.0_20180103_3.1-OFFICIAL ]]></VersionName>
+  <VersionNumber type="integer">20180103</VersionNumber>
+  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/mido/Cosmic-OS_Universe_mido_8.1.0_20180103_3.1-OFFICIAL.zip</DirectUrl>
   <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/mido</HttpUrl>
   <Android>8.1.0</Android>
-  <CheckMD5></CheckMD5>
-  <FileSize type="integer"></FileSize>
+  <CheckMD5>606f86f3b679da98adc3b6ca0aa95a4e</CheckMD5>
+  <FileSize type="integer">482712225</FileSize>
   <Developer>ManoloRey</Developer>
   <WebsiteURL nil="true">cosmic-os.github.io</WebsiteURL>
   <DonateURL nil="true"/>paypal.me/Cosmic-OS</DonateURL>
