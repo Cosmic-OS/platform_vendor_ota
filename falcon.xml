@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROM>
+  <RomName>Cosmic-OS_falcon_8.1.0</RomName>
+  <VersionName><![CDATA[ Cosmic-OS_Universe_falcon_8.1.0_20180106_3.1-OFFICIAL ]]></VersionName>
+  <VersionNumber type="integer">20180106</VersionNumber>
+  <DirectUrl>http://downloads.hostingsharedbox.com/ascarex/privated/cos/falcon/Cosmic-OS_Universe_falcon_8.1.0_20180106_3.1-OFFICIAL.zip</DirectUrl>
+  <HttpUrl>http://downloads.hostingsharedbox.com/ascarex/privated/cos/falcon/</HttpUrl>
+  <Android>8.1.0</Android>
+  <CheckMD5>8197e9fcc35d57cf2c2aec8191afd078</CheckMD5>
+  <FileSize type="integer">281702798</FileSize>
+  <Developer>klozz(TeamMEX)</Developer>
+  <WebsiteURL nil="true">cosmic-os.github.io</WebsiteURL>
+  <DonateURL nil="true"/>paypal.me/Cosmic-OS</DonateURL>
+  <Changelog></Changelog>
+</ROM>
