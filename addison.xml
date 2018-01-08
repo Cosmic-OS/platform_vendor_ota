@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
   <RomName>Cosmic-OS_addison_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Universe_addison_8.1.0_20180106_3.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180106</VersionNumber>
-  <DirectUrl>http://downloads.hostingsharedbox.com/ascarex/privated/cos/addison/Cosmic-OS_Universe_addison_8.1.0_20180106_3.1-OFFICIAL.zip</DirectUrl>
+  <VersionName><![CDATA[ Cosmic-OS_Universe_addison_8.1.0_20180108_3.1-OFFICIAL ]]></VersionName>
+  <VersionNumber type="integer">20180108</VersionNumber>
+  <DirectUrl>http://downloads.hostingsharedbox.com/ascarex/privated/cos/addison/Cosmic-OS_Universe_addison_8.1.0_20180108_3.1-OFFICIAL.zip</DirectUrl>
   <HttpUrl>http://downloads.hostingsharedbox.com/ascarex/privated/cos/addison/</HttpUrl>
   <Android>8.1.0</Android>
-  <CheckMD5>d1f28c32de4dec4867cebd5380e59f7e</CheckMD5>
-  <FileSize type="integer">504358086</FileSize>
+  <CheckMD5>513cedd46c6485d4ccdc0d043d1e2628</CheckMD5>
+  <FileSize type="integer">503119735</FileSize>
   <Developer>klozz(TeamMEX)</Developer>
   <WebsiteURL nil="true">cosmic-os.github.io</WebsiteURL>
   <DonateURL nil="true"/>paypal.me/Cosmic-OS</DonateURL>
-  <Changelog></Changelog>
+  <Changelog>
+    Device related:
+    * Fixed Fingerprint issues 
+  </Changelog>
 </ROM>
