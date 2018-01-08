@@ -1,59 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
-  <RomName>Cosmic-OS_kenzo_7.1.1</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_kenzo_7.1.2_20170506_1.5-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20170506</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/kenzo/Cosmic-OS_kenzo_7.1.2_20170506_1.5-OFFICIAL.zip</DirectUrl>
+  <RomName>Cosmic-OS_kenzo_8.1.0</RomName>
+  <VersionName><![CDATA[ Cosmic-OS_Universe_kenzo_8.1.0_20180108_3.1-OFFICIAL ]]></VersionName>
+  <VersionNumber type="integer">20180108</VersionNumber>
+  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/kenzo/Cosmic-OS_Universe_kenzo_8.1.0_20180108_3.1-OFFICIAL.zip</DirectUrl>
   <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/kenzo</HttpUrl>
-  <Android>7.1.1</Android>
-  <CheckMD5>1434034708acb52cdf923515a96a1043</CheckMD5>
-  <FileSize type="integer">508094035</FileSize>
+  <Android>8.1.0</Android>
+  <CheckMD5></CheckMD5>
+  <FileSize type="integer"></FileSize>
   <Developer>rocknegi</Developer>
-  <WebsiteURL nil="true">cosmic-os.com</WebsiteURL>
-  <DonateURL nil="true"/>
-  <Changelog>====================
-     05-06-2017
-====================
-
-   * build/kati/
-a5717fe  kati: Silence FindEmulator  [MZO9400]
-   * device/xiaomi/msm8956-common/
-4f7990b  Revert "Move powerhal to common"  [rohit]
-
-====================
-     05-05-2017
-====================
-
-   * device/xiaomi/kenzo/
-8064fd9  update dependencies  [rohit]
-5701bee  move camera to common trees  [rohit]
-d6d7a3a  kenzo: Add goodix services and sepolicy  [rohit]
-6131b1b  kenzo: Support Goodix fingerprint  [rohit]
-50cad8c  kenzo: Remove unused fpc firmware  [rohit]
-   * device/xiaomi/msm8956-common/
-8cd7e37  Fix derp  [rohit]
-70a96b5  Build Doze  [rohit]
-4f27478  doze: Add dashboard summary  [rohit]
-658c25d  msm8956: doze: Use commonized strings translations  * Translations from the new    *     android_packages_resources_devicesettings  [rohit]
-4b41adf  msm8956: Bring back AOSP Doze  [rohit]
-4ded542  Bring back XiaomiDoze  [rohit]
-bdc322c  msm8956: Start qseecomd on post-fs  [rohit]
-f938e11  msm8956: rootdir: Update power configs  [rohit]
-17f3ff1  msm8956: Uncomment OSNLP_PACKAGE , OSNLP_ACTION  [rohit]
-f3737c3  msm8956: Stop the QC-QMI message spam  [rohit]
-   * external/boringssl/
-a219252  Merge tag 'android-7.1.2_r8' into aosp-7.1.2  [B--B]
-   * system/bt/
-45ddac7  Merge tag 'android-7.1.2_r8' into aosp-7.1.2  [B--B]
-   * vendor/ota/
-55a0ec9  OTA: Update A7010a48 (04/05/2017) (#23)  [Aditya Upreti]
-
-====================
-     05-04-2017
-====================
-
-   * frameworks/base/
-72e757d  Add Pulse Lava Lamp start and end colours (1/3)  [Sagar Shah]
-   * packages/apps/Settings/
-c3cab1f  Misc Fixes after Rebase  [Sagar Shah]</Changelog>
+  <WebsiteURL nil="true">cosmic-os.github.io</WebsiteURL>
+  <DonateURL nil="true"/>paypal.me/Cosmic-OS</DonateURL>
+  <Changelog></Changelog>
 </ROM>
