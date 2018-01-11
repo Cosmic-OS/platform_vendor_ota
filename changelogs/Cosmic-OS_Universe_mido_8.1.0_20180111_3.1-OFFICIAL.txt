@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_mido_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Universe_mido_8.1.0_20180111_3.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180111</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/mido/Cosmic-OS_Universe_mido_8.1.0_20180111_3.1-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/mido</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5>4a3a370b9fad71b7bb0bbe3d59cbf171</CheckMD5>
-  <FileSize type="integer">479309700</FileSize>
-  <Developer>ManoloRey</Developer>
-  <WebsiteURL nil="true">cosmic-os.github.io</WebsiteURL>
-  <DonateURL nil="true"/>paypal.me/Cosmic-OS</DonateURL>
-  <Changelog>====================
+====================
      01-11-2018
 ====================
 
@@ -55,5 +42,4 @@ babbad9  SEEMP: framework instrumentation and AppProtect features  [Sagar Shah]
 d3cfab7  Merge tag 'android-8.1.0_r7' into oreo-mr1  [Sebastian]
    * frameworks/native/
 3353865  Merge tag 'android-8.1.0_r7' into oreo-mr1  [Sebastian]
-   * manifest/</Changelog>
-</ROM>
+   * manifest/
