@@ -1,0 +1,45 @@
+====================
+     01-14-2018
+====================
+
+   * device/lenovo/kuntao/
+c451434  Update vendorsetup.sh  [GitHub]
+6d1c6b3  Update cos.mk  [GitHub]
+   * vendor/cos/
+b1c0e2c  ADD lenovo p2 (#71)  [Sagar Shah]
+   * vendor/ota/
+cb5bbfa  OTA: Update kuntao (13/01/2018) (#75)  [Sagar Shah]
+
+====================
+     01-13-2018
+====================
+
+   * vendor/cos/
+ec3930a  Update cosmic app to V1.2.1  [zeromod]
+
+====================
+     01-12-2018
+====================
+
+   * build/make/
+a05c9f342  Fix Changelog Generation  [Sagar Shah]
+   * frameworks/base/
+b5433085ff7  Optimize IncallUI delay for voice calls  [Sagar Shah]
+caf7e35f0ac  CellularTile: stop annoying me, Google  [Sagar Shah]
+   * manifest/
+1c78665  Add STK  [Sagar Shah]
+   * packages/apps/Recorder/
+08b314f  Recorder: Avoid NPE when screen recording is about to finish  [Sagar Shah]
+   * packages/apps/Stk/
+965f948  STK application should not show the STK menu for unsupported card.  [Sagar Shah]
+   * system/bt/
+ee001af2  Add support force disable sco enhanced sync commands  [Sagar Shah]
+   * vendor/ota/
+3351ee6  OTA: Update gemini (11/01/2018) (#74)  [GitHub]
+bd87393  OTA: Update mido (11/01/2018) (#73)  [Sagar Shah]
+
+====================
+     01-11-2018
+====================
+
+   * build/make/
