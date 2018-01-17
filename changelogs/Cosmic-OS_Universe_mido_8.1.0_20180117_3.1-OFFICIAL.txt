@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_mido_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Universe_mido_8.1.0_20180117_3.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180117</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/mido/Cosmic-OS_Universe_mido_8.1.0_20180117_3.1-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/mido</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5>15517155464e9ad019ebe5503799764b</CheckMD5>
-  <FileSize type="integer">479843361</FileSize>
-  <Developer>ManoloRey</Developer>
-  <WebsiteURL nil="true">cosmic-os.github.io</WebsiteURL>
-  <DonateURL nil="true"/>paypal.me/Cosmic-OS</DonateURL>
-  <Changelog>====================
+====================
      01-17-2018
 ====================
 
@@ -55,5 +42,4 @@ cb5bbfa  OTA: Update kuntao (13/01/2018) (#75)  [Sagar Shah]
 
    * build/make/
 a05c9f3  Fix Changelog Generation  [Sagar Shah]
-   * frameworks/base/</Changelog>
-</ROM>
+   * frameworks/base/
