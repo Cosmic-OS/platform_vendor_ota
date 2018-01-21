@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_kenzo_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Universe_kenzo_8.1.0_20180121_3.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180121</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/kenzo/Cosmic-OS_Universe_kenzo_8.1.0_20180121_3.1-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/kenzo</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5>d4fc7abea7360c6672f1d9013c0ab670</CheckMD5>
-  <FileSize type="integer">470265099</FileSize>
-  <Developer>rocknegi</Developer>
-  <WebsiteURL nil="true">cosmic-os.github.io</WebsiteURL>
-  <DonateURL nil="true"/>paypal.me/Cosmic-OS</DonateURL>
-  <Changelog>====================
+====================
      01-21-2018
 ====================
 
@@ -55,5 +42,4 @@ c7fcc82  sepolicy: allow system server to change hw buttons prop  [Sagar Shah]
    * frameworks/base/
 498249a  fingerprint: notify client when cancelling succeeded  [Sagar Shah]
 1196905  Optimize IncallUI delay for voice calls  [Sagar Shah]
-a1d7436  CellularTile: stop annoying me, Google  [Sagar Shah]</Changelog>
-</ROM>
+a1d7436  CellularTile: stop annoying me, Google  [Sagar Shah]
