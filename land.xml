@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROM>
+  <RomName>Cosmic-OS_land_8.1.0</RomName>
+  <VersionName><![CDATA[ Cosmic-OS_Universe_land_8.1.0_20180122_3.1-OFFICIAL ]]></VersionName>
+  <VersionNumber type="integer">20180122</VersionNumber>
+  <DirectUrl>http://downloads.hostingsharedbox.com/ascarex/privated/cos/land/Cosmic-OS_Universe_land_8.1.0_20180122_3.1-OFFICIAL.zip</DirectUrl>
+  <HttpUrl>http://downloads.hostingsharedbox.com/ascarex/privated/cos/land</HttpUrl>
+  <Android>8.1.0</Android>
+  <CheckMD5>e83ba90b74aab25bb5d9a08d0860efa1</CheckMD5>
+  <FileSize type="integer">497886145</FileSize>
+  <Developer>klozz(TeamMEX)</Developer>
+  <WebsiteURL nil="true">cosmic-os.github.io</WebsiteURL>
+  <DonateURL nil="true"/>paypal.me/Cosmic-OS</DonateURL>
+  <Changelog>====================
+     01-22-2018
+====================
+
+   * bionic/
+7860377  Squashed revert of FUTEX_WAIT_BITSET related patches  [klozz]
+   * frameworks/av/
+310eab4  libstagefright: use 64-bit usage in native_window_set_usage call  [Sagar Shah]
+08bac20  audiopolicy: fix unexpected output selection for direct pcm usecase  [Sagar Shah]
+4788eac  audiopolicy: fix wrong volume db value for voice call stream  [Sagar Shah]
+cda0970  audioflinger: fix for playback paused during track transition  [Sagar Shah]
+3190b87  audio: Update anchor time for offload playback post resume  [Sagar Shah]
+3f6bdf0  audio flinger: Fix native crash during underruns for patch track  [Sagar Shah]
+daefa07  audio: hold effect mutex when releasing effect engine  [Sagar Shah]
+795428f  audiopolicy: support extended feature in audiopolicymanager  [Sagar Shah]
+0b2d12a  audio: enable post processing effects on DIRECT output thread  [Sagar Shah]
+6fe7e94  Camera: Add extensions to CameraClient  [Sagar Shah]
+f525217  Camera: Add support for preview frame fd  [Sagar Shah]
+74d1959  CamcorderProfiles: Add new camcorder profiles  [Sagar Shah]
+f4ae684  camera:Adjust for new header Android.bp requirements  [Sagar Shah]
+9e5216f  CameraService: Fix deadlock in binder death cleanup.  [Sagar Shah]
+1a5908a  media: Remove duplication declaration of debuggable  [Sagar Shah]
+bc2442f  Conditionally revert "CameraService: Allow HAL to handle video buffer duped FD's."  [Sagar Shah]
+027812c  Fix memory leak warning in FwdLockEngine.cpp  [Sagar Shah]
+5ebb245  libstagefright: encoder must exist when source starting  [Sagar Shah]
+ec01cfc  Camera: Add null check on mDevice to avoid crash  [Sagar Shah]
+0f5456c  cameraserver: disable background scheduling of cameraserver  [Sagar Shah]
+559e06a  ACodec: Fix video autoscaling on old OMX decoders  [Sagar Shah]
+e8daae1  camera: Allow camera HAL to get caller package  [Sagar Shah]
+c0cf314  Camera: Add NULL check on mDevice to avoid crash.  [Sagar Shah]
+07fbbac  OMXNodeInstance: Fix legacy HAL1 after merge of android-7.1.0_r7  [Sagar Shah]
+a9b1418  libstagefright: Support for legacy camera/encoder buffers  [Sagar Shah]
+8e230ce  camera/media: Support for legacy camera HALv1  [Sagar Shah]
+1215876  libcameraservice: Don't pass NULL args on setCallbacks call  [Sagar Shah]
+208a0f8  nuplayer: Avoid crash when codec fails to load  [Sagar Shah]
+21e0d7b  MTP: Return nullptr, not NULL  [Sagar Shah]
+2e2ae4b  libstagefright: Support YVU420SemiPlanar camera format  [Sagar Shah]
+4518a3f  audioflinger: Fix audio for WifiDisplay  [Sagar Shah]
+ec201c5  cameraservice: Resolve message vs start/stop preview races  [Sagar Shah]
+99da1d5  camera: Don't segfault if we get a NULL parameter  [Sagar Shah]
+c55b1da  MTP: Fix crash when no storages are available  [Sagar Shah]
+94d5c6f  audiopolicy: make audio policy extensible  [Sagar Shah]
+2ac250b  stagefright: Fix buffer handle retrieval in signalBufferReturned  [Sagar Shah]
+202ba21  camera: include: Don't override possible overlayed header  [Sagar Shah]
+a31d289  stagefright: omx: Don't signal dataspace change on legacy QCOM  [Sagar Shah]</Changelog>
+</ROM>
