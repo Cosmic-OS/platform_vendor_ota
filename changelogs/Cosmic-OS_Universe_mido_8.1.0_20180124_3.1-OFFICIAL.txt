@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_mido_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Universe_mido_8.1.0_20180124_3.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180124</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/mido/Cosmic-OS_Universe_mido_8.1.0_20180124_3.1-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/mido</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5>a0fd295852d14b365e2e7bcc79fc5262</CheckMD5>
-  <FileSize type="integer">476428791</FileSize>
-  <Developer>ManoloRey</Developer>
-  <WebsiteURL nil="true">cosmic-os.github.io</WebsiteURL>
-  <DonateURL nil="true"/>paypal.me/Cosmic-OS</DonateURL>
-  <Changelog>====================
+====================
      01-24-2018
 ====================
 
@@ -55,5 +42,4 @@ ec01cfc  Camera: Add null check on mDevice to avoid crash  [Sagar Shah]
 559e06a  ACodec: Fix video autoscaling on old OMX decoders  [Sagar Shah]
 e8daae1  camera: Allow camera HAL to get caller package  [Sagar Shah]
 c0cf314  Camera: Add NULL check on mDevice to avoid crash.  [Sagar Shah]
-07fbbac  OMXNodeInstance: Fix legacy HAL1 after merge of android-7.1.0_r7  [Sagar Shah]</Changelog>
-</ROM>
+07fbbac  OMXNodeInstance: Fix legacy HAL1 after merge of android-7.1.0_r7  [Sagar Shah]
