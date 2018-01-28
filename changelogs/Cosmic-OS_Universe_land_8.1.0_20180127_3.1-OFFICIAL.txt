@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_land_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Universe_land_8.1.0_20180127_3.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180127</VersionNumber>
-  <DirectUrl>http://downloads.hostingsharedbox.com/ascarex/privated/cos/land/Cosmic-OS_Universe_land_8.1.0_20180127_3.1-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>http://downloads.hostingsharedbox.com/ascarex/privated/cos/land/</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5>2dcb5d37cbea3877454622c0bb8d3e08</CheckMD5>
-  <FileSize type="integer">496862313</FileSize>
-  <Developer>klozz(TeamMEX)</Developer>
-  <WebsiteURL nil="true">cosmic-os.github.io</WebsiteURL>
-  <DonateURL nil="true"/>paypal.me/Cosmic-OS</DonateURL>
-  <Changelog>====================
+====================
      01-27-2018
 ====================
 
@@ -55,5 +42,4 @@ b42e910  OTA: Update mido (24/01/2018) (#82)  [Sagar Shah]
 cda0970  audioflinger: fix for playback paused during track transition  [Sagar Shah]
 3190b87  audio: Update anchor time for offload playback post resume  [Sagar Shah]
 3f6bdf0  audio flinger: Fix native crash during underruns for patch track  [Sagar Shah]
-daefa07  audio: hold effect mutex when releasing effect engine  [Sagar Shah]</Changelog>
-</ROM>
+daefa07  audio: hold effect mutex when releasing effect engine  [Sagar Shah]
