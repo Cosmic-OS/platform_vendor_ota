@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_mido_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Universe_mido_8.1.0_20180130_3.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180130</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/mido/Cosmic-OS_Universe_mido_8.1.0_20180130_3.1-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/mido</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5>d85272463c3de3d3243a20c5b314bffb</CheckMD5>
-  <FileSize type="integer">481529434</FileSize>
-  <Developer>ManoloRey</Developer>
-  <WebsiteURL nil="true">cosmic-os.github.io</WebsiteURL>
-  <DonateURL nil="true"/>paypal.me/Cosmic-OS</DonateURL>
-  <Changelog>====================
+====================
      01-30-2018
 ====================
 
@@ -54,5 +41,5 @@ ce629e2  Shorten wait time for shutdown time optimization  [Sebastian]
 e6e2f56  Fix the format of wifi_carrier_content string  [Sebastian]
 cce8b24  Fix memory leak of DataSaverPreference  [Sebastian]
 477c5a2  Fix NPE crash in AppInfoBase  [Sebastian]
-e6e7b3f  Kill the logspam due to BackupSettingsActivity  [Sebastian]</Changelog>
-</ROM>
+e6e7b3f  Kill the logspam due to BackupSettingsActivity  [Sebastian]
+
