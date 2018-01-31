@@ -1,59 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
   <RomName>Cosmic-OS_land_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Universe_land_8.1.0_20180127_3.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180127</VersionNumber>
-  <DirectUrl>http://downloads.hostingsharedbox.com/ascarex/privated/cos/land/Cosmic-OS_Universe_land_8.1.0_20180127_3.1-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>http://downloads.hostingsharedbox.com/ascarex/privated/cos/land/</HttpUrl>
+  <VersionName><![CDATA[ Cosmic-OS_Universe_land_8.1.0_20180130_3.1-OFFICIAL ]]></VersionName>
+  <VersionNumber type="integer">20180130</VersionNumber>
+  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/land/Cosmic-OS_Universe_land_8.1.0_20180130_3.1-OFFICIAL.zip</DirectUrl>
+  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/land</HttpUrl>
   <Android>8.1.0</Android>
-  <CheckMD5>2dcb5d37cbea3877454622c0bb8d3e08</CheckMD5>
-  <FileSize type="integer">496862313</FileSize>
+  <CheckMD5>7ecb1a552612009645d606ab138f7fe7</CheckMD5>
+  <FileSize type="integer">503747921</FileSize>
   <Developer>klozz(TeamMEX)</Developer>
   <WebsiteURL nil="true">cosmic-os.github.io</WebsiteURL>
   <DonateURL nil="true"/>paypal.me/Cosmic-OS</DonateURL>
   <Changelog>====================
-     01-27-2018
+     01-30-2018
 ====================
 
+   * bionic/
+a8d166a  Squashed revert of FUTEX_WAIT_BITSET related patches  [klozz]
 
-====================
-     01-26-2018
-====================
-
-   * vendor/ota/
-ad9fe5b  Welcome to 8.1  [Sidharth Soni]
-
-====================
-     01-25-2018
-====================
-
-   * vendor/ota/
-b42e910  OTA: Update mido (24/01/2018) (#82)  [Sagar Shah]
-
-====================
-     01-24-2018
-====================
-
-
-====================
-     01-23-2018
-====================
-
-   * vendor/cos/
-182fce8  Add Lettuce Maintainer (#72)  [Sagar Shah]
-   * vendor/ota/
-83bc740  OTA: Update land (22/01/2018) (#81)  [Sagar Shah]
-
-====================
-     01-22-2018
-====================
-
-   * frameworks/av/
-310eab4  libstagefright: use 64-bit usage in native_window_set_usage call  [Sagar Shah]
-08bac20  audiopolicy: fix unexpected output selection for direct pcm usecase  [Sagar Shah]
-4788eac  audiopolicy: fix wrong volume db value for voice call stream  [Sagar Shah]
-cda0970  audioflinger: fix for playback paused during track transition  [Sagar Shah]
-3190b87  audio: Update anchor time for offload playback post resume  [Sagar Shah]
-3f6bdf0  audio flinger: Fix native crash during underruns for patch track  [Sagar Shah]
-daefa07  audio: hold effect mutex when releasing effect engine  [Sagar Shah]</Changelog>
+   * device/*/land
+     Fixed camera issues
+		 Fixed Ril issues
+</Changelog>
 </ROM>
