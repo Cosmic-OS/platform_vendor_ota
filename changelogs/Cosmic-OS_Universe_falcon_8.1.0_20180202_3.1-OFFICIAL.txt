@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_falcon_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Universe_falcon_8.1.0_20180202_3.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180202</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/falcon/Cosmic-OS_Universe_falcon_8.1.0_20180202_3.1-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/falcon</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5>74797c3401b4ae84d8d2b2d06fdb2a29</CheckMD5>
-  <FileSize type="integer">283226119</FileSize>
-  <Developer>klozz(TeamMEX)</Developer>
-  <WebsiteURL nil="true">cosmic-os.github.io</WebsiteURL>
-  <DonateURL nil="true"/>paypal.me/Cosmic-OS</DonateURL>
-  <Changelog>====================
+====================
      02-02-2018
 ====================
 
@@ -55,5 +42,4 @@ fa95b89  Frameworks: Statusbar clock customizations (1/2)  [Sebastian]
 8d8d316  SystemUI: Prevent NPE in Dependency.get() in BrightnessController  [Sebastian]
 dfef6a1  camera: catch NullPointerException for Nexus 5  [Sebastian]
 e1b5d44  Handle IllegalArgumentException  [Sebastian]
-4e90448  Bad token of activity when do the launch work at the app process side  [Sebastian]</Changelog>
-</ROM>
+4e90448  Bad token of activity when do the launch work at the app process side  [Sebastian]
