@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_addison_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Universe_addison_8.1.0_20180202_3.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180202</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/addison/Cosmic-OS_Universe_addison_8.1.0_20180202_3.1-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/addison</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5>ef76dd6f594a493863a81124aa3940d6</CheckMD5>
-  <FileSize type="integer">506163195</FileSize>
-  <Developer>klozz(TeamMEX)</Developer>
-  <WebsiteURL nil="true">cosmic-os.github.io</WebsiteURL>
-  <DonateURL nil="true"/>paypal.me/Cosmic-OS</DonateURL>
-  <Changelog>====================
+====================
      02-02-2018
 ====================
 
@@ -55,5 +42,4 @@ b242fc5  media: fix system_server deadLock  [Sebastian]
 18565f2  Screen capture in physical resolution  [Sebastian]
 fa95b89  Frameworks: Statusbar clock customizations (1/2)  [Sebastian]
 8d8d316  SystemUI: Prevent NPE in Dependency.get() in BrightnessController  [Sebastian]
-dfef6a1  camera: catch NullPointerException for Nexus 5  [Sebastian]</Changelog>
-</ROM>
+dfef6a1  camera: catch NullPointerException for Nexus 5  [Sebastian]
