@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_kenzo_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Universe_kenzo_8.1.0_20180204_3.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180204</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/kenzo/Cosmic-OS_Universe_kenzo_8.1.0_20180204_3.1-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/kenzo</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5>2557f077d5d71332921bed8426cfaccc</CheckMD5>
-  <FileSize type="integer">468001900</FileSize>
-  <Developer>rocknegi</Developer>
-  <WebsiteURL nil="true">cosmic-os.github.io</WebsiteURL>
-  <DonateURL nil="true"/>paypal.me/Cosmic-OS</DonateURL>
-  <Changelog>====================
+====================
      02-04-2018
 ====================
 
@@ -55,5 +42,4 @@ a2c59d5  Merge pull request #3 from ManoloRey/oreo-mr1  [GitHub]
 583bc07  Italian translation: fix duplicate value  [GitHub]
 256214c  Update Italian translation  [Sebastian]
    * packages/apps/Settings/
-319a6fd  Fix NPE crash in UsageAccessDetails  [Sebastian]</Changelog>
-</ROM>
+319a6fd  Fix NPE crash in UsageAccessDetails  [Sebastian]
