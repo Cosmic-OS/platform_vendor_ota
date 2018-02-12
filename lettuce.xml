@@ -1,18 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
-  <RomName>Cosmic-OS_Universe_lettuce_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Universe_lettuce_8.1.0_20180125_3.1-OFFICIAL.zip ]]></VersionName>
-  <VersionNumber type="integer">20180125</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/lettuce/Cosmic-OS_Universe_lettuce_8.1.0_20180125_3.1-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/lettuce</HttpUrl>
+  <RomName>Cosmic-OS_lettuce_8.1.0</RomName>
+  <VersionName><![CDATA[ Cosmic-OS_Universe_lettuce_8.1.0_20180210_3.1-OFFICIAL ]]></VersionName>
+  <VersionNumber type="integer">20180208</VersionNumber>
+  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/lettuce/Cosmic-OS_Universe_lettuce_8.1.0_20180210_3.1-OFFICIAL.zip</DirectUrl>
+  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/gemini</HttpUrl>
   <Android>8.1.0</Android>
-  <CheckMD5>7d205552d0438a2f9c606c9f80e02b16</CheckMD5>
-  <FileSize type="integer">472095511</FileSize>
-  <Developer>Abhinav Gupta</Developer>
-  <WebsiteURL nil="true">cosmic-os.com</WebsiteURL>
+  <CheckMD5>94c02b38c90730dab2c98f92d684fd61</CheckMD5>
+  <FileSize type="integer">475422154</FileSize>
+  <Developer>Abhinav Gupta (agrd1129)</Developer>
+  <WebsiteURL nil="true">cosmic-os.github.io</WebsiteURL>
   <DonateURL>paypal.me/Cosmic-OS</DonateURL>
-  <Changelog>
-    Maintainer changed
-    Welcome to 8.1
-    Many changes and tweaks
-  </ROM>
+  <Changelog>====================
+     02-08-2018
+====================
+
+   * device/qcom/sepolicy/
+856dcf4  legacy: Allow qcom power HAL to interact with perfd  [Bruno Martins]
+   * frameworks/base/
+c83ca26  Chinese translation update Thanks @PianCat  [Sebastian]
+   * packages/apps/Galaxy/
+a73d914  Chinese translation fix  [Sebastian]
+3427c3b  Chinese translation update Thanks @PianCat  [Sebastian]
+   * packages/apps/Settings/
+987f621  Chinese translation fix  [Sebastian]
+0bbd2ef  Chinese translation update Thanks @PianCat  [Sebastian]
+   * vendor/ota/
+57a5290  Fix donate tag  [zeromod]
+
+====================
+     02-07-2018
+====================
+
+   * frameworks/base/
+1d3172a  Themes: use accent color from light theme  [Sebastian]
+863fabf  Notification: Fix no icon shown for data limit notification  [Sebastian]
+c864352  Fix possible NPE crash when adding new accounts in Settings.  [Sebastian]
+b942094  Optimize AbsListView to reduce click operation latency  [Sebastian]
+   * packages/apps/Settings/
+a6df7ea  Fix NPE in AutoSyncWorkDataPreferenceController  [Sebastian]
+9a2a2f1  InstalledAppDetails: Avoid crash caused by ActivityNotFoundException  [Sebastian]
+a231873  Kill log spam in InstalledAppDetails  [Sebastian]
+   * packages/services/Telephony/
+eca303b  Fix theming  [Sebastian]
+
+====================
+     02-06-2018
+====================
+
+   * build/make/
+9666b32  Merge tag 'android-8.1.0_r11' of https://android.googlesource.com/platform/build into oreo-mr1  [Sagar Shah]
+   * frameworks/av/
+488889a  Merge tag 'android-8.1.0_r11' of https://android.googlesource.com/platform/frameworks/av into oreo-mr1  [Sagar Shah]
+   * frameworks/base/
+42a9d05  Fix animateHide not applicable for the arguments  [Sagar Shah]
+f000957  Custom Carrier Label & Carrier Label Placement [1/2]  [Sagar Shah]
+ce45db5  FWB: Statusbar logo position (1/2)  [Sagar Shah]</Changelog>
+</ROM>
