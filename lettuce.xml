@@ -4,7 +4,7 @@
   <VersionName><![CDATA[ Cosmic-OS_Universe_lettuce_8.1.0_20180210_3.1-OFFICIAL ]]></VersionName>
   <VersionNumber type="integer">20180208</VersionNumber>
   <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/lettuce/Cosmic-OS_Universe_lettuce_8.1.0_20180210_3.1-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/gemini</HttpUrl>
+  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/lettuce</HttpUrl>
   <Android>8.1.0</Android>
   <CheckMD5>94c02b38c90730dab2c98f92d684fd61</CheckMD5>
   <FileSize type="integer">475422154</FileSize>
