@@ -1,0 +1,45 @@
+====================
+     02-13-2018
+====================
+
+   * vendor/ota/
+b0771b2  OTA: Update lettuce (12/02/2018) (#91)  [Sagar Shah]
+
+====================
+     02-12-2018
+====================
+
+
+====================
+     02-11-2018
+====================
+
+   * packages/apps/Settings/
+7930604  Cosmic OTA update  [GitHub]
+   * vendor/cos/
+4633d18  Don't build OTAUpdates app  [GitHub]
+   * vendor/ota/
+c8c68a0  OTA: Update z2_plus (10/02/2018)  [Sidharth Soni]
+
+====================
+     02-10-2018
+====================
+
+   * frameworks/base/
+7265779  Keyguard: Fix black background while screen turning off/on quickly  [Sagar Shah]
+3e23657  SystemUI: fix ambient display when HeadsUp disabled  [Sagar Shah]
+3b63b4c  Quick Settings: Avoid expand indicators shortly showing on edit  [Sagar Shah]
+   * packages/apps/Settings/
+332a4ed  Enable fast scroll for all app list views  [Sagar Shah]
+   * vendor/cos/
+04dde83  Update 3.2  [zeromod]
+   * vendor/ota/
+a5705bd  OTA: Update gemini (08/02/2018)  [zeromod]
+56a0b56  Fix Download Link for all device  [zeromod]
+
+====================
+     02-09-2018
+====================
+
+   * frameworks/base/
+c83ca26  Chinese translation update Thanks @PianCat  [Sebastian]
