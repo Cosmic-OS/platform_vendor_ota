@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_land_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Universe_land_8.1.0_20180212_3.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180212</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/land/Cosmic-OS_Universe_land_8.1.0_20180212_3.1-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/land</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5>1694cd291d96c50a856e828a74a63d38</CheckMD5>
-  <FileSize type="integer">506920907</FileSize>
-  <Developer>klozz(TeamMEX)</Developer>
-  <WebsiteURL nil="true">cosmic-os.github.io</WebsiteURL>
-  <DonateURL>paypal.me/Cosmic-OS</DonateURL>
-  <Changelog>====================
+====================
      02-12-2018
 ====================
 
@@ -54,5 +41,5 @@ a5705bd  OTA: Update gemini (08/02/2018)  [zeromod]
 
 ====================
      02-08-2018
-====================</Changelog>
-</ROM>
+====================
+
