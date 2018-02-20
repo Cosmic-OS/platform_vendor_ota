@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_z2_plus_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Universe_z2_plus_8.1.0_20180220_3.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180220</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/z2_plus/Cosmic-OS_Universe_z2_plus_8.1.0_20180219_3.1-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/z2_plus</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5></CheckMD5>
-  <FileSize type="integer"></FileSize>
-  <Developer>miju12</Developer>
-  <WebsiteURL nil="true">cosmic-os.github.io</WebsiteURL>
-  <DonateURL>paypal.me/Cosmic-OS</DonateURL>
-  <Changelog>====================
+====================
      02-19-2018
 ====================
 
@@ -55,5 +42,4 @@ c3f65c0  Themes: Fix ActivityPicker  [Sagar Shah]
 d2f856a  DUI: Fix theming custom action dialog  [Sagar Shah]
 c09df0c  Settings: Add package name to installed app details  [Sagar Shah]
 ad7d896  Settings: add footer info for ambient display music ticker  [Sagar Shah]
-8865e02  Settings: Ambient display music ticker  [Sagar Shah]</Changelog>
-</ROM>
+8865e02  Settings: Ambient display music ticker  [Sagar Shah]
