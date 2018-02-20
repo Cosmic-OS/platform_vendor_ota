@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
   <RomName>Cosmic-OS_z2_plus_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Universe_z2_plus_8.1.0_20180220_3.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180220</VersionNumber>
+  <VersionName><![CDATA[ Cosmic-OS_Universe_z2_plus_8.1.0_20180219_3.1-OFFICIAL ]]></VersionName>
+  <VersionNumber type="integer">20180219</VersionNumber>
   <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/z2_plus/Cosmic-OS_Universe_z2_plus_8.1.0_20180219_3.1-OFFICIAL.zip</DirectUrl>
   <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/z2_plus</HttpUrl>
   <Android>8.1.0</Android>
-  <CheckMD5></CheckMD5>
+  <CheckMD5>8aa8c87c2d27b61ce66fc68fd580473c</CheckMD5>
   <FileSize type="integer"></FileSize>
   <Developer>miju12</Developer>
   <WebsiteURL nil="true">cosmic-os.github.io</WebsiteURL>
