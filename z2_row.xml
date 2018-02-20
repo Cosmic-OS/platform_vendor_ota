@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROM>
+  <RomName>Cosmic-OS_z2_row_8.1.0</RomName>
+  <VersionName><![CDATA[ Cosmic-OS_Universe_z2_row_8.1.0_20180220_3.1-OFFICIAL ]]></VersionName>
+  <VersionNumber type="integer">20180220</VersionNumber>
+  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/z2_row/Cosmic-OS_Universe_z2_row_8.1.0_20180220_3.1-OFFICIAL.zip</DirectUrl>
+  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/z2_row</HttpUrl>
+  <Android>8.1.0</Android>
+  <CheckMD5></CheckMD5>
+  <FileSize type="integer"></FileSize>
+  <Developer>mracar</Developer>
+  <WebsiteURL nil="true">cosmic-os.github.io</WebsiteURL>
+  <DonateURL>paypal.me/Cosmic-OS</DonateURL>
+  <Changelog></Changelog>
+</ROM>
