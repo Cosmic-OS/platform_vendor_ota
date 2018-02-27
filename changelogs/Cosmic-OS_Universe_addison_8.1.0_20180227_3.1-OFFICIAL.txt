@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_addison_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Universe_addison_8.1.0_20180227_3.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180227</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/addison/Cosmic-OS_Universe_addison_8.1.0_20180227_3.1-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/addison</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5>d63765ff8efaa14dc076c1cb00f8987d</CheckMD5>
-  <FileSize type="integer">504795792</FileSize>
-  <Developer>klozz(TeamMEX)</Developer>
-  <WebsiteURL nil="true">cosmic-os.github.io</WebsiteURL>
-  <DonateURL>paypal.me/Cosmic-OS</DonateURL>
-  <Changelog>====================
+====================
      02-27-2018
 ====================
 
@@ -55,5 +42,4 @@ afc9e1a  Merge pull request #42 from ManoloRey/oreo-mr3  [GitHub]
 477926a  SystemUI: fix black scrim when turning screen on from AOD  [ManoloRey]
 db819e0  Fix volume rocker skip track on Ambient Display and Lift to Wake  [ManoloRey]
 
-====================</Changelog>
-</ROM>
+====================
