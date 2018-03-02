@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
   <RomName>Cosmic-OS_z2_plus_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Universe_z2_plus_8.1.0_20180302_3.1-OFFICIAL.zip  ]]></VersionName>
+  <VersionName><![CDATA[ Cosmic-OS_Universe_z2_plus_8.1.0_20180302_3.1-OFFICIAL.zip]]></VersionName>
   <VersionNumber type="integer">20180302</VersionNumber>
   <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/z2_plus/Cosmic-OS_Universe_z2_plus_8.1.0_20180302_3.1-OFFICIAL.zip</DirectUrl>
   <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/z2_plus</HttpUrl>
@@ -12,14 +12,7 @@
   <WebsiteURL nil="true">cosmic-os.github.io</WebsiteURL>
   <DonateURL>paypal.me/Cosmic-OS</DonateURL>
   <Changelog>====================
-     02-10-2018
-====================
-
-   * packages/apps/Settings/
-7930604  Cosmic OTA update  [GitHub]
-   * vendor/cos/
-4633d18  Don't build OTAUpdates app  [GitHub]
-
+  
 ====================
      02-09-2018
 ====================
@@ -56,4 +49,49 @@ a73d914  Chinese translation fix  [Sebastian]
 ====================
 
    * frameworks/base/</Changelog>
+=======
+     02-19-2018
+====================
+
+
+====================
+     02-18-2018
+====================
+
+   * build/make/
+6603317  tasks: kernel: Add support for Clang kernel builds  [miju12]
+   * build/soong/
+c81bd24  For aosp build with clang master  [miju12]
+
+====================
+     02-17-2018
+====================
+
+
+====================
+     02-16-2018
+====================
+
+   * frameworks/base/
+fdb4696  SystemUI: Add visualizer feature  [miju12]
+bd9b4a6  Fixes  [Sagar Shah]
+9276b81  Ambient music ticker improvements  [Sagar Shah]
+a98920a  Ambient ticker: make it work if secure lockscreen notifs are blocked  [Sagar Shah]
+1c2eadf  Ambient display music ticker [1/2]  [Sagar Shah]
+934b9e9  Port ambient Now Playing container from Pixel [stripped down version]  [Sagar Shah]
+f266946  Theme safe boot dialog  [Sagar Shah]
+e1dc12c  SimColors: Use _800 color Default Dialer color is <color name="dialer_theme_color">#2A56C6</color> Use <color name="Blue_800">#ff2a56c6</color> for consistent  [Sagar Shah]
+a99e510  Themes: Add Light.Dialog.Alert overlay @xyyx: add black  [Sagar Shah]
+39991b5  BoostFramework: Add debug to hide logcat spam on devices without QPerfomance  [Sagar Shah]
+c3b767c  SystemUI: force a clock update if the screen is turned back on  [Sagar Shah]
+   * packages/apps/Galaxy/
+b2e6aaa  OwlsNest: Add lockscreen visualizer toggle  [miju12]
+   * packages/apps/Settings/
+6a943ed  Fixes  [Sagar Shah]
+ccb1005  Themes: Fix BT pair dialog  [Sagar Shah]
+c3f65c0  Themes: Fix ActivityPicker  [Sagar Shah]
+d2f856a  DUI: Fix theming custom action dialog  [Sagar Shah]
+c09df0c  Settings: Add package name to installed app details  [Sagar Shah]
+ad7d896  Settings: add footer info for ambient display music ticker  [Sagar Shah]
+8865e02  Settings: Ambient display music ticker  [Sagar Shah]</Changelog>
 </ROM>

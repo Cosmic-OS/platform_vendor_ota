@@ -1,0 +1,15 @@
+-Offline charging works now with older baseband and shows percentage
+-interaction boost
+-improvements in camera
+-ambient music ticker
+-lockscreen music visualizer
+-some theme fixes
+-some translations
+-Battery improvements
+-Adress some sepolicy denials
+-Update blobs from ZUI 3.5
+-Kernel upstream to 3.18.95
+-Updated blobs and device tree quite entierely to caf source LA.UM.6.6.r1-06300-89xx.0
+-Boeffla WL Blocker configured
+-Optimized device sleep
+-Changed offlinechargeanim to MIUI

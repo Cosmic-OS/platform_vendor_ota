@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_mido_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Universe_mido_8.1.0_20180222_3.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180222</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/mido/Cosmic-OS_Universe_mido_8.1.0_20180222_3.1-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/mido</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5>c46ef870ba2d7db4a02fb4178ccd151b</CheckMD5>
-  <FileSize type="integer">487968859</FileSize>
-  <Developer>ManoloRey</Developer>
-  <WebsiteURL nil="true">cosmic-os.github.io</WebsiteURL>
-  <DonateURL>paypal.me/Cosmic-OS</DonateURL>
-  <Changelog>====================
+====================
      02-22-2018
 ====================
 
@@ -55,5 +42,4 @@ faad288  Update Italian translation  [Sebastian]
 048b99a  Update BR strings  [Sebastian]
 0029256  Update pt-BR strings  [Sebastian]
 
-====================</Changelog>
-</ROM>
+====================

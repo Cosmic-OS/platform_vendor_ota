@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_sanders_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Universe_sanders_8.1.0_20180226_3.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180226</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/sanders/Cosmic-OS_Universe_sanders_8.1.0_20180226_3.1-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/sanders</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5>f163f951b9c4ad79129b10cc9303b797</CheckMD5>
-  <FileSize type="integer">501429054</FileSize>
-  <Developer>Keertesh</Developer>
-  <WebsiteURL nil="true">cosmic-os.github.io</WebsiteURL>
-  <DonateURL>paypal.me/Cosmic-OS</DonateURL>
-  <Changelog>====================
+====================
      02-26-2018
 ====================
 
@@ -55,5 +42,4 @@ e58fd1170d51  scripts/kernel-doc: Don't fail with status != 0 if error encounter
 14851102a6a3  ARM: dts: am4372: Correct the interrupts_properties of McASP  [Keertesh]
 54f998b717ea  ARM: AM33xx: PRM: Remove am33xx_pwrdm_read_prev_pwrst function  [Keertesh]
 35adb080e678  usb: build drivers/usb/common/ when USB_SUPPORT is set  [Keertesh]
-9e3abf38ef60  usbip: keep usbip_device sockfd state in sync with tcp_socket  [Keertesh]</Changelog>
-</ROM>
+9e3abf38ef60  usbip: keep usbip_device sockfd state in sync with tcp_socket  [Keertesh]

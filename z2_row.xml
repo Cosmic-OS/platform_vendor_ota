@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROM>
+  <RomName>Cosmic-OS_z2_row_8.1.0</RomName>
+  <VersionName><![CDATA[ Cosmic-OS_Universe_z2_row_8.1.0_20180228_3.1-OFFICIAL ]]></VersionName>
+  <VersionNumber type="integer">20180228</VersionNumber>
+  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/z2_row/Cosmic-OS_Universe_z2_row_8.1.0_20180228_3.1-OFFICIAL.zip</DirectUrl>
+  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/z2_row</HttpUrl>
+  <Android>8.1.0</Android>
+  <CheckMD5></CheckMD5>
+  <FileSize type="integer"></FileSize>
+  <Developer>mracar</Developer>
+  <WebsiteURL nil="true">cosmic-os.github.io</WebsiteURL>
+  <DonateURL>paypal.me/Cosmic-OS</DonateURL>
+  <Changelog>====================
+     02-28-2018
+====================
+
+   * device/zuk/msm8996-common/
+54973c3  msm8996-common: Remove wificond from device makefiles  [@mracar]
+   * kernel/zuk/msm8996/
+3aa79c8c4b4c  Merge LA.UM.6.6.r1-06500-89xx.0  into cosmicos  [@mracar]
+8bd0086fbf67  Merge tag 'LA.UM.6.6.r1-06500-89xx.0' into kernel.lnx.3.18.r33-rel  [Nathan Chancellor]
+   * vendor/zuk/
+4d6d6eb  msm8996-common: Update Adreno graphics stack  [@mracar]
+95c27e4  msm8996-common: Regenerate the makefiles  [@mracar]
+
+====================
+     02-27-2018
+====================
+
+   * hardware/qcom/audio-caf/msm8996/
+63c7f98f  msm8996: ultrasound: Initial open source hal for Elliptic Ultrasound  [Bruno Martins]
+   * vendor/ota/
+31c1280  OTA: Update falcon (27/02/2018)  [Sagar Shah]
+fc9c8dc  OTA: Update addison (27/02/2018)  [Sagar Shah]
+ff2ce14  OTA: Update sanders (26/02/2018)  [Sidharth Soni]
+
+====================
+     02-26-2018
+====================
+
+   * build/make/
+604184a40  build: Introduce SubstratumService  [Sebastian]
+   * hardware/qcom/media-caf/msm8996/
+3d25618e  media: libOmxSw encoders require prop headers :(  [Rashed Abdel-Tawab]
+   * kernel/zuk/msm8996/
+3c9ca7665fc2  Merge https://github.com/android-linux-stable/msm-3.18 into cosmicos  [@mracar]
+dd0f4b1bf37b  Merge 3.18.96 into kernel.lnx.3.18.r33-rel  [Nathan Chancellor]
+   * packages/apps/Galaxy/
+09481f7  Add more Chinese Translations and fix some existing translation error  [Sebastian]
+   * vendor/ota/
+c4bbb49  OTA: Update kenzo (24/02/2018) (#98)  [Sagar Shah]</Changelog>
+</ROM>
+

@@ -1,59 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
   <RomName>Cosmic-OS_falcon_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Universe_falcon_8.1.0_20180202_3.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180202</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/falcon/Cosmic-OS_Universe_falcon_8.1.0_20180202_3.1-OFFICIAL.zip</DirectUrl>
+  <VersionName><![CDATA[ Cosmic-OS_Universe_falcon_8.1.0_20180227_3.1-OFFICIAL ]]></VersionName>
+  <VersionNumber type="integer">20180227</VersionNumber>
+  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/falcon/Cosmic-OS_Universe_falcon_8.1.0_20180227_3.1-OFFICIAL.zip</DirectUrl>
   <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/falcon</HttpUrl>
   <Android>8.1.0</Android>
-  <CheckMD5>74797c3401b4ae84d8d2b2d06fdb2a29</CheckMD5>
-  <FileSize type="integer">283226119</FileSize>
+  <CheckMD5>dd7c0e89f96f425e486221870bb29d1f</CheckMD5>
+  <FileSize type="integer">283198248</FileSize>
   <Developer>klozz(TeamMEX)</Developer>
   <WebsiteURL nil="true">cosmic-os.github.io</WebsiteURL>
   <DonateURL>paypal.me/Cosmic-OS</DonateURL>
   <Changelog>====================
-     02-02-2018
+     02-27-2018
+====================
+
+   * vendor/ota/
+67ffc5e  OTA: Update addison (27/02/2018)  [klozz]
+ff2ce14  OTA: Update sanders (26/02/2018)  [Sidharth Soni]
+
+====================
+     02-26-2018
+====================
+
+   * build/make/
+604184a  build: Introduce SubstratumService  [Sebastian]
+   * hardware/qcom/media-caf/msm8996/
+3d25618  media: libOmxSw encoders require prop headers :(  [Rashed Abdel-Tawab]
+   * packages/apps/Galaxy/
+09481f7  Add more Chinese Translations and fix some existing translation error  [Sebastian]
+   * vendor/ota/
+c4bbb49  OTA: Update kenzo (24/02/2018) (#98)  [Sagar Shah]
+
+====================
+     02-25-2018
+====================
+
+
+====================
+     02-24-2018
+====================
+
+   * build/make/
+cceb4a2  build: Warn on deprecated kernel header path  [Sagar Shah]
+73cbfc8  tasks: kernel: Update kernel.mk from Lineage  [Sagar Shah]
+   * vendor/ota/
+b626247  OTA: Update mido (22/02/2018)  [Sebastian]
+
+====================
+     02-23-2018
 ====================
 
    * frameworks/base/
-1b6dad0  Update Italian translation (#28)  [Sagar Shah]
-   * system/sepolicy/
-edb9793  Allow mediaserver hal_camera_hwservice  [GitHub]
-
-====================
-     02-01-2018
-====================
-
-   * device/qcom/sepolicy/
-bcc415c  fix some denials (#2)  [Sebastian]
-   * hardware/qcom/audio-caf/msm8994/
-8bdaccf  policy_hal: fix for MR1 function prototype.  [hardwareadictos]
-b7294e0  audio: enable compilation  without flag TARGET_USES_AOSP_FOR_AUDIO  [hardwareadictos]
-e463dfe  audio: change TARGET_USES_AOSP to TARGET_USES_AOSP_FOR_AUDIO  [hardwareadictos]
-252b6e2  audio: correct dependencies for compilation with AOSP flag  [hardwareadictos]
-79dce6f  hal: audio-test: Move omx tests mm-audio-internal  [hardwareadictos]
-   * packages/apps/Settings/
-1e43ced  Update Italian translation (#58)  [Sagar Shah]
-   * system/sepolicy/
-5002824  Merge pull request #1 from dic1911/oreo-mr1  [GitHub]
-d4118ab  sepolicy: Also allow vendor_file text relocations  [dic1911]
-   * vendor/cos/
-22fb664  Add Xperia SP(huashan) (#73)  [Sebastian]
-
-====================
-     01-31-2018
-====================
-
-   * frameworks/base/
-bd691c6  Fix brightness slider under Settings/Display (Dark Theme)  [Sebastian]
-088e066  InputWrapper: Opt out early if session == null  [Sebastian]
-f7381d0  Fix intermittent slowness in resolver activity towards end of day.  [Sebastian]
-b242fc5  media: fix system_server deadLock  [Sebastian]
-433c53f  Enable priority boost for non-Jack builds.  [Sebastian]
-18565f2  Screen capture in physical resolution  [Sebastian]
-fa95b89  Frameworks: Statusbar clock customizations (1/2)  [Sebastian]
-8d8d316  SystemUI: Prevent NPE in Dependency.get() in BrightnessController  [Sebastian]
-dfef6a1  camera: catch NullPointerException for Nexus 5  [Sebastian]
-e1b5d44  Handle IllegalArgumentException  [Sebastian]
-4e90448  Bad token of activity when do the launch work at the app process side  [Sebastian]</Changelog>
+afc9e1a  Merge pull request #42 from ManoloRey/oreo-mr3  [GitHub]
+477926a  SystemUI: fix black scrim when turning screen on from AOD  [ManoloRey]
+db819e0  Fix volume rocker skip track on Ambient Display and Lift to Wake  [ManoloRey]</Changelog>
 </ROM>

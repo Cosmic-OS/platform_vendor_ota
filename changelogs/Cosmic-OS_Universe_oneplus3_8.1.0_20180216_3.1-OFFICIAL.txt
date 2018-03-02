@@ -1,0 +1,45 @@
+====================
+     02-16-2018
+====================
+
+   * device/oneplus/oneplus3/
+8939685  Add missing pickup_sensor_title string  [Sagar Shah]
+bba113f  Build OnePlusPocketMode  [Sagar Shah]
+4dfec5e  Change kernel  [Sagar Shah]
+f39e34a  Update dependencies  [Sagar Shah]
+b540994  Add Dash Charger Support  [Sagar Shah]
+bb4493e  op3: build SnapdragonCamera  [Sagar Shah]
+9efa6e7  We all want that FruityCunt's kernel  [Sagar Shah]
+e7ed779  Cosmic-ify  [Sagar Shah]
+3990fac  Revert "recovery: Use    * pathmap for recovery"  [Sagar Shah]
+3f83911  op3: build ims-ext-common  [Sagar Shah]
+de9a1ea  recovery: Add footer length  [Sagar Shah]
+3490702  oneplus3: rootdir: Reserve encryption footer  [Sagar Shah]
+731c104  fix kryo-libc-caf  [Sagar Shah]
+5d5fd48  Nuke lineagehw  [Sagar Shah]
+22f2e8e  oneplus3: fix doze package compilation  [Sagar Shah]
+   * packages/apps/Galaxy/
+0b5311e  Fix strings  [Sebastian]
+   * packages/apps/Settings/
+87e1547  Fixes f/c in sim status on caf devices  [Sagar Shah]
+e4c7308  Default apps settings disappear when switching to secondary user  [Sagar Shah]
+f52bc74  Simplify the root checking method  [Sagar Shah]
+d8e090f  Embed shortcut for root app on the dashboard  [Sagar Shah]
+fcaae3f  Prepare all prefs to allow global style switching  [Sagar Shah]
+76d2494  Fix forced intent of tts buttons layout  [Sagar Shah]
+7044f53  Remove empty category under tts  [Sagar Shah]
+831e26b  Category with no title strikes again This is the second one I've found that Google has placed. The first one was under language & input  [Sagar Shah]
+7e8d318  Remove empty space created by category without title  [Sagar Shah]
+41a3bcb  Enable all available quick settings tiles in Settings  [Sagar Shah]
+e3da501  Comment out demo mode / quick settings option  [Sagar Shah]
+6f44fa7  Remove text from actionbar / Use overflow menu  [Sagar Shah]
+929c2af  Remove the Automatic ota check option but be sure it's disabled  [Sagar Shah]
+9471c87  Seriously these blank categories are getting old  [Sagar Shah]
+
+====================
+     02-15-2018
+====================
+
+   * packages/apps/DUI/
+cfb9253  Update and fix strings (#3)  [Sagar Shah]
+
