@@ -1,59 +1,197 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
-  <RomName>Cosmic-OS_potter_7.1.2</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_potter_7.1.2_20170806_2.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20170806</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/potter/Cosmic-OS_potter_7.1.2_20170807_2.1-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/potter</HttpUrl>
-  <Android>7.1.2</Android>
-  <CheckMD5>90c93eca380d3592a7d0505de6edcd74</CheckMD5>
-  <FileSize type="integer">377728585</FileSize>
-  <Developer>Keerten</Developer>
-  <WebsiteURL nil="true">cosmic-os.com</WebsiteURL>
+  <RomName>Cosmic-OS_potter_8.1.0</RomName>
+  <VersionName><![CDATA[ Cosmic-OS_Universe_potter_8.1.0_20180302_3.1-OFFICIAL.zip ]]></VersionName>
+  <VersionNumber type="integer">20180302</VersionNumber>
+  <DirectUrl>https://androidfilehost.com/?fid=962187416754464840</DirectUrl>
+  <HttpUrl>https://androidfilehost.com/?fid=962187416754464840</HttpUrl>
+  <Android>8.1.0</Android>
+  <CheckMD5>3a697238b27cd0f54f3c478a68390efe</CheckMD5>
+  <FileSize type="integer">514745958</FileSize>
+  <Developer>Sri Sandeep</Developer>
+  <WebsiteURL nil="true">cosmic-os.github.io</WebsiteURL>
   <DonateURL>paypal.me/Cosmic-OS</DonateURL>
-  <Changelog>====================
-     08-06-2017
+  <Changelog>
+ ====================
+     03-02-2018
+====================
+
+   * device/qcom/sepolicy/
+3bcd4bb  Revert "sepolicy: Remove definition and labelling of sf_lcd_density_prop"  [sandyorton7]
+   * frameworks/base/
+ed6e4bc  turbo charge fixes  [sandyorton7]
+
+====================
+     03-01-2018
+====================
+
+   * build/make/
+6b40db3  dtbtool: dtbToolCM -> dtbToolLineage  [Kshitij Gupta]
+   * manifest/
+0f1f525  manifest: Track device_qcom_common from lineage  [Kshitij Gupta]
+   * vendor/ota/
+55ff741  OTA: Update z2_row (28/02/2018)  [Sagar Shah]
+
+====================
+     02-28-2018
+====================
+
+   * frameworks/base/
+1f2fd6b  clear leftovers  [sandyorton7]
+28ca7c4  Battery Service:add support for turbo charging  [sandyorton7]
+   * vendor/cos/
+8019dc3  build: Merge UM platforms into common HALs and disable BSP  [Sagar Shah]
+6ae5686  qcom_target: Commonize UM target HALs  [Sagar Shah]
+   * vendor/ota/
+31c1280  OTA: Update falcon (27/02/2018)  [Sagar Shah]
+fc9c8dc  OTA: Update addison (27/02/2018)  [Sagar Shah]
+
+====================
+     02-27-2018
+====================
+
+   * hardware/qcom/audio-caf/msm8996/
+63c7f98  msm8996: ultrasound: Initial open source hal for Elliptic Ultrasound  [Bruno Martins]
+   * vendor/ota/
+ff2ce14  OTA: Update sanders (26/02/2018)  [Sidharth Soni]
+
+====================
+     02-26-2018
+====================
+
+   * build/make/
+604184a  build: Introduce SubstratumService  [Sebastian]
+   * hardware/qcom/media-caf/msm8996/
+3d25618  media: libOmxSw encoders require prop headers :(  [Rashed Abdel-Tawab]
+   * packages/apps/Galaxy/
+09481f7  Add more Chinese Translations and fix some existing translation error  [Sebastian]
+   * vendor/ota/
+c4bbb49  OTA: Update kenzo (24/02/2018) (#98)  [Sagar Shah]
+
+====================
+     02-25-2018
+====================
+
+   * build/make/
+cceb4a2  build: Warn on deprecated kernel header path  [Sagar Shah]
+73cbfc8  tasks: kernel: Update kernel.mk from Lineage  [Sagar Shah]
+   * device/qcom/sepolicy/
+7eac191  sepolicy: Remove definition and labelling of sf_lcd_density_prop  [Paul Keith]
+
+====================
+     02-24-2018
 ====================
 
    * vendor/ota/
-4d9b237  OTA: Update bullhead (06/08/2017) (#49)  [Sidharth Soni]
+b626247  OTA: Update mido (22/02/2018)  [Sebastian]
 
 ====================
-     08-05-2017
+     02-23-2018
 ====================
 
-   * build/
-3c8326b  generic_no_telephony: Allow devices to override AOSP audio_effects (#4)  [Sagar Shah]
+   * device/qcom/sepolicy/
+425a78c  sepolicy: Label mpctl_socket as data_file_type  [YumeMichi]
    * frameworks/base/
-5d64a079  Introduce color engine.  [Sagar Shah]
-   * packages/apps/Launcher3/
-89bd31d  Launcher3: Support color engine  [Sagar Shah]
+afc9e1a  Merge pull request #42 from ManoloRey/oreo-mr3  [GitHub]
+477926a  SystemUI: fix black scrim when turning screen on from AOD  [ManoloRey]
+db819e0  Fix volume rocker skip track on Ambient Display and Lift to Wake  [ManoloRey]
+
+====================
+     02-22-2018
+====================
+
+   * vendor/ota/
+90216a6  OTA: Add z2_row changelog to latest build  [Sebastian]
+
+====================
+     02-21-2018
+====================
+
+   * vendor/ota/
+e793a77  OTA: Update z2_row (20/02/2018)  [Sebastian]
+
+====================
+     02-20-2018
+====================
+
+   * frameworks/base/
+faad288  Update Italian translation  [Sebastian]
+   * hardware/qcom/display-caf/msm8952/
+8648766  hwc: Set ioprio for vsync thread  [Ethan Chen]
+109d5ba  gralloc: allow forcing old pixel alignment  [Ethan Chen]
+fa0af83  Fix duplicate copy file rules  [Ethan Chen]
+a892624  SkImageEncoder->SkEncodeImage  [Ethan Chen]
+d1d9702  display: Use LOCAL_VENDOR_MODULE  [Ethan Chen]
+eac53e7  display: Move all opensource modules to vendor partition  [Ethan Chen]
+   * packages/apps/Galaxy/
+4f5c24e  Chinese Update and Fix (#11)  [Sagar Shah]
    * packages/apps/Settings/
-2ea2418  Settings: Make Expanded Desktop colors match settings accent  [Sagar Shah]
+4128a06  Update Italian translation  [Sebastian]
+   * vendor/ota/
+64c795f  OTA: Update z2_plus (20/02/2018) (#95)  [Sagar Shah]
+
+====================
+     02-19-2018
+====================
+
+   * hardware/qcom/audio-caf/msm8974/
+31dc31b  hal: Added LOCAL_VENDOR_MODULE to set output path of the binaries  [Bruno Martins]
+   * hardware/qcom/display-caf/msm8974/
+9923627  hal: Added LOCAL_VENDOR_MODULE to set output path of the binaries  [Bruno Martins]
+   * hardware/qcom/media-caf/msm8952/
+769dd04  media: Move Video HAL libraries to vendor image.  [Ethan Chen]
+1facc58  media: Move Video HAL libraries to vendor image  [Ethan Chen]
+f713e53  media: Move Video HAL libraries to vendor image  [Ethan Chen]
+   * hardware/qcom/media-caf/msm8974/
+7d93b51  hal: Added LOCAL_VENDOR_MODULE to set output path of the binaries  [Bruno Martins]
+81beaaa  mm-video-v4l2: Fix KW resported issues  [Bruno Martins]
+   * packages/apps/Galaxy/
+048b99a  Update BR strings  [Sebastian]
+0029256  Update pt-BR strings  [Sebastian]
+
+====================
+     02-18-2018
+====================
+
+   * hardware/qcom/audio-caf/msm8960/
+d1b80f9  Use header lib instead of using global include path  [Arne Coucheron]
+c037c5e  hal: Use LOCAL_VENDOR_MODULE  [Arne Coucheron]
+
+====================
+     02-17-2018
+====================
+
+   * frameworks/base/
+bd9b4a6  Fixes  [Sagar Shah]
+9276b81  Ambient music ticker improvements  [Sagar Shah]
+a98920a  Ambient ticker: make it work if secure lockscreen notifs are blocked  [Sagar Shah]
+1c2eadf  Ambient display music ticker [1/2]  [Sagar Shah]
+934b9e9  Port ambient Now Playing container from Pixel [stripped down version]  [Sagar Shah]
+f266946  Theme safe boot dialog  [Sagar Shah]
+e1dc12c  SimColors: Use _800 color Default Dialer color is <color name="dialer_theme_color">#2A56C6</color> Use <color name="Blue_800">#ff2a56c6</color> for consistent  [Sagar Shah]
+a99e510  Themes: Add Light.Dialog.Alert overlay @xyyx: add black  [Sagar Shah]
+39991b5  BoostFramework: Add debug to hide logcat spam on devices without QPerfomance  [Sagar Shah]
+c3b767c  SystemUI: force a clock update if the screen is turned back on  [Sagar Shah]
+   * hardware/qcom/audio-caf/msm8996/
+4221991  Merge tag 'LA.UM.6.5.r1-06300-8x96.0' into HEAD  [Bruno Martins]
+   * hardware/qcom/display-caf/msm8996/
+13d89bf  Merge tag 'LA.UM.6.5.r1-06300-8x96.0' into HEAD  [Bruno Martins]
+   * hardware/qcom/media-caf/msm8996/
+711c15d  Merge tag 'LA.UM.6.5.r1-06300-8x96.0' into HEAD  [Bruno Martins]
+   * packages/apps/Settings/
+6a943ed  Fixes  [Sagar Shah]
+ccb1005  Themes: Fix BT pair dialog  [Sagar Shah]
+c3f65c0  Themes: Fix ActivityPicker  [Sagar Shah]
+d2f856a  DUI: Fix theming custom action dialog  [Sagar Shah]
+c09df0c  Settings: Add package name to installed app details  [Sagar Shah]
+ad7d896  Settings: add footer info for ambient display music ticker  [Sagar Shah]
+8865e02  Settings: Ambient display music ticker  [Sagar Shah]
    * vendor/cos/
-fd74818  sepolicy: Add Color Engine policy  [Sagar Shah]
+8923d87  Update potter Maintainer (#77)  [Sagar Shah]
+d36e117  Add Z2 Pro Maintainer (#76)  [Sagar Shah]
+9be7bef  Add Zuk Z2 Pro  [GitHub]
+   * vendor/ota/
+957f102  OTA: Update oneplus3 (16/02/2018)  [Sagar Shah]
 
-====================
-     08-04-2017
-====================
-
-   * hardware/qcom/media-caf/msm8916/
-ec78924  Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.23' into cm-14.1-caf-8916  [Michael Bestas]
-   * hardware/qcom/media-caf/msm8994/
-1afe59f  Merge remote-tracking branch 'caf/LA.BF64.1.2.3_rb1.15' into cm-14.1-caf-8994  [Michael Bestas]
-   * packages/resources/devicesettings/
-0f88d74  Automatic translation import  [Abhisek Devkota]
-
-====================
-     08-03-2017
-====================
-
-
-====================
-     08-02-2017
-====================
-
-
-====================
-     08-01-2017</Changelog>
+</Changelog>
 </ROM>
