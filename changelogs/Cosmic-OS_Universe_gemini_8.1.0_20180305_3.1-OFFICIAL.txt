@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_gemini_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Universe_gemini_8.1.0_20180305_3.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180305</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/gemini/Cosmic-OS_Universe_gemini_8.1.0_20180305_3.1-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/gemini</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5>69ecb9dc5aaf4c9087eae22d070493ee</CheckMD5>
-  <FileSize type="integer">504003087</FileSize>
-  <Developer>Sebastian</Developer>
-  <WebsiteURL nil="true">cosmic-os.github.io</WebsiteURL>
-  <DonateURL>paypal.me/Cosmic-OS</DonateURL>
-  <Changelog>====================
+====================
      03-05-2018
 ====================
 
@@ -55,5 +42,4 @@ b70fc73  Update potter (02/03/2018) (#104)  [Sagar Shah]
      03-02-2018
 ====================
 
-   * vendor/ota/</Changelog>
-</ROM>
+   * vendor/ota/
