@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_z2_row_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Universe_z2_row_8.1.0_20180315_3.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180315</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/z2_row/Cosmic-OS_Universe_z2_row_8.1.0_20180315_3.1-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/z2_row</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5>16413de13f9d9d06234825c475a01809</CheckMD5>
-  <FileSize type="integer">498421078</FileSize>
-  <Developer>mr.acar</Developer>
-  <WebsiteURL nil="true">cosmic-os.github.io</WebsiteURL>
-  <DonateURL>paypal.me/Cosmic-OS</DonateURL>
-  <Changelog>====================
+====================
      03-15-2018
 ====================
 
@@ -55,5 +42,4 @@ de5bdfb  sepolicy: treat fuseblk as sdcard_external  [Sagar Shah]
 d64e36c  sepolicy: label exfat and ntfs mkfs executables  [Sagar Shah]
 fe380cc  sepolicy: Add domain for mkfs binaries  [Sagar Shah]
 e33edb2  sepolicy: Set the context for fsck.exfat/ntfs to fsck_exec  [Sagar Shah]
-08d85ac  sepolicy: Fix sysinit denials  [Sagar Shah]</Changelog>
-</ROM>
+08d85ac  sepolicy: Fix sysinit denials  [Sagar Shah]
