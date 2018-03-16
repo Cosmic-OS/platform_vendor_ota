@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_huashan_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Universe_huashan_8.1.0_20180316_3.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180316</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/huashan/Cosmic-OS_Universe_huashan_8.1.0_20180316_3.1-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/huashan</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5>81a0aa0d057bf8e0e7983525f219493d</CheckMD5>
-  <FileSize type="integer">321348680</FileSize>
-  <Developer>dic1911</Developer>
-  <WebsiteURL nil="true">cosmic-os.github.io</WebsiteURL>
-  <DonateURL>paypal.me/Cosmic-OS</DonateURL>
-  <Changelog>====================
+====================
      03-16-2018
 ====================
 
@@ -55,5 +42,4 @@ f7addb2  common: Label sdfat as vfat  [Sagar Shah]
 cf570ab  sepolicy: qcom: Fixing camera app not launching  [Sagar Shah]
 aa86f9d  sepolicy: suppress denial logspam  [Sagar Shah]
 46dd56e  sepolicy: Add policy for vendor.lineage.power HAL  [Sagar Shah]
-d472365  sepolicy: Move exfat, ntfs and fuseblk types to system/sepolicy  [Sagar Shah]</Changelog>
-</ROM>
+d472365  sepolicy: Move exfat, ntfs and fuseblk types to system/sepolicy  [Sagar Shah]
