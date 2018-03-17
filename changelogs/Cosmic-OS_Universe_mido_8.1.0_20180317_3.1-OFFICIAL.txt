@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_mido_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Universe_mido_8.1.0_20180317_3.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180317</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/mido/Cosmic-OS_Universe_mido_8.1.0_20180317_3.1-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/mido</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5>b1e32237fa4ffedeaeaa8ad0cb55bfa8</CheckMD5>
-  <FileSize type="integer">487541558</FileSize>
-  <Developer>ManoloRey</Developer>
-  <WebsiteURL nil="true">cosmic-os.github.io</WebsiteURL>
-  <DonateURL>paypal.me/Cosmic-OS</DonateURL>
-  <Changelog>====================
+====================
      03-17-2018
 ====================
 
@@ -55,5 +42,4 @@ e228e45  Revert "core: add support for new soong configs"  [Sagar Shah]
 65193d5  IMS: Add Ims Radio Service HAL files to build  [Sagar Shah]
 a386878  soong: Rename our android package to android_cosmic  [Sagar Shah]
 17627df  cleanbuild: add *.zip.md5sum to installclean_files  [Sagar Shah]
-941446b  soong: Add function to return camera parameters library name  [Sagar Shah]</Changelog>
-</ROM>
+941446b  soong: Add function to return camera parameters library name  [Sagar Shah]
