@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_addison_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Universe_addison_8.1.0_20180317_3.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180317</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/addison/Cosmic-OS_Universe_addison_8.1.0_20180317_3.1-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/addison</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5>d93752a032d58bcccba06241ee007527</CheckMD5>
-  <FileSize type="integer">558279082</FileSize>
-  <Developer>klozz(TeamMEX)</Developer>
-  <WebsiteURL nil="true">cosmic-os.github.io</WebsiteURL>
-  <DonateURL>paypal.me/Cosmic-OS</DonateURL>
-  <Changelog>====================
+====================
      03-17-2018
 ====================
 
@@ -55,5 +42,4 @@ a386878  soong: Rename our android package to android_cosmic  [Sagar Shah]
 941446b  soong: Add function to return camera parameters library name  [Sagar Shah]
 91acf18  soong: explicitly specify name of Cosmic variables struct  [Sagar Shah]
 e86090c  soong: add support for nested structs in variableProperties  [Sagar Shah]
-e13b3ed  soong: use absolute path for OUT_DIR  [Sagar Shah]</Changelog>
-</ROM>
+e13b3ed  soong: use absolute path for OUT_DIR  [Sagar Shah]
