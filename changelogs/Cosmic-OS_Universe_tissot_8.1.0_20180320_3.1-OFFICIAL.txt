@@ -1,0 +1,45 @@
+====================
+     03-20-2018
+====================
+
+   * bionic/
+e8739be  linker: Move shims to TARGET_LD_SHIM_LIBS  [Sebastian]
+   * hardware/qcom/bootctrl/
+73e122c  Add msm8953 to the filter  [abhinavgupta371]
+   * vendor/ota/
+47831d2  Merge pull request #111 from sandyorton7/oreo-mr1  [GitHub]
+5858ed0  OTA:update potter (19/03/2018)  [sandyorton7]
+
+====================
+     03-19-2018
+====================
+
+
+====================
+     03-18-2018
+====================
+
+   * hardware/qcom/display/
+1aa43a5  msm8974: libexternal should depend on libmedia  [Sam Mortimer]
+ef4ddf0  msm8974: libgralloc: Fix adding offset to the mapped base address  [Sam Mortimer]
+   * vendor/ota/
+bf7d8c2  OTA: Update addison (17/03/2018)  [Sebastian]
+
+====================
+     03-17-2018
+====================
+
+   * packages/apps/Galaxy/
+41c1c12  Update PT-BR translation  [Sebastian]
+   * vendor/ota/
+a4ece81  OTA: Update mido (17/03/2018) (#109)  [Sagar Shah]
+841d2be  OTA: Update huashan (16/03/2018)  [Sidharth Soni]
+
+====================
+     03-16-2018
+====================
+
+   * hardware/qcom/audio/default/
+6ec0a5e  audio: Make CVD version retrieval nonfatal with ACDB v1  [D. Andrei Măceș]
+   * hardware/qcom/display/
+86a2c32  msm8974: hwcomposer: Fix regression in hwc_sync  [Sam Mortimer]
