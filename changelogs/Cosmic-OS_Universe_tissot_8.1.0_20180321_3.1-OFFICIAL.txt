@@ -1,0 +1,20 @@
+====================
+     03-20-2018
+====================
+
+   * bionic/
+e8739be  linker: Move shims to TARGET_LD_SHIM_LIBS  [Sebastian]
+
+====================
+     03-15-2018
+====================
+
+   * bionic/
+1d932e4  soong: Add cosmic variable struct  [Sagar Shah]
+
+====================
+     03-14-2018
+====================
+
+   * build/make/
+ee675f1  soong: pass the qcom hal paths to soong  [Sagar Shah]
