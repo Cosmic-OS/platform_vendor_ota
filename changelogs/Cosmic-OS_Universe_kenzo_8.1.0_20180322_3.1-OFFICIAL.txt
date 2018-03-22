@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_kenzo_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Universe_kenzo_8.1.0_20180322_3.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180322</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/kenzo/Cosmic-OS_Universe_kenzo_8.1.0_20180322_3.1-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/kenzo</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5>338191d914fd459ddbc2f5815800a2b8</CheckMD5>
-  <FileSize type="integer">467905805</FileSize>
-  <Developer>rocknegi</Developer>
-  <WebsiteURL nil="true">cosmic-os.github.io</WebsiteURL>
-  <DonateURL>paypal.me/Cosmic-OS</DonateURL>
-  <Changelog>====================
+====================
      03-22-2018
 ====================
 
@@ -55,5 +42,4 @@ e8739be  linker: Move shims to TARGET_LD_SHIM_LIBS  [Sebastian]
 13f6ac5  build: Add vendor.prop capability  [Sebastian]
 29d7dda  Revert "Stop overwriting prebuilt vendor prop"  [Sebastian]
 958bd57  build: Add new variable to hold generic build properties  [Sebastian]
-2bc170f  build: Make vendorimage depend on installed kernel  [Sebastian]</Changelog>
-</ROM>
+2bc170f  build: Make vendorimage depend on installed kernel  [Sebastian]
