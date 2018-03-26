@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_tissot_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Universe_tissot_8.1.0_20180326_3.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180326</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/tissot/Cosmic-OS_Universe_tissot_8.1.0_20180326_3.1-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/tissot</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5></CheckMD5>
-  <FileSize type="integer"></FileSize>
-  <Developer>abhinavgupta371</Developer>
-  <WebsiteURL nil="true">cosmic-os.github.io</WebsiteURL>
-  <DonateURL>paypal.me/Cosmic-OS</DonateURL>
-  <Changelog>====================
+====================
      03-25-2018
 ====================
 
@@ -55,5 +42,4 @@ e6d9565  Add msm8953 to the filter  [abhinavgupta371]
    * bionic/
 e8739be  linker: Move shims to TARGET_LD_SHIM_LIBS  [Sebastian]
    * build/make/
-5757d9a  releasetools: Use the first entry of a mount point when reading fstab  [Sebastian]</Changelog>
-</ROM>
+5757d9a  releasetools: Use the first entry of a mount point when reading fstab  [Sebastian]
