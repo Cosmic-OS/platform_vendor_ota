@@ -1,59 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
   <RomName>Cosmic-OS_sanders_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Universe_sanders_8.1.0_20180226_3.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180226</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/sanders/Cosmic-OS_Universe_sanders_8.1.0_20180226_3.1-OFFICIAL.zip</DirectUrl>
+  <VersionName><![CDATA[ Cosmic-OS_Universe_sanders_8.1.0_20180326_3.1-OFFICIAL ]]></VersionName>
+  <VersionNumber type="integer">20180326</VersionNumber>
+  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/sanders/Cosmic-OS_Universe_sanders_8.1.0_20180326_3.1-OFFICIAL.zip</DirectUrl>
   <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/sanders</HttpUrl>
   <Android>8.1.0</Android>
-  <CheckMD5>f163f951b9c4ad79129b10cc9303b797</CheckMD5>
-  <FileSize type="integer">501429054</FileSize>
+  <CheckMD5>5e109334a7b0f9665d2bc1099e515d5f</CheckMD5>
+  <FileSize type="integer">511986699</FileSize>
   <Developer>Keertesh</Developer>
   <WebsiteURL nil="true">cosmic-os.github.io</WebsiteURL>
   <DonateURL>paypal.me/Cosmic-OS</DonateURL>
   <Changelog>====================
-     02-26-2018
+     03-26-2018
 ====================
 
-   * build/make/
-604184a  build: Introduce SubstratumService  [Sebastian]
-   * device/motorola/sanders/
-2915ef9  Update audio configs  [Keertesh]
-5a6c74d  stml0xx_hal: remove android_alarm include  [Keertesh]
-41c1b02  sensors: move mot_sensorhub_stml0xx.h to stml0xx_hal  [Keertesh]
-0d5d803  stml0xx_hal: enable Glance Gesture  [Keertesh]
-ab3d3b3  SensorHub: fix some includes  [Keertesh]
-e9644f0  sanders: mot_sensorhub_motosh.h -> mot_sensorhub_stml0xx.h  [Keertesh]
-1156de6  sanders: import oss sensors HALs  [Keertesh]
-8d94289  sanders: Remove no more used overlays  [Keertesh]
-6290a56  sanders: disable vibrant display mode  [Keertesh]
-012ab1a  Remove Official  [Keertesh]
-   * hardware/qcom/media-caf/msm8996/
-3d25618  media: libOmxSw encoders require prop headers :(  [Rashed Abdel-Tawab]
-   * kernel/motorola/msm8953/
-4a55d037173b  Linux 3.18.96  [Keertesh]
-04e879c03b70  crypto: s5p-sss - Fix kernel Oops in AES-ECB mode  [Keertesh]
-295b07792c99  KVM: async_pf: Fix #DF due to inject "Page not Present" and "Page Ready" exceptions simultaneously  [Keertesh]
-1f52d123ea7b  hippi: Fix a Fix a possible sleep-in-atomic bug in rr_close  [Keertesh]
-91a09514f5ed  xen: XEN_ACPI_PROCESSOR is Dom0-only  [Keertesh]
-63af2969559e  x86/mm/kmmio: Fix mmiotrace for page unaligned addresses  [Keertesh]
-68a508394f68  mm/early_ioremap: Fix boot hang with earlyprintk=efi,keep  [Keertesh]
-0f76accf5c8e  dmaengine: jz4740: disable/unprepare clk if probe fails  [Keertesh]
-dfd1ef829320  xfrm: Fix stack-out-of-bounds with misconfigured transport mode policies.  [Keertesh]
-1f966bf14b30  spi: sun4i: disable clocks in the remove function  [Keertesh]
-03fa506ab3ea  509: fix printing uninitialized stack memory when OID is empty  [Keertesh]
-f9a8cda48c14  btrfs: Fix possible off-by-one in btrfs_search_path_in_tree  [Keertesh]
-71981d1682c3  net_sched: red: Avoid illegal values  [Keertesh]
-3b36acd91e4f  net_sched: red: Avoid devision by zero  [Keertesh]
-c6ecf8848405  gianfar: fix a flooded alignment reports because of padding issue.  [Keertesh]
-83f1078f6178  s390/dasd: prevent prefix I/O error  [Keertesh]
-d02b6e632153  powerpc/perf: Fix oops when grouping different pmu events  [Keertesh]
-e58fd1170d51  scripts/kernel-doc: Don't fail with status != 0 if error encountered with -none  [Keertesh]
-5060dc574c48  media: s5k6aa: describe some function parameters  [Keertesh]
-88da08573e70  perf bench numa: Fixup discontiguous/sparse numa nodes  [Keertesh]
-42b5a853224f  perf top: Fix window dimensions change handling  [Keertesh]
-14851102a6a3  ARM: dts: am4372: Correct the interrupts_properties of McASP  [Keertesh]
-54f998b717ea  ARM: AM33xx: PRM: Remove am33xx_pwrdm_read_prev_pwrst function  [Keertesh]
-35adb080e678  usb: build drivers/usb/common/ when USB_SUPPORT is set  [Keertesh]
-9e3abf38ef60  usbip: keep usbip_device sockfd state in sync with tcp_socket  [Keertesh]</Changelog>
+
+====================
+     03-25-2018
+====================
+
+
+====================
+     03-24-2018
+====================
+
+
+====================
+     03-23-2018
+====================
+
+
+====================
+     03-22-2018
+====================
+
+
+====================
+     03-21-2018
+====================
+
+
+====================
+     03-20-2018
+====================
+
+
+====================
+     03-19-2018
+====================
+
+
+====================
+     03-18-2018
+====================</Changelog>
 </ROM>
