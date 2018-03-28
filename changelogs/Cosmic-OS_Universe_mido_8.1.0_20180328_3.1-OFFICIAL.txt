@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_mido_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Universe_mido_8.1.0_20180328_3.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180328</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/mido/Cosmic-OS_Universe_mido_8.1.0_20180328_3.1-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/mido</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5>6a1f4b9878639930e89c30f574ccc447</CheckMD5>
-  <FileSize type="integer">487517155</FileSize>
-  <Developer>ManoloRey</Developer>
-  <WebsiteURL nil="true">cosmic-os.github.io</WebsiteURL>
-  <DonateURL>paypal.me/Cosmic-OS</DonateURL>
-  <Changelog>====================
+====================
      03-28-2018
 ====================
 
@@ -55,5 +42,4 @@ d658488  Add Android P transition  [zeromod]
 caf16d8  Wifi: Add Qpower interface to libhardware_legacy  [Sagar Shah]
 8875083  [AWARE]: Add support to config NAN discovery beacon interval  [Sagar Shah]
 53ff459  [AWARE]: Add support for NAN qos config, schedule update channel  [Sagar Shah]
-   * manifest/</Changelog>
-</ROM>
+   * manifest/
