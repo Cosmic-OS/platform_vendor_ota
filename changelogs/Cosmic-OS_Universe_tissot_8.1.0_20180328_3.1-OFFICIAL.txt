@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_tissot_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Universe_tissot_8.1.0_20180328_3.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180328</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/tissot/Cosmic-OS_Universe_tissot_8.1.0_20180328_3.1-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/tissot</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5>6c651f6f33f2da0514440db43ed26f6d</CheckMD5>
-  <FileSize type="integer">497844247</FileSize>
-  <Developer>abhinavgupta371</Developer>
-  <WebsiteURL nil="true">cosmic-os.github.io</WebsiteURL>
-  <DonateURL>paypal.me/Cosmic-OS</DonateURL>
-  <Changelog>====================
+====================
      03-28-2018
 ====================
 
@@ -55,5 +42,4 @@ e6d9565  Add msm8953 to the filter  [abhinavgupta371]
 
 
 ====================
-     03-22-2018</Changelog>
-</ROM>
+     03-22-2018
