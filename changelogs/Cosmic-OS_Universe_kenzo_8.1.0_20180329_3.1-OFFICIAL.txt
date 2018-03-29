@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_kenzo_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Universe_kenzo_8.1.0_20180329_3.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180329</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/kenzo/Cosmic-OS_Universe_kenzo_8.1.0_20180329_3.1-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/kenzo</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5>976762b8b1efcb1e0c74b6c96e8e1b6d</CheckMD5>
-  <FileSize type="integer">468350196</FileSize>
-  <Developer>rocknegi</Developer>
-  <WebsiteURL nil="true">cosmic-os.github.io</WebsiteURL>
-  <DonateURL>paypal.me/Cosmic-OS</DonateURL>
-  <Changelog>====================
+====================
      03-29-2018
 ====================
 
@@ -53,5 +40,4 @@ ee1f486  ANDROID: sdcardfs: Add default_normal option  [Nick]
    * packages/apps/Settings/
 1ee01ce  WiFi: Remove country code checking. Always allow 5gHz AP option  [Sagar Shah]
    * vendor/ota/
-ce84b22  OTA: Update z2_plus (26/03/2018) (#117)  [Sagar Shah]</Changelog>
-</ROM>
+ce84b22  OTA: Update z2_plus (26/03/2018) (#117)  [Sagar Shah]
