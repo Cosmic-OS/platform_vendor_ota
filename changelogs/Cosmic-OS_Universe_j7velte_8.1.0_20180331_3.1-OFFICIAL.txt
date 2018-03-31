@@ -1,0 +1,45 @@
+====================
+     03-31-2018
+====================
+
+   * device/samsung/exynos7870-common/
+f975b5a  Nuke lineage.dependencies  [lzzy12]
+   * device/samsung/j7velte/
+f6fa820  j7velte: We are moving to official  [lzzy12]
+   * frameworks/base/
+035fedf  base: lock: Allow skipping secure discard of Screen Lock keys  [Kshitij Gupta]
+   * frameworks/native/
+3944469  Fix resampling for multiple pointers  [Sagar Shah]
+   * hardware/qcom/audio-caf/msm8996/
+549e801  qahw_api: Ignore missing dependency  [Rashed Abdel-Tawab]
+   * hardware/qcom/audio-caf/msm8998/
+56eeef3  audio: add amplifier hooks for stream parameter manipulation  [Daniel Hillenbrand]
+   * hardware/samsung/
+adee7a1  Non Lineage ROMs can't build Advanced Display, hence nuke it  [lzzy12]
+
+====================
+     03-30-2018
+====================
+
+   * frameworks/av/
+594cd59  Revert "ACodec: Fix video autoscaling on old OMX decoders"  [Sagar Shah]
+   * hardware/cosmic/interfaces/
+5272b78  Revert "Camed HAL extension: Added support in HIDL for Extended FD."  [Sagar Shah]
+   * hardware/interfaces/
+534abda  camera: Only link and use vendor.qti.hardware.camera.device if specified  [Sagar Shah]
+   * kernel/samsung/exynos7870/
+948c43b  j5y17lte: Disable Mali debug sysfs  [ananjaser1211]
+   * vendor/cos/
+d8c89b8  devices: Add official support for j7velte (#83)  [Sagar Shah]
+   * vendor/ota/
+08f7f90  OTA:Update potter (30/03/2018) (#122)  [Sagar Shah]
+
+====================
+     03-29-2018
+====================
+
+   * build/make/
+adbc8d2  Don't enable ANDROID_BINDER_IPC_32BIT for mixed userspace/kernel  [Sagar Shah]
+   * hardware/samsung_slsi-cm/exynos5/
+c22ad1f  Build mcDriverDaemon only for FP devices  [lzzy12]
+   * vendor/ota/
