@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_tissot_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Universe_tissot_8.1.0_20180401_3.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180401</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/tissot/Cosmic-OS_Universe_tissot_8.1.0_20180401_3.1-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/tissot</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5>712d04e781c8e74a3f350cd68b7f124b</CheckMD5>
-  <FileSize type="integer">497854666</FileSize>
-  <Developer>abhinavgupta371</Developer>
-  <WebsiteURL nil="true">cosmic-os.github.io</WebsiteURL>
-  <DonateURL>paypal.me/Cosmic-OS</DonateURL>
-  <Changelog>====================
+====================
      04-01-2018
 ====================
 
@@ -55,5 +42,4 @@ f6515e6  update_target: Remove gpg-sign option  [Kshitij Gupta]
 c1a0259  update_target: Evaluate conditions correctly on ZSH  [Kshitij Gupta]
 a51cdec  OTA: Update bacon (31/03/2018)  [Kshitij Gupta]
 
-====================</Changelog>
-</ROM>
+====================
