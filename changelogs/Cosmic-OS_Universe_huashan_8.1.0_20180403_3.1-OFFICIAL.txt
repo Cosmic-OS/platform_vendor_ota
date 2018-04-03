@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_huashan_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Universe_huashan_8.1.0_20180403_3.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180403</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/huashan/Cosmic-OS_Universe_huashan_8.1.0_20180403_3.1-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/huashan</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5>e7b061214c5d21ec006466eb8dd47941</CheckMD5>
-  <FileSize type="integer">321342853</FileSize>
-  <Developer>dic1911</Developer>
-  <WebsiteURL nil="true">cosmic-os.github.io</WebsiteURL>
-  <DonateURL>paypal.me/Cosmic-OS</DonateURL>
-  <Changelog>====================
+====================
      04-03-2018
 ====================
 
@@ -55,5 +42,4 @@ f9241b6  Stock Recents icon pack support [1/2]  [Sebastian]
 c358a77  Track bt hals locally  [Sagar Shah]
    * packages/apps/Galaxy/
 ca69f4b  Stock Recents icon packs support [2/2]  [Sebastian]
-   * packages/apps/Settings/</Changelog>
-</ROM>
+   * packages/apps/Settings/
