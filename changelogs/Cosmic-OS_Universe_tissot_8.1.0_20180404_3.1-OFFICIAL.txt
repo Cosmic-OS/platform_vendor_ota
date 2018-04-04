@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_tissot_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Universe_tissot_8.1.0_20180404_3.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180404</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/tissot/Cosmic-OS_Universe_tissot_8.1.0_20180404_3.1-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/tissot</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5>4bd5662154687363218771dffe20d6ff</CheckMD5>
-  <FileSize type="integer">497935366</FileSize>
-  <Developer>abhinavgupta371</Developer>
-  <WebsiteURL nil="true">cosmic-os.github.io</WebsiteURL>
-  <DonateURL>paypal.me/Cosmic-OS</DonateURL>
-  <Changelog>====================
+====================
      04-04-2018
 ====================
 
@@ -55,5 +42,4 @@ b9a2d51  SystemUI: use new visualizer from Eleven  [Sebastian]
    * build/make/
 b8bf190  Install (vendor|system/vendor)/build.prop always  [Sagar Shah]
 ef36bbb  Move all system props to PRODUCT_GENERIC_PROPERTIES  [Sagar Shah]
-   * manifest/</Changelog>
-</ROM>
+   * manifest/
