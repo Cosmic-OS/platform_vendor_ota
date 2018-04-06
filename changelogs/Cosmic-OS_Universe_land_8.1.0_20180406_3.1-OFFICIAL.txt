@@ -1,21 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_land_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Universe_land_8.1.0_20180406_3.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180406</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/land/Cosmic-OS_Universe_land_8.1.0_20180406_3.1-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/land</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5>2a1d9b2d4384dd405b4878440c9718f8</CheckMD5>
-  <FileSize type="integer">501686665</FileSize>
-  <Developer>klozz(TeamMEX)</Developer>
-  <WebsiteURL nil="true">cosmic-os.github.io</WebsiteURL>
-  <DonateURL>paypal.me/Cosmic-OS</DonateURL>
-  <Changelog>====================
-     04-06-2018
 ====================
- * LAND with treble support 
-
+     04-06-2018
 ====================
 
    * frameworks/base/
@@ -58,5 +42,4 @@ b9a2d51  SystemUI: use new visualizer from Eleven  [Sebastian]
    * packages/apps/PackageInstaller/
 3a3d706  Merge tag 'android-8.1.0_r20' of https://android.googlesource.com/platform/packages/apps/PackageInstaller into oreo-mr1  [Sebastian]
    * packages/apps/Settings/
-4e8a5ea  fuelgauge: add back battery level animation  [Sagar Shah]</Changelog>
-</ROM>
+4e8a5ea  fuelgauge: add back battery level animation  [Sagar Shah]
