@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_mido_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Universe_mido_8.1.0_20180406_3.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180406</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/mido/Cosmic-OS_Universe_mido_8.1.0_20180406_3.1-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/mido</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5>d1e5d6a963d3e2bf1b1f4cb1d1c05328</CheckMD5>
-  <FileSize type="integer">487899411</FileSize>
-  <Developer>ManoloRey</Developer>
-  <WebsiteURL nil="true">cosmic-os.github.io</WebsiteURL>
-  <DonateURL>paypal.me/Cosmic-OS</DonateURL>
-  <Changelog>====================
+====================
      04-06-2018
 ====================
 
@@ -55,5 +42,4 @@ e945b83  HF: PTS Issue TC_HF_RSV_BV_01_I Fix  [ManoloRey]
 db2da87  Fix expandable desktop  [Sebastian]
 a9393e8  Make sure to rebuild on app entries loaded  [Sebastian]
 d87beae  Don't re-populate the app list in rebuild()  [Sebastian]
-10680c8  Bringup expanded desktop and implement per-user configuration  [Sebastian]</Changelog>
-</ROM>
+10680c8  Bringup expanded desktop and implement per-user configuration  [Sebastian]
