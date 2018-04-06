@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_z2_row_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Universe_z2_row_8.1.0_20180406_3.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180406</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/z2_row/Cosmic-OS_Universe_z2_row_8.1.0_20180406_3.1-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/z2_row</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5>e691b28df1a9348b913518988e64de02</CheckMD5>
-  <FileSize type="integer">484700499</FileSize>
-  <Developer>mracar07</Developer>
-  <WebsiteURL nil="true">cosmic-os.github.io</WebsiteURL>
-  <DonateURL>paypal.me/Cosmic-OS</DonateURL>
-  <Changelog>====================
+====================
      04-06-2018
 ====================
 
@@ -55,5 +42,4 @@ e5f5d3d  base: Disable AOD by default [2/2]  [Sagar Shah]
 523c587  services: Fix double-free error on RemoteFillService  [Sagar Shah]
 a367482  Avoid dangerous recursive call on startProcessLocked  [Sagar Shah]
 ba03967  Fix empty recents view in multi window mode  [Sagar Shah]
-db806fa  SystemUI: Fix FC issue  [Sagar Shah]</Changelog>
-</ROM>
+db806fa  SystemUI: Fix FC issue  [Sagar Shah]
