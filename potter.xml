@@ -1,23 +1,371 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
   <RomName>Cosmic-OS_potter_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Universe_potter_8.1.0_20180330_3.1-OFFICIAL.zip ]]></VersionName>
-  <VersionNumber type="integer">20180330</VersionNumber>
-  <DirectUrl>https://sourceforge.net/projects/cosmic-os/files/potter/Cosmic-OS_Universe_potter_8.1.0_20180330_3.1-OFFICIAL.zip/download</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/potter/Cosmic-OS_Universe_potter_8.1.0_20180330_3.1-OFFICIAL.zip/</HttpUrl>
+  <VersionName><![CDATA[ Cosmic-OS_Universe_potter_8.1.0_20180406_3.1-OFFICIAL.zip ]]></VersionName>
+  <VersionNumber type="integer">20180406</VersionNumber>
+  <DirectUrl>https://sourceforge.net/projects/cosmic-os/files/potter/Cosmic-OS_Universe_potter_8.1.0_20180406_3.1-OFFICIAL.zip/download</DirectUrl>
+  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/potter/Cosmic-OS_Universe_potter_8.1.0_20180406_3.1-OFFICIAL.zip/</HttpUrl>
   <Android>8.1.0</Android>
-  <CheckMD5>cca32791aa8eec6079d80c03129e5669</CheckMD5>
-  <FileSize type="integer">506836</FileSize>
+  <CheckMD5>4992411b9e6acbffac373e83c5ea3127</CheckMD5>
+  <FileSize type="integer">507714</FileSize>
   <Developer>Sri Sandeep</Developer>
   <WebsiteURL nil="true">cosmic-os.github.io</WebsiteURL>
   <DonateURL>paypal.me/Cosmic-OS</DonateURL>
   <Changelog>
+====================
+     04-06-2018
+====================
+
+   * device/motorola/potter/
+2293b3e  ENFORCE  [sandyorton7]
+0bc609f  potter: Use Pixel build fingerprint to bypass safetynet  [sandyorton7]
+15116c2  potter: address some denials  [sandyorton7]
+36e1d23  potter: build libqdMetaData.system  [sandyorton7]
+313ef52  potter: build libdisplayconfig  [sandyorton7]
+a8bb23d  potter: enable TARGET_USE_SDCLANG  [sandyorton7]
+508c474  msm8953: sched_upmigrate need to be set first  [sandyorton7]
+e183f9f  Revert "Use tracefs not debugfs"  [sandyorton7]
+5227b22  msm8953: Update the sched parameters  [sandyorton7]
+046f50b  update deps  [sandyorton7]
+   * frameworks/base/
+91c9cddaff9  base: expanded desktop: fix for endless layout loop on keyguard  [Sebastian]
+b42ca6a94fd  Remove unused POLICY_CONTROL_SELECTED. Unbreak public api  [Sebastian]
+02707d55505  Create configurable default expanded desktop style  [Sebastian]
+11349564a62  Bringup expanded desktop and implement per-user configuration  [Sebastian]
+   * packages/apps/Galaxy/
+2839841  Allow SystemUI to be used by Expanded desktop  [Sebastian]
+db2da87  Fix expandable desktop  [Sebastian]
+a9393e8  Make sure to rebuild on app entries loaded  [Sebastian]
+d87beae  Don't re-populate the app list in rebuild()  [Sebastian]
+10680c8  Bringup expanded desktop and implement per-user configuration  [Sebastian]
+   * packages/apps/Settings/
+f01cc34e7c  Bringup expanded desktop and implement per-user configuration  [Sebastian]
+
+====================
+     04-05-2018
+====================
+
+   * build/make/
+01014d4d2  Merge tag 'android-8.1.0_r20' of https://android.googlesource.com/platform/build into oreo-mr1  [Sebastian]
+   * frameworks/av/
+fc97120bc  Merge tag 'android-8.1.0_r20' of https://android.googlesource.com/platform/frameworks/av into oreo-mr1  [Sebastian]
+   * frameworks/base/
+eb2acdd81dc  Battery saver QS tile improvements  [Sagar Shah]
+89c9f0eb565  Battery tile: fix label when charging  [Sagar Shah]
+75286d7a327  Make the visualizer more extensible  [Sebastian]
+0e1603fe662  Lockscreen Visualizer: hide with AlwaysOnDisplay  [Sebastian]
+17a5233435c  Introduce new lockscreen visualizer implementation  [Sebastian]
+b9a2d5147ad  SystemUI: use new visualizer from Eleven  [Sebastian]
+4191939f308  Black/Dark Theme: Support theming notificatons  [Sebastian]
+709e656e934  base: Add support for theming notifications  [Sebastian]
+13da118ee04  Merge tag 'android-8.1.0_r20' into oreo-mr1  [Sebastian]
+4683a99fffa  Update Chinese translations  [Sebastian]
+   * manifest/
+50b1725  Merge branch 'android-8.1.0_r20' of https://android.googlesource.com/platform/manifest into oreo-mr1  [Sebastian]
+   * packages/apps/Galaxy/
+50c8a04  Galaxy: Add lockscreen visualizer toggle  [Sebastian]
+   * packages/apps/PackageInstaller/
+3a3d706e  Merge tag 'android-8.1.0_r20' of https://android.googlesource.com/platform/packages/apps/PackageInstaller into oreo-mr1  [Sebastian]
+   * packages/apps/Settings/
+4e8a5eadf6  fuelgauge: add back battery level animation  [Sagar Shah]
+4efeff4b15  Update Chinese Translations  [Sebastian]
+   * system/bt/
+562708ce  Merge tag 'android-8.1.0_r20' of https://android.googlesource.com/platform/system/bt into oreo-mr1  [Sebastian]
+   * system/core/
+9e88ec20f  Fix lockscreen charging info(#9)  [Sagar Shah]
+   * vendor/ota/
+a4d0138  OTA: Update tissot (04/04/2018)  [Sebastian]
+
+====================
+     04-04-2018
+====================
+
+   * build/make/
+b8bf190fa  Install (vendor|system/vendor)/build.prop always  [Sagar Shah]
+ef36bbba2  Move all system props to PRODUCT_GENERIC_PROPERTIES  [Sagar Shah]
+   * hardware/qcom/audio-caf/msm8996/
+14d7df08  Merge tag 'LA.UM.6.5.r1-06700-8x96.0' of caf into lineage-15.1-caf-8996  [Rashed Abdel-Tawab]
+   * hardware/qcom/display-caf/msm8996/
+80f2baf0e  Merge tag 'LA.UM.6.5.r1-06700-8x96.0' of caf into lineage-15.1-caf-8996  [Rashed Abdel-Tawab]
+   * hardware/qcom/media-caf/msm8996/
+020e52b50  Merge tag 'LA.UM.6.5.r1-06700-8x96.0' of caf into lineage-15.1-caf-8996  [Rashed Abdel-Tawab]
+   * packages/apps/Galaxy/
+3f00372  Update PT-BR translation (#17)  [Sagar Shah]
+   * vendor/ota/
+1f9a4f7  OTA: Update huashan (03/04/2018) (#125)  [Sagar Shah]
+
+====================
+     04-03-2018
+====================
+
+   * frameworks/base/
+75a9b24b234  Show 4G instead of LTE [1/2] - Added to statusbar items under the AOSP tuner instead of 2 parts - Added a category to organize things a bit - Added SettingsObserver in PSB - Hide the switch on WiFi-Only devices (thanks AICP for the idea) - Removed config that was used in overlays  [Sebastian]
+3a57cd1dff7  ViewConfiguration: misc changes (rev)  [Sebastian]
+54594475dd2  SystemUI: QS: keep emergency call only text consistent  [Sebastian]
+   * manifest/
+8fd5e23  Manifest for Android 8.1.0 Release 20  [The Android Open Source Project]
+d4052a9  Manifest for Android 8.1.0 Release 19  [The Android Open Source Project]
+   * packages/apps/Galaxy/
+f3d9a5c  Show 4G instead of LTE switch [2/2]  [Sebastian]
+   * vendor/ota/
+23dcd46  OTA: Update gemini (02/04/2018)  [Sebastian]
+
+====================
+     04-02-2018
+====================
+
+   * device/cosmic/sepolicy/
+a8de8b2  sepolicy: Improve external storage rules  [Sagar Shah]
+   * device/motorola/potter/
+8ef47a0  update deps AGAIN  [sandyorton7]
+d440b53  update deps  [sandyorton7]
+271f116  add dependencies and cleanup tree  [sandyorton7]
+   * device/qcom/common/
+6e48da0  Remove QC releasetools and recovery extensions  [Michael Bestas]
+   * frameworks/base/
+6d20bf1492c  Disable BT by default  [Sebastian]
+839df372062  Skype voice can't transfer to carkit after re-connection  [Sebastian]
+3a483dc3dce  Don't reset audio route if setBluetoothScoOn is called without SCO connection  [Sebastian]
+fbf60b2a2ba  base: Disable AOD by default [2/2]  [Sebastian]
+2d25c450a5d  Use icon_frame also for category layout  [Sebastian]
+afe233c330d  Remove left space settings  [Sebastian]
+a21df86b87b  Use common style for restricted preference  [Sebastian]
+08bd0cefa13  Remove freezing window to fix UI freezing issue  [Sebastian]
+6b89b983ec8  mountservice: Shut down volumes before restarting framework  [Sebastian]
+d55ec9bd671  Recents: Improve membar layout  [Sebastian]
+de31f282065  frameworks: more tweaks to make this smooth  [Sebastian]
+f48e790113f  Let's cut Max Excape Animation in Half  [Sebastian]
+cb43fd25506  services: Fix double-free error on RemoteFillService  [Sebastian]
+d94fc9e0d8f  Avoid dangerous recursive call on startProcessLocked  [Sebastian]
+4e07530b4b4  Fix empty recents view in multi window mode  [Sebastian]
+0c6f51bbf37  SystemUI: Fix FC issue  [Sebastian]
+f9241b670a4  Stock Recents icon pack support [1/2]  [Sebastian]
+   * hardware/qcom/bt-caf/
+3315d29  Revert "Add vendor-specific message types for FM."  [Sagar Shah]
+   * hardware/qcom/media-caf/msm8952/
+63c9787cc  Revert "media: Adjust for new header Android.bp requirements"  [Ethan Chen]
+   * kernel/motorola/msm8953/
+a196f75fc71  Linux 3.18.102  [Vachounet]
+54c55782042  RDMA/ucma: Fix access to non-initialized CM_ID object  [Vachounet]
+efefe707e0a  clk: si5351: Rename internal plls to avoid name collisions  [Vachounet]
+617f340bdc7  pinctrl: Really force states during suspend/resume  [Vachounet]
+d6c72f6badd  drm/omap: DMM: Check for DMM readiness after successful transaction commit  [Vachounet]
+bd7a0bb8843  vgacon: Set VGA struct resource types  [Vachounet]
+c0d355c9cf6  RDMA/cma: Use correct size when writing netlink stats  [Vachounet]
+88b28995f4f  IB/ipoib: Avoid memory leak if the SA returns a different DGID  [Vachounet]
+4f82889fc08  mmc: avoid removing non-removable hosts during suspend  [Vachounet]
+dc0cd816b0d  media: [RESEND] media: dvb-frontends: Add delay to Si2168 restart  [Vachounet]
+de070203851  media: bt8xx: Fix err 'bt878_probe()'  [Vachounet]
+dea68304f72  drm/msm: fix leak in failed get_pages  [Vachounet]
+710045b05b6  cifs: small underflow in cnvrtDosUnixTm()  [Vachounet]
+de8d734a1fb  sm501fb: don't return zero on failure path in sm501fb_start()  [Vachounet]
+b97e3c24987  video: fbdev: udlfb: Fix buffer on stack  [Vachounet]
+a3006d49647  ia64: fix module loading for gcc-5.4  [Vachounet]
+5817f6604f7  md/raid10: skip spare disk as 'first' disk  [Vachounet]
+8a1adbd53a8  power: supply: pda_power: move from timer to delayed_work  [Vachounet]
+1d6a68e3504  bnx2x: Align RX buffers  [Vachounet]
+668dbe889fe  ipmi/watchdog: fix wdog hang on panic waiting for ipmi response  [Vachounet]
+027656e5c5d  ARM: DRA7: clockdomain: Change the CLKTRCTRL of CM_PCIE_CLKSTCTRL to SW_WKUP  [Vachounet]
+c08c9ced4f6  mfd: palmas: Reset the POWERHOLD mux during power off  [Vachounet]
+3d116509a6b  mac80211: don't parse encrypted management frames in ieee80211_frame_acked  [Vachounet]
+2244ddbd03c  Btrfs: send, fix file hole not being preserved due to inline extent  [Vachounet]
+4c48930126e  rndis_wlan: add return value validation  [Vachounet]
+972ba4ebe54  scsi: mac_esp: Replace bogus memory barrier with spinlock  [Vachounet]
+dc6b16d16c6  qlcnic: fix unchecked return value  [Vachounet]
+dd540fbe25c  wan: pc300too: abort path on failure  [Vachounet]
+5a54f90aa0e  mmc: host: omap_hsmmc: checking for NULL instead of IS_ERR()  [Vachounet]
+0edeb1a1959  Fix driver usage of 128B WQEs when WQ_CREATE is V1.  [Vachounet]
+555991565e7  HSI: ssi_protocol: double free in ssip_pn_xmit()  [Vachounet]
+91fb727ea35  IB/ipoib: Update broadcast object if PKey value was changed in index 0  [Vachounet]
+64493ca202e  ALSA: hda - Fix headset microphone detection for ASUS N551 and N751  [Vachounet]
+4f196bb1e6a  e1000e: fix timing for 82579 Gigabit Ethernet controller  [Vachounet]
+539fd1908fa  tcp: remove poll() flakes with FastOpen  [Vachounet]
+f53dd392146  KVM: PPC: Book3S PR: Exit KVM on failed mapping  [Vachounet]
+ea149b07664  scsi: virtio_scsi: Always try to read VPD pages  [Vachounet]
+5a47bb7fd0e  ath: Fix updating radar flags for coutry code India  [Vachounet]
+a150bc95c83  spi: dw: Disable clock after unregistering the host  [Vachounet]
+7fdb0d085ae  media/dvb-core: Race condition when writing to CAM  [Vachounet]
+71c8ab268a8  net: ipv6: send unsolicited NA on admin up  [Vachounet]
+8616e315826  i2c: i2c-scmi: add a MS HID  [Vachounet]
+e88b2cf306a  genirq: Use irqd_get_trigger_type to compare the trigger type for shared IRQs  [Vachounet]
+49aa75e13ad  cpufreq/sh: Replace racy task affinity logic  [Vachounet]
+df63ded1aa7  ACPI/processor: Replace racy task affinity logic  [Vachounet]
+4f2ec41e6b7  Input: ar1021_i2c - fix too long name in driver's device table  [Vachounet]
+8e6bba6cb0c  x86: i8259: export legacy_pic symbol  [Vachounet]
+347359fe953  platform/x86: asus-nb-wmi: Add wapf4 quirk for the X302UA  [Vachounet]
+44b5829d8ab  Linux 3.18.101  [Vachounet]
+bebc1c43632  scsi: sg: only check for dxfer_len greater than 256M  [Vachounet]
+dc05df9bf13  scsi: sg: fix static checker warning in sg_is_valid_dxfer  [Vachounet]
+5fa655207a6  scsi: sg: fix SG_DXFER_FROM_DEV transfers  [Vachounet]
+affe4fcadd4  fs/aio: Use RCU accessors for kioctx_table->table[]  [Vachounet]
+1aaf39afacf  fs/aio: Add explicit RCU grace period when freeing kioctx  [Vachounet]
+581ade4788a  lock_parent() needs to recheck if dentry got __dentry_kill'ed under it  [Vachounet]
+9f7e280df1c  ALSA: seq: Clear client entry before deleting else at closing  [Vachounet]
+dfd9f03cd29  ALSA: seq: Fix possible UAF in snd_seq_check_queue()  [Vachounet]
+865f6eb367d  ALSA: pcm: Fix UAF in snd_pcm_oss_get_formats()  [Vachounet]
+865ace0de5e  ima: relax requiring a file signature for new files with zero length  [Vachounet]
+636b55fdcf2  rcutorture/configinit: Fix build directory error message  [Vachounet]
+8b111d8c729  ASoC: nuc900: Fix a loop timeout test  [Vachounet]
+592db034e4a  mac80211: remove BUG() when interface type is invalid  [Vachounet]
+bb6f16621b8  veth: set peer GSO values  [Vachounet]
+740240c820d  media: cpia2: Fix a couple off by one bugs  [Vachounet]
+89fd7b4bbc5  scsi: devinfo: apply to HP XP the same flags as Hitachi VSP  [Vachounet]
+271b5e0ce94  spi: sun6i: disable/unprepare clocks on remove  [Vachounet]
+e21cd84368f  tools/usbip: fixes build with musl libc toolchain  [Vachounet]
+6db21d08ee3  ARM: dts: omap3-n900: Fix the audio CODEC's reset pin  [Vachounet]
+c1810b3de74  ARM: dts: am335x-pepper: Fix the audio CODEC's reset pin  [Vachounet]
+accf46dc345  mtd: nand: fix interpretation of NAND_CMD_NONE in nand_command[_lp]()  [Vachounet]
+53da60f867d  net: xfrm: allow clearing socket xfrm policies.  [Vachounet]
+b5d78a58fd7  sched: Stop resched_cpu() from sending IPIs to offline CPUs  [Vachounet]
+4c16529c294  HID: elo: clear BTN_LEFT mapping  [Vachounet]
+23467a65008  wil6210: fix memory access violation in wil_memcpy_from/toio_32  [Vachounet]
+9aff9f24896  kprobes/x86: Set kprobes pages read-only  [Vachounet]
+bdb380e0cff  kprobes/x86: Fix kprobe-booster not to boost far call instructions  [Vachounet]
+6a8ee483a19  scsi: sg: close race condition in sg_remove_sfp_usercontext()  [Vachounet]
+a0df58c3011  scsi: sg: check for valid direction before starting the request  [Vachounet]
+d44b8feabf9  perf session: Don't rely on evlist in pipe mode  [Vachounet]
+747cacb2dfb  perf inject: Copy events when reordering events in pipe mode  [Vachounet]
+fa52190b4cd  usb: gadget: dummy_hcd: Fix wrong power status bit clear/reset in dummy_hub_control()  [Vachounet]
+65a95dede9e  regulator: isl9305: fix array size  [Vachounet]
+6d3dc68fbe7  MIPS: BPF: Quit clobbering callee saved registers in JIT code.  [Vachounet]
+d52f88e17b3  drm/radeon: Fail fb creation from imported dma-bufs.  [Vachounet]
+7040b55a109  video: ARM CLCD: fix dma allocation size  [Vachounet]
+7a6439758e7  iommu/iova: Fix underflow bug in __alloc_and_insert_iova_range  [Vachounet]
+a2ee12263a4  apparmor: Make path_max parameter readonly  [Vachounet]
+a8f69063855  fm10k: correctly check if interface is removed  [Vachounet]
+bcbfe3b38cb  reiserfs: Make cancel_old_flush() reliable  [Vachounet]
+fc253f99b0e  net/faraday: Add missing include of of.h  [Vachounet]
+c24eb07842c  powerpc: Avoid taking a data miss on every userspace instruction miss  [Vachounet]
+2710d3cb9d1  ARM: dts: r8a7791: Correct parent of SSI[0-9] clocks  [Vachounet]
+0591f9d9828  ARM: dts: r8a7790: Correct parent of SSI[0-9] clocks  [Vachounet]
+ae9ff425154  braille-console: Fix value returned by _braille_console_setup  [Vachounet]
+715654b9151  blk-throttle: make sure expire time isn't too big  [Vachounet]
+4475763744b  mm: Fix false-positive VM_BUG_ON() in page_cache_{get,add}_speculative()  [Vachounet]
+71ed8b7f155  tcp: sysctl: Fix a race to avoid unexpected 0 window from space  [Vachounet]
+477a292b9bf  spi: omap2-mcspi: poll OMAP2_MCSPI_CHSTAT_RXS for PIO transfer  [Vachounet]
+279d27d34c8  sched: act_csum: don't mangle TCP and UDP GSO packets  [Vachounet]
+014b0735d38  timers, sched_clock: Update timeout for clock wrap  [Vachounet]
+9ada4e736ef  media: i2c/soc_camera: fix ov6650 sensor getting wrong clock  [Vachounet]
+3e98b38676b  scsi: ipr: Fix missed EH wakeup  [Vachounet]
+56c8a0b77bb  of: fix of_device_get_modalias returned length when truncating buffers  [Vachounet]
+4951c4f184a  batman-adv: handle race condition for claims between gateways  [Vachounet]
+02074e88b82  ARM: dts: Adjust moxart IRQ controller and flags  [Vachounet]
+389fa673a7c  HID: clamp input to logical range if no null state  [Vachounet]
+23bce8ab496  ath10k: disallow DFS simulation if DFS channel is not enabled  [Vachounet]
+6ebb3349ccf  drm: Defer disabling the vblank IRQ until the next interrupt (for instant-off)  [Vachounet]
+5b4f8dfccf6  drivers: net: xgene: Fix hardware checksum setting  [Vachounet]
+3e48d013cf0  perf tools: Make perf_event__synthesize_mmap_events() scale  [Vachounet]
+a5814a75d9c  selinux: check for address length in selinux_socket_bind()  [Vachounet]
+d9435a91bb2  PCI/MSI: Stop disabling MSI/MSI-X in pci_device_shutdown()  [Vachounet]
+bb74b7f475c  HID: reject input outside logical range only if null state is set  [Vachounet]
+1840b0d5303  Input: tsc2007 - check for presence and power down tsc2007 during probe  [Vachounet]
+c0230931d27  Revert "arm/dts: camera: potter: notify sar to disable rear prox"  [Vachounet]
+   * manifest/
+c358a77  Track bt hals locally  [Sagar Shah]
+   * packages/apps/Galaxy/
+ca69f4b  Stock Recents icon packs support [2/2]  [Sebastian]
+   * packages/apps/Settings/
+4f1516c853  Clean up battery settings  [Sebastian]
+3b3115b39b  Add icon for Mobile Plan  [Sebastian]
+9aaeba7f08  Settings: Disable AOD by default [1/2]  [Sebastian]
+   * system/bt/
+c4426472  Add support force disable sco enhanced sync commands  [Sebastian]
+e30e9d6e  Add support for FM vendor operations such as ON/OFF  [Sebastian]
+   * system/sepolicy/
+71da2aea  Sepolicy: Fix perfprofd path  [Sagar Shah]
+   * vendor/ota/
+b9f1990  OTA: Update oneplus2 (01/04/2018)  [Sagar Shah]
+1c9b73f  OTA: Update tissot (01/04/2018) (#124)  [Sagar Shah]
+
+====================
+     04-01-2018
+====================
+
+   * build/make/
+79c1a81ed  kill vendor module checks completely  [Sagar Shah]
+   * frameworks/base/
+7168bc44522  Revert "Revert "OMS: Only allow trusted overlays to be registered.""  [Sagar Shah]
+2ecfaf69b56  Fix mismerge at https://github.com/Cosmic-OS/platform_frameworks_base/commit/2c6fc458300ee43d2fd420623d3d11b549496138  [Sagar Shah]
+46500ad8ae8  base: lock: Allow skipping secure discard of Screen Lock keys  [Sagar Shah]
+2c6fc458300  SystemUI: Reload more assets on overlay change  [Sagar Shah]
+27a29f4b0c3  base: Introduce SubstratumService  [Sagar Shah]
+bcae406be5c  OMS: Add back overlay modified callback implementation  [Sagar Shah]
+97a686dfdf9  OMS: StrictMode and files under /data/system/theme/  [Sagar Shah]
+51f536c9ec3  Hold "volume up" during boot to disable all overlays  [Sagar Shah]
+69116b2f9f1  ThemeSafety: Introduce App Crash Intent  [Sagar Shah]
+fd518d070e6  ApplicationsState: add filter for Substratum overlays [2/2]  [Sagar Shah]
+94d2c8442b4  Extras: Add dynamic theme fonts support for O  [Sagar Shah]
+14b4dc79179  Extras: Add dynamic theme sound effects support  [Sagar Shah]
+e742aa74637  Extras: Add dynamic theme shutdown and boot animation support  [Sagar Shah]
+3079b7a9139  [SQUASH] OMS: Remove old substratum implementation  [Sagar Shah]
+   * hardware/qcom/media-caf/msm8952/
+b349c61d0  fix circular dependency libnativewindow <-> libui  [Christian Oder]
+15e38737f  media: Adjust for new header Android.bp requirements  [Christian Oder]
+   * packages/apps/Settings/
+949871991c  Themes: Settings: expose msim color picker text colors  [Sagar Shah]
+f7275bd646  Themes: Settings: expose condition/suggestion colors for themes  [Sagar Shah]
+8c0f3faf4b  Themes: Settings: Expose switchbar background color  [Sagar Shah]
+69597cee71  Revert "Fix MultiSim hardcoded text color"  [Sagar Shah]
+3a58a9b91b  Revert "DUI: Fix theming custom action dialog"  [Sagar Shah]
+8d48c13ff9  Revert "Themes: Fix ActivityPicker"  [Sagar Shah]
+566451e0a6  Revert "Revert "Update the way OMS records details about overlays""  [Sagar Shah]
+99ab05f610  Settings: Introduce Substratum changes.  [Sagar Shah]
+   * system/sepolicy/
+fc4dc891  Revert "sepolicy: We need to declare before referencing"  [Sagar Shah]
+1db41cfd  Revert "sepolicy: Allow su by apps on userdebug_or_eng"  [Sagar Shah]
+7631b943  SELinux: added to the policies without entries into the compatibility mapping file  [Sagar Shah]
+   * vendor/ota/
+1cb7174  OTA: Update j7velte (31/03/2018) (#123)  [Sagar Shah]
+ddf818b  update_target: Fix cancerous indent  [Kshitij Gupta]
+f6515e6  update_target: Remove gpg-sign option  [Kshitij Gupta]
+c1a0259  update_target: Evaluate conditions correctly on ZSH  [Kshitij Gupta]
+a51cdec  OTA: Update bacon (31/03/2018)  [Kshitij Gupta]
+
+====================
+     03-31-2018
+====================
+
+   * device/motorola/potter/
+f88818a  add turbo charger overlay support  [sandyorton7]
+de71992  cleanup overlays  [sandyorton7]
+e8e061a  fix up duplication in sepolicy  [sandyorton7]
+   * frameworks/av/
+594cd59a3  Revert "ACodec: Fix video autoscaling on old OMX decoders"  [Sagar Shah]
+ac8098530  camera: Only link and use vendor.qti.hardware.camera.device if specified  [Sagar Shah]
+1a7eb7559  Camera: CameraHardwareInterface changes to support Extended FD  [Sagar Shah]
+   * frameworks/native/
+39444695d  Fix resampling for multiple pointers  [Sagar Shah]
+137558a84  Fix broken input tests  [Sagar Shah]
+   * hardware/cosmic/interfaces/
+5272b78  Revert "Camed HAL extension: Added support in HIDL for Extended FD."  [Sagar Shah]
+   * hardware/interfaces/
+534abdae  camera: Only link and use vendor.qti.hardware.camera.device if specified  [Sagar Shah]
+d226c850  Camed HAL extension: Added support in HIDL for Extended FD.  [Sagar Shah]
+   * hardware/qcom/audio-caf/msm8996/
+549e801a  qahw_api: Ignore missing dependency  [Rashed Abdel-Tawab]
+   * hardware/qcom/audio-caf/msm8998/
+56eeef32  audio: add amplifier hooks for stream parameter manipulation  [Daniel Hillenbrand]
+   * vendor/cos/
+d8c89b8  devices: Add official support for j7velte (#83)  [Sagar Shah]
+8ea22d1  soong: Add TARGET_USES_QTI_CAMERA_DEVICE  [Sagar Shah]
+   * vendor/ota/
+08f7f90  OTA:Update potter (30/03/2018) (#122)  [Sagar Shah]
+
 ====================
      03-30-2018
 ====================
 
    * build/make/
 adbc8d28d  Don't enable ANDROID_BINDER_IPC_32BIT for mixed userspace/kernel  [Sagar Shah]
+ab08ed10d  envsetup: Check conditions properly on ZSH  [Kshitij Gupta]
+88b5c4a85  envsetup: Fix lunch menu for ZSH  [Kshitij Gupta]
+a21d9fb77  envesetup: mmm/mmma: fix for zsh  [Kshitij Gupta]
+   * device/motorola/potter/
+a6b4017  Revert "Revert "potter: shim: transition to TARGET_LD_SHIM_LIBS""  [sandyorton7]
+a3f6349  get rid of los apps  [sandyorton7]
+a3006b4  cleanup tree  [sandyorton7]
+7a2f5c6  fix up MotoActions  [sandyorton7]
+41af718  potter: bringup cosmic  [sandyorton7]
    * frameworks/av/
 3ecfd4315  Stagefright: Allow setting high-framerates in CameraSource  [Kshitij Gupta]
 0f90956b6  Stagefright: Do not skip frames in time-lapse-source for high-speed  [Kshitij Gupta]
@@ -31,10 +379,10 @@ bb98becc1  av: compilation fix  [Kshitij Gupta]
      03-29-2018
 ====================
 
-   * build/make/
-ab08ed10d  envsetup: Check conditions properly on ZSH  [Kshitij Gupta]
-88b5c4a85  envsetup: Fix lunch menu for ZSH  [Kshitij Gupta]
-a21d9fb77  envesetup: mmm/mmma: fix for zsh  [Kshitij Gupta]
+   * hardware/qcom/wlan-caf/
+1321254  Merge tag 'LA.UM.6.4.r1-07600-8x98.0' into lineage-15.1-caf  [Bruno Martins]
+   * vendor/cos/
+31138c1  Add Wt88047 (#82)  [Sidharth Soni]
    * vendor/ota/
 4ea9458  OTA: Update kenzo (29/03/2018) (#121)  [Sagar Shah]
 29a8d39  OTA: Update mido (28/03/2018)  [Sebastian]
@@ -46,12 +394,8 @@ c2f213c  OTA: Update tissot (28/03/2018)  [Sagar Shah]
 
    * device/qcom/common/
 8dbb469  Remove dtbtool  [Michael Bestas]
-   * hardware/qcom/wlan-caf/
-1321254  Merge tag 'LA.UM.6.4.r1-07600-8x98.0' into lineage-15.1-caf  [Bruno Martins]
    * packages/apps/Galaxy/
 76547a1  galaxy: New Chinese Translations (#15)  [Sagar Shah]
-   * vendor/cos/
-31138c1  Add Wt88047 (#82)  [Sidharth Soni]
    * vendor/ota/
 441b543  OTA: Update sanders (26/03/2018) (#118)  [Sagar Shah]
 
@@ -63,6 +407,7 @@ c2f213c  OTA: Update tissot (28/03/2018)  [Sagar Shah]
 1ee01ce99a  WiFi: Remove country code checking. Always allow 5gHz AP option  [Sagar Shah]
    * vendor/ota/
 ce84b22  OTA: Update z2_plus (26/03/2018) (#117)  [Sagar Shah]
+e964c8c  OTA: Update tissot (26/03/2018)  [Sagar Shah]
 
 ====================
      03-26-2018
@@ -70,106 +415,36 @@ ce84b22  OTA: Update z2_plus (26/03/2018) (#117)  [Sagar Shah]
 
    * device/qcom/common/
 6ec9f73  Revert "Rules to enable LTO for Adreno GFX driver."  [Michael Bestas]
-   * vendor/ota/
-e964c8c  OTA: Update tissot (26/03/2018)  [Sagar Shah]
-
-====================
-     03-25-2018
-====================
-
    * frameworks/base/
 05b317bba9f  Keyguard: Don't listen for fingerprint when prox.sensor is covered  [Sagar Shah]
-5b0999c0f37  Color fix for Notification Expandable Indicator with SystemTheme  [zeromod]
-fad21cd0eca  Add Center Clock (With Ticker Fixed) [1/2]  [zeromod]
-d658488a3f8  Add Android P transition  [zeromod]
    * hardware/libhardware_legacy/
 caf16d8  Wifi: Add Qpower interface to libhardware_legacy  [Sagar Shah]
 8875083  [AWARE]: Add support to config NAN discovery beacon interval  [Sagar Shah]
 53ff459  [AWARE]: Add support for NAN qos config, schedule update channel  [Sagar Shah]
    * manifest/
 eda7a14  manifest: Track power,wlan and bt hals from lineage  [Sagar Shah]
-   * packages/apps/Galaxy/
-344a526  Add Center Clock [2/2]  [zeromod]
    * system/bt/
 43bb445a  btm_inq: fix build with BTA_HOST_INTERLEAVE_SEARCH  [Sagar Shah]
 401169f5  Prevent abort in case of command timeout  [Sagar Shah]
 8c8e5523  Bluetooth: Read BLE vendor capability to proceed on Secure conn  [Sagar Shah]
 
 ====================
+     03-25-2018
+====================
+
+   * frameworks/base/
+5b0999c0f37  Color fix for Notification Expandable Indicator with SystemTheme  [zeromod]
+fad21cd0eca  Add Center Clock (With Ticker Fixed) [1/2]  [zeromod]
+d658488a3f8  Add Android P transition  [zeromod]
+   * packages/apps/Galaxy/
+344a526  Add Center Clock [2/2]  [zeromod]
+
+====================
      03-24-2018
-====================
-
-
-====================
-     03-23-2018
 ====================
 
    * vendor/ota/
 9a47037  OTA: Update kenzo (22/03/2018) (#115)  [Sagar Shah]
-
-====================
-     03-22-2018
-====================
-
-   * vendor/ota/
-63fc0a5  OTA: Update tissot (21/03/2018) (#113)  [Sebastian]
-
-====================
-     03-21-2018
-====================
-
-
-====================
-     03-20-2018
-====================
-
-   * bionic/
-e8739beb2  linker: Move shims to TARGET_LD_SHIM_LIBS  [Sebastian]
-   * build/make/
-5757d9a96  releasetools: Use the first entry of a mount point when reading fstab  [Sebastian]
-13f6ac53e  build: Add vendor.prop capability  [Sebastian]
-29d7ddaaa  Revert "Stop overwriting prebuilt vendor prop"  [Sebastian]
-958bd5755  build: Add new variable to hold generic build properties  [Sebastian]
-2bc170f97  build: Make vendorimage depend on installed kernel  [Sebastian]
-   * frameworks/base/
-b176b1d8580  Add vendor platform signature overlay  [Sebastian]
-c8f7ef90894  PackageManager: Add configuration to specify vendor platform signatures  [Sebastian]
-   * vendor/cos/
-f06d6b7  team: Add Tissot maintainer (#81)  [Sagar Shah]
-11673bf  Add tissot  [Sagar Shah]
-bd5c5b1  Move all system props to PRODUCT_GENERIC_PROPERTIES  [Sebastian]
-   * vendor/ota/
-301732e  OTA: Update tissot (20/03/2018) (#112)  [Sagar Shah]
-47831d2  Merge pull request #111 from sandyorton7/oreo-mr1  [GitHub]
-5858ed0  OTA:update potter (19/03/2018)  [sandyorton7]
-
-====================
-     03-19-2018
-====================
-
-   * hardware/qcom/power/
-d3eb25f  power: Depend on vendor lineage power HAL  [dianlujitao]
-047cb66  power: Allow devices to write their own platform specific bits  [Paul Keith]
-
-====================
-     03-18-2018
-====================
-
-   * hardware/qcom/wlan-caf/
-173764e  Merge babaeeba74923620673116b1d635e773230097ea on remote branch  [Linux Build Service Account]
-
-====================
-     03-17-2018
-====================
-
-   * hardware/qcom/display/
-1aa43a5fa  msm8974: libexternal should depend on libmedia  [Sam Mortimer]
-ef4ddf0f4  msm8974: libgralloc: Fix adding offset to the mapped base address  [Sam Mortimer]
-   * packages/apps/Galaxy/
-41c1c12  Update PT-BR translation  [Sebastian]
-   * vendor/ota/
-bf7d8c2  OTA: Update addison (17/03/2018)  [Sebastian]
-a4ece81  OTA: Update mido (17/03/2018) (#109)  [Sagar Shah]
 
 
   </Changelog>
