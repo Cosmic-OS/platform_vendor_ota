@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_mido_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Universe_mido_8.1.0_20180418_3.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180418</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/mido/Cosmic-OS_Universe_mido_8.1.0_20180418_3.1-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/mido</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5>c299cf4c3ba82f141b4521ec0f284bb6</CheckMD5>
-  <FileSize type="integer">493854913</FileSize>
-  <Developer>ManoloRey</Developer>
-  <WebsiteURL nil="true">cosmic-os.github.io</WebsiteURL>
-  <DonateURL>paypal.me/Cosmic-OS</DonateURL>
-  <Changelog>====================
+====================
      04-18-2018
 ====================
 
@@ -55,5 +42,4 @@ a951a73  build: Always include backup tool in builds  [Kshitij Gupta]
    * hardware/qcom/media-caf/msm8974/
 adc438b  mm-video-v4l2: vdec: Disallow changing buffer modes/counts on allocated ports  [Bruno Martins]
 2c2ca63  mm-video-v4l2: venc: Disallow changing buffer count/size on allocated port  [Bruno Martins]
-   * packages/apps/Settings/</Changelog>
-</ROM>
+   * packages/apps/Settings/
