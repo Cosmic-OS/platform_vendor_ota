@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_tissot_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Universe_tissot_8.1.0_20180418_3.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180418</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/tissot/Cosmic-OS_Universe_tissot_8.1.0_20180418_3.1-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/tissot</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5>99c4232d1b9bcd6ade56e140aac0145d</CheckMD5>
-  <FileSize type="integer">507288072</FileSize>
-  <Developer>abhinavgupta371</Developer>
-  <WebsiteURL nil="true">cosmic-os.github.io</WebsiteURL>
-  <DonateURL>paypal.me/Cosmic-OS</DonateURL>
-  <Changelog>====================
+====================
      04-18-2018
 ====================
 
@@ -55,5 +42,4 @@ adc438b  mm-video-v4l2: vdec: Disallow changing buffer modes/counts on allocated
 3fbd84d  Fix derp (#2)  [Kshitij Gupta]
    * vendor/cos/
 cf36281  sdclang: -fvectorize-loops is now -fvectorize  [Kshitij Gupta]
-e459152  vendor: use SDClang 4.0  [Kshitij Gupta]</Changelog>
-</ROM>
+e459152  vendor: use SDClang 4.0  [Kshitij Gupta]
