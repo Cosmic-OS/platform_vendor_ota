@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_j7velte_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Universe_j7velte_8.1.0_20180421_3.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180421</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/j7velte/Cosmic-OS_Universe_j7velte_8.1.0_20180421_3.1-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/j7velte</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5></CheckMD5>
-  <FileSize type="integer"></FileSize>
-  <Developer>Shivam Jha</Developer>
-  <WebsiteURL nil="true">cosmic-os.github.io</WebsiteURL>
-  <DonateURL>paypal.me/Cosmic-OS</DonateURL>
-  <Changelog>====================
+====================
      04-19-2018
 ====================
 
@@ -54,5 +41,5 @@ ed3426d  power: fix sysfs_read/sysfs_write usage  [Michael Bestas]
    * build/make/
 6b4ff5f  backuptool: Support 8.x and not just 8.0.x  [Kshitij Gupta]
    * hardware/qcom/media-caf/msm8974/
-adc438b  mm-video-v4l2: vdec: Disallow changing buffer modes/counts on allocated ports  [Bruno Martins]</Changelog>
-</ROM>
+adc438b  mm-video-v4l2: vdec: Disallow changing buffer modes/counts on allocated ports  [Bruno Martins]
+
