@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_huashan_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Universe_huashan_8.1.0_20180429_3.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180429</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/huashan/Cosmic-OS_Universe_huashan_8.1.0_20180429_3.1-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/huashan</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5>46bd0d097a72c8eccefee3a5eee4aa35</CheckMD5>
-  <FileSize type="integer">326520182</FileSize>
-  <Developer>dic1911</Developer>
-  <WebsiteURL nil="true">cosmic-os.github.io</WebsiteURL>
-  <DonateURL>paypal.me/Cosmic-OS</DonateURL>
-  <Changelog>====================
+====================
      04-29-2018
 ====================
 
@@ -55,5 +42,4 @@ bb1fb93  Adapt add_service uses for TARGET_HAS_LEGACY_CAMERA_HAL1  [Sagar Shah]
 4c05742  fs_use: Add sdcard_posix to labeledfs  [Sagar Shah]
 09bd572  SELinux: added to the policies without entries into the compatibility mapping file  [Sagar Shah]
 a8513b2  Initial sepolicy rules for substratum service  [Sagar Shah]
-b8bb451  Introduce sepolicy exceptions for theme assets  [Sagar Shah]</Changelog>
-</ROM>
+b8bb451  Introduce sepolicy exceptions for theme assets  [Sagar Shah]
