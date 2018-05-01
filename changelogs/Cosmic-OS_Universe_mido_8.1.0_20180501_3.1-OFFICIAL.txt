@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_mido_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Universe_mido_8.1.0_20180501_3.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180501</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/mido/Cosmic-OS_Universe_mido_8.1.0_20180501_3.1-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/mido</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5>e524f3e7400776c6989248d84485f5d2</CheckMD5>
-  <FileSize type="integer">493749280</FileSize>
-  <Developer>ManoloRey</Developer>
-  <WebsiteURL nil="true">cosmic-os.org</WebsiteURL>
-  <DonateURL>paypal.me/CosmicOS</DonateURL>
-  <Changelog>====================
+====================
      05-01-2018
 ====================
 
@@ -55,5 +42,4 @@ c6fe271  e2fsprogs: Fix program_name undefined reference error [TEMP]  [Sagar Sh
 3570603  resize: Make a target for standalone resize2fs_static binary  [Sagar Shah]
 84196db  e2fsprogs: Build libresize2fs for recovery  [Sagar Shah]
 5866f65  Fix build warnings with '__bitwise' macro redefined  [Sagar Shah]
-751bd6b  e2fsprogs: Build static libs for recovery  [Sagar Shah]</Changelog>
-</ROM>
+751bd6b  e2fsprogs: Build static libs for recovery  [Sagar Shah]
