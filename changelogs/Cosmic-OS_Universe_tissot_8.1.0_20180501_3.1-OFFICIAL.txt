@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_tissot_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Universe_tissot_8.1.0_20180501_3.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180501</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/tissot/Cosmic-OS_Universe_tissot_8.1.0_20180501_3.1-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/tissot</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5>90f45300bdf7534b763a670319cbf2fd</CheckMD5>
-  <FileSize type="integer">506681700</FileSize>
-  <Developer>abhinavgupta371</Developer>
-  <WebsiteURL nil="true">cosmic-os.org</WebsiteURL>
-  <DonateURL>paypal.me/CosmicOS</DonateURL>
-  <Changelog>====================
+====================
      05-01-2018
 ====================
 
@@ -47,5 +34,4 @@ b7facdf  system_server: allow writing to timerslack_ns  [Sagar Shah]
    * device/cosmic/sepolicy/
 ab93e3e  sepolicy: Refractor for cosmic  [Sagar Shah]
 d74b78a  Revert "sepolicy: allow userinit to set its property"  [Sagar Shah]
-05d18f6  Revert "sepolicy: Permissions for userinit"  [Sagar Shah]</Changelog>
-</ROM>
+05d18f6  Revert "sepolicy: Permissions for userinit"  [Sagar Shah]
