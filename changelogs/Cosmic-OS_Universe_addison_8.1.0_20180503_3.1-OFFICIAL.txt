@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_addison_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Universe_addison_8.1.0_20180503_3.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180503</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/addison/Cosmic-OS_Universe_addison_8.1.0_20180503_3.1-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/addison</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5>a50a645a2fd33676b60509f9f9eefa41</CheckMD5>
-  <FileSize type="integer">457046790</FileSize>
-  <Developer>klozz(TeamMEX)</Developer>
-  <WebsiteURL nil="true">cosmic-os.org</WebsiteURL>
-  <DonateURL>paypal.me/CosmicOS</DonateURL>
-  <Changelog>====================
+====================
      05-03-2018
 ====================
 
@@ -55,5 +42,4 @@ bc84c42  priv_app: suppress denials for /proc/stat  [Sagar Shah]
 b7facdf  system_server: allow writing to timerslack_ns  [Sagar Shah]
    * vendor/ota/
 41d93e5  ota: Update website and donation URL  [Sagar Shah]
-00a1917  OTA: Update oneplus3 (27/04/2018)  [Sagar Shah]</Changelog>
-</ROM>
+00a1917  OTA: Update oneplus3 (27/04/2018)  [Sagar Shah]
