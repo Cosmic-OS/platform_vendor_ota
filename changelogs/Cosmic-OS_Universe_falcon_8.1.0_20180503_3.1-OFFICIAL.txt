@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_falcon_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Universe_falcon_8.1.0_20180503_3.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180503</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/falcon/Cosmic-OS_Universe_falcon_8.1.0_20180503_3.1-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/falcon</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5>82de9ee78d9b2d20bfa7bf9fa7588063</CheckMD5>
-  <FileSize type="integer">289610105</FileSize>
-  <Developer>klozz(TeamMEX)</Developer>
-  <WebsiteURL nil="true">cosmic-os.org</WebsiteURL>
-  <DonateURL>paypal.me/CosmicOS</DonateURL>
-  <Changelog>====================
+====================
      05-03-2018
 ====================
 
@@ -55,5 +42,4 @@ bc84c42  priv_app: suppress denials for /proc/stat  [Sagar Shah]
 7773971  Allow system_server to update timerslack_ns for hal_audio_default  [Sagar Shah]
 b7facdf  system_server: allow writing to timerslack_ns  [Sagar Shah]
    * vendor/ota/
-41d93e5  ota: Update website and donation URL  [Sagar Shah]</Changelog>
-</ROM>
+41d93e5  ota: Update website and donation URL  [Sagar Shah]
