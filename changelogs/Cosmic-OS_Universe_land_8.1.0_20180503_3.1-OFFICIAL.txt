@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_land_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Universe_land_8.1.0_20180503_3.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180503</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/land/Cosmic-OS_Universe_land_8.1.0_20180503_3.1-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/land</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5>eb318fa3894c44d824746a6a92d49989</CheckMD5>
-  <FileSize type="integer">448030195</FileSize>
-  <Developer>klozz(TeamMEX)</Developer>
-  <WebsiteURL nil="true">cosmic-os.org</WebsiteURL>
-  <DonateURL>paypal.me/CosmicOS</DonateURL>
-  <Changelog>====================
+====================
      05-03-2018
 ====================
 
@@ -54,5 +41,5 @@ b7facdf  system_server: allow writing to timerslack_ns  [Sagar Shah]
    * vendor/ota/
 41d93e5  ota: Update website and donation URL  [Sagar Shah]
 00a1917  OTA: Update oneplus3 (27/04/2018)  [Sagar Shah]
-f62717d  OTA: Update huashan (29/04/2018)  [Sagar Shah]</Changelog>
-</ROM>
+f62717d  OTA: Update huashan (29/04/2018)  [Sagar Shah]
+
