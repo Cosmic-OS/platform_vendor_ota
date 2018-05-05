@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_kenzo_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Universe_kenzo_8.1.0_20180505_3.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180505</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/kenzo/Cosmic-OS_Universe_kenzo_8.1.0_20180505_3.1-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/kenzo</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5>dbe63073e90f5df6000308040571a531</CheckMD5>
-  <FileSize type="integer">429364621</FileSize>
-  <Developer>rocknegi</Developer>
-  <WebsiteURL nil="true">cosmic-os.org</WebsiteURL>
-  <DonateURL>paypal.me/CosmicOS</DonateURL>
-  <Changelog>====================
+====================
      05-05-2018
 ====================
 
@@ -55,5 +42,4 @@ daa4d18  fastboot: pass environment variables to exec_e2fs_cmd  [Sagar Shah]
 7048f5c  Mark more win32 parameters as unused  [Sagar Shah]
 024840f  Fix / suppress new unused warnings for mingw+clang  [Sagar Shah]
 7461562  fastboot: make_f2fs call by linux/darwin  [Sagar Shah]
-d571ad0  fastboot: support f2fs format  [Sagar Shah]</Changelog>
-</ROM>
+d571ad0  fastboot: support f2fs format  [Sagar Shah]
