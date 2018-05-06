@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_z2_plus_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Universe_z2_plus_8.1.0_20180506_3.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180506</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/z2_plus/Cosmic-OS_Universe_z2_plus_8.1.0_20180506_3.1-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/z2_plus</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5>52a7860aa4f900b3f4dbeb199024e28c</CheckMD5>
-  <FileSize type="integer">507457813</FileSize>
-  <Developer>miju12</Developer>
-  <WebsiteURL nil="true">cosmic-os.org</WebsiteURL>
-  <DonateURL>paypal.me/CosmicOS</DonateURL>
-  <Changelog>====================
+====================
      05-06-2018
 ====================
 
@@ -55,5 +42,4 @@ d26b533  add odm partition to ld.config.legacy  [Sagar Shah]
 e69f022  DO NOT MERGE: Add back process_name  [Sagar Shah]
 8b3dfb2  libcutils: set permissions on /system/addon.d/ and files within  [Sagar Shah]
 3c8d142  libcutils: set /system/etc/init.d/* permissions  [Sagar Shah]
-0cf505c  LockscreenCharging: squashed (2/3)  [Sagar Shah]</Changelog>
-</ROM>
+0cf505c  LockscreenCharging: squashed (2/3)  [Sagar Shah]
