@@ -1,5 +1,7 @@
 #!/bin/bash
 
+
+
 function write_xml() {
   echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>"
   echo "<ROM>"
@@ -17,6 +19,19 @@ function write_xml() {
   echo "  <Changelog>$CHANGELOG</Changelog>"
   echo "</ROM>"
 }
+function upload_file() {
+  if [[ "$COS_RELEASE" == true ]]; then
+	if [[ "$device" == temp ]]; then
+		MAINTAINER=Maintainer Name
+		parent=1tH5a1-daZr_ZpopJhpg5ObAL4HEZaVn6
+		fileid=$(gdrive upload --parent $parent $(OUT_DIR_COMMON_BASE)/*/target/product/$device/"Cosmic-OS"*$device*".zip" | tail -1 | awk '{print $2}')
+		update_target()
+	fi
+  else
+    echo "Device is not official."
+  fi
+}
+
 
 function update_target() {
   if [[ "$COS_RELEASE" == true ]]; then
@@ -44,11 +59,11 @@ function update_target() {
     if [[ "$CUSTOM_URL" == true ]]; then
       printf 'Enter Direct URL: '
       read -r durl
-      printf 'Enter HTTP URL: '
+      printf 'Enter HTTP / HTTPS URL: '
       read -r url
     else
-      durl="https://downloads.sourceforge.net/project/cosmic-os/$device/${version}.zip"
-      url="https://sourceforge.net/projects/cosmic-os/files/$device"
+      durl="https://drive.google.com/uc?export=download&id=$fileid"
+      url="https://drive.google.com/file/d/$fileid/view"
     fi
     version=$(echo $version | sed -e "s/${version_date}/${date}/g")
     cd $(gettop)/vendor/ota
@@ -60,12 +75,6 @@ function update_target() {
     editor $(gettop)/vendor/ota/changelogs/${version}.txt
 
     CHANGELOG="$(cat $(gettop)/vendor/ota/changelogs/${version}.txt)"
-
-    if [[ -z "$MAINTAINER" ]]; then
-      echo "Who are you?"
-      read MAINTAINER
-      echo "Hello ${MAINTAINER}!"
-    fi
     
     write_xml > $device.xml
     git add -A
