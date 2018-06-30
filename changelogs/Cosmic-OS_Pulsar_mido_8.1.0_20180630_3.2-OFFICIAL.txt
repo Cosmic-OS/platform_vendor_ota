@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_mido_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Pulsar_mido_8.1.0_20180630_3.2-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180630</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/mido/Cosmic-OS_Pulsar_mido_8.1.0_20180630_3.2-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/mido</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5>a529f5fae89ce254b49598ab1f9e5363</CheckMD5>
-  <FileSize type="integer">505596532</FileSize>
-  <Developer>ManoloRey</Developer>
-  <WebsiteURL nil="true">cosmic-os.org</WebsiteURL>
-  <DonateURL>paypal.me/CosmicOS</DonateURL>
-  <Changelog>====================
+====================
      06-30-2018
 ====================
 
@@ -55,5 +42,4 @@ d9c1cb8  hal: Fix VNDK_VERSION=current build for msm8916  [LuK1337]
 30c3a6a  Settings: Move font manager to Galaxy [1/2]  [Sagar Shah]
 
 ====================
-     06-24-2018</Changelog>
-</ROM>
+     06-24-2018
