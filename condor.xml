@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROM>
+  <RomName>Cosmic-OS_condor_8.1.0</RomName>
+  <VersionName><![CDATA[ Cosmic-OS_Pulsar_condor_8.1.0_20180702_3.2-OFFICIAL ]]></VersionName>
+  <VersionNumber type="integer">20180702</VersionNumber>
+  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/condor/Cosmic-OS_Pulsar_condor_8.1.0_20180702_3.2-OFFICIAL.zip</DirectUrl>
+  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/condor</HttpUrl>
+  <Android>8.1.0</Android>
+  <CheckMD5></CheckMD5>
+  <FileSize type="integer"></FileSize>
+  <Developer>Sushant Kumar</Developer>
+  <WebsiteURL nil="true">cosmic-os.org</WebsiteURL>
+  <DonateURL>paypal.me/CosmicOS</DonateURL>
+  <Changelog>====================
+     07-01-2018
+====================
+
+   * packages/apps/Galaxy/
+3b319a5  galaxy: Russian translations (#23)  [Sagar Shah]
+   * packages/apps/Settings/
+16f1ca7  settings: Russian translations (#6)  [Sagar Shah]
+   * vendor/cos/
+d961cc6  Delete 1.txt  [GitHub]
+94e12ee  Change bootanimation  [GitHub]
+0e2d8e4  Create 1.txt  [GitHub]
+0b97e3a  Delete bootanimation.zip  [GitHub]
+41ec6c4  Add Redmeme 4/4x  (santoni)  [GitHub]
+
+====================
+     06-30-2018
+====================
+
+   * hardware/qcom/audio-caf/msm8996/
+3248c64  Merge tag 'LA.UM.6.6.r1-08900-89xx.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/audio into lineage-15.1-caf-8996  [Michael Bestas]
+   * hardware/qcom/media-caf/msm8916/
+844c3d4  Merge tag 'LA.BR.1.2.9.1-02310-8x16.0' into lineage-15.1-caf-8916  [Michael Bestas]
+   * vendor/ota/
+ef2569b  OTA: Update mido (30/06/2018)  [Sebastian]
+
+====================
+     06-29-2018
+====================
+
+   * manifest/
+03b42c2  manifest: Add msm8916 hals (#26)  [Sagar Shah]
+
+====================
+     06-28-2018
+====================
+
+   * hardware/qcom/display-caf/msm8996/
+1ca6547  gralloc1: Add support for secure display.  [Michael Bestas]
+984ae72  liblight: Use char array instead of char pointer array for file name  [Michael Bestas]
+
+====================
+     06-27-2018
+====================</Changelog>
+</ROM>
