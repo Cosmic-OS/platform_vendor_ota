@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_huashan_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Pulsar_huashan_8.1.0_20180704_3.2-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180704</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/huashan/Cosmic-OS_Pulsar_huashan_8.1.0_20180702_3.2-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/huashan</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5></CheckMD5>
-  <FileSize type="integer"></FileSize>
-  <Developer>dic1911</Developer>
-  <WebsiteURL nil="true">cosmic-os.org</WebsiteURL>
-  <DonateURL>paypal.me/CosmicOS</DonateURL>
-  <Changelog>====================
+====================
      07-02-2018
 ====================
 
@@ -55,5 +42,4 @@ ef2569b  OTA: Update mido (30/06/2018)  [Sebastian]
 03b42c2  manifest: Add msm8916 hals (#26)  [Sagar Shah]
 
 ====================
-     06-28-2018</Changelog>
-</ROM>
+     06-28-2018
