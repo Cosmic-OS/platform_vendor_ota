@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_addison_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Pulsar_addison_8.1.0_20180704_3.2-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180704</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/addison/Cosmic-OS_Pulsar_addison_8.1.0_20180704_3.2-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/addison</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5>5b94604ab40b7db12ebe7cd67a2e325f</CheckMD5>
-  <FileSize type="integer">520266167</FileSize>
-  <Developer>klozz(TeamMEX)</Developer>
-  <WebsiteURL nil="true">cosmic-os.org</WebsiteURL>
-  <DonateURL>paypal.me/CosmicOS</DonateURL>
-  <Changelog>====================
+====================
      07-04-2018
 ====================
 
@@ -55,5 +42,4 @@ ff2d832  fix official on my pc  [klozz]
 
 ====================
      06-29-2018
-====================</Changelog>
-</ROM>
+====================
