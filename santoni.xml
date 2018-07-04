@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROM>
+  <RomName>Cosmic-OS_santoni_8.1.0</RomName>
+  <VersionName><![CDATA[ Cosmic-OS_Pulsar_santoni_8.1.0_20180704_3.2-OFFICIAL ]]></VersionName>
+  <VersionNumber type="integer">20180704</VersionNumber>
+  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/santoni/Cosmic-OS_Pulsar_santoni_8.1.0_20180704_3.2-OFFICIAL.zip</DirectUrl>
+  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/santoni</HttpUrl>
+  <Android>8.1.0</Android>
+  <CheckMD5>e7f6edd123cdfe7a2e674c6bbfa42e5f</CheckMD5>
+  <FileSize type="integer">507113887</FileSize>
+  <Developer>infinity-plus</Developer>
+  <WebsiteURL nil="true">cosmic-os.org</WebsiteURL>
+  <DonateURL>paypal.me/CosmicOS</DonateURL>
+  <Changelog>====================
+     07-04-2018
+====================
+
+   * build/make/
+37a5029  Merge pull request #14 from ManoloRey/pulsar-release  [GitHub]
+   * frameworks/av/
+96c8990  Merge pull request #6 from ManoloRey/pulsar-release  [GitHub]
+   * frameworks/base/
+9b32fd3  Merge pull request #59 from ManoloRey/pulsar-release  [GitHub]
+   * frameworks/native/
+56d3880  Merge pull request #7 from ManoloRey/pulsar-release  [GitHub]
+   * frameworks/opt/telephony/
+95df501  Merge pull request #1 from ManoloRey/pulsar-release  [GitHub]
+   * hardware/interfaces/
+bba31c7  cas: do not use hidl_memory if size is > SIZE_MAX  [Sagar Shah]
+   * manifest/
+aa63cce  Manifest for Android 8.1.0 Release 36 (OPM2.171026.006.H1) (#27)  [Sagar Shah]
+   * packages/apps/Bluetooth/
+4ecd10d  Merge pull request #1 from ManoloRey/pulsar-release  [GitHub]
+   * packages/apps/Launcher3/
+54ffdf7  Merge pull request #1 from ManoloRey/pulsar-release  [GitHub]
+   * packages/services/Telephony/
+64c7c74  Merge pull request #5 from ManoloRey/pulsar-release  [GitHub]
+   * system/bt/
+ab7d102  Merge pull request #1 from ManoloRey/pulsar-release  [GitHub]
+   * system/core/
+e552228  Merge pull request #10 from ManoloRey/pulsar-release  [GitHub]
+   * system/media/
+4f4c5aa  Merge pull request #1 from ManoloRey/pulsar-release  [GitHub]
+   * vendor/cos/
+043c10e  Add maintainer Redmi 4  [Sebastian]
+   * vendor/ota/
+b842fff  OTA: Update santoni (04/07/2018)  [infinity-plus]
+7eef13c  OTA: Update addison (04/07/2018)  [Sagar Shah]
+
+====================
+     07-03-2018
+====================
+
+
+====================
+     07-02-2018
+====================</Changelog>
+</ROM>
