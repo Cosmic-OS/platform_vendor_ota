@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_mido_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Pulsar_mido_8.1.0_20180706_3.2-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180706</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/mido/Cosmic-OS_Pulsar_mido_8.1.0_20180706_3.2-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/mido</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5>c0b87599e43789a2fc3bddb728c19b55</CheckMD5>
-  <FileSize type="integer">498644900</FileSize>
-  <Developer>ManoloRey</Developer>
-  <WebsiteURL nil="true">cosmic-os.org</WebsiteURL>
-  <DonateURL>paypal.me/CosmicOS</DonateURL>
-  <Changelog>====================
+====================
      07-06-2018
 ====================
 
@@ -55,5 +42,4 @@ db73a25  OTA: Update santoni (04/07/2018)  [Sidharth Soni]
    * frameworks/native/
 56d3880  Merge pull request #7 from ManoloRey/pulsar-release  [GitHub]
    * frameworks/opt/telephony/
-95df501  Merge pull request #1 from ManoloRey/pulsar-release  [GitHub]</Changelog>
-</ROM>
+95df501  Merge pull request #1 from ManoloRey/pulsar-release  [GitHub]
