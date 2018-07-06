@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_tissot_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Pulsar_tissot_8.1.0_20180706_3.2-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180706</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/tissot/Cosmic-OS_Pulsar_tissot_8.1.0_20180706_3.2-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/tissot</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5>d86fba306518d98abb3617b5f46782ba</CheckMD5>
-  <FileSize type="integer">515260632</FileSize>
-  <Developer>abhinavgupta371</Developer>
-  <WebsiteURL nil="true">cosmic-os.org</WebsiteURL>
-  <DonateURL>paypal.me/CosmicOS</DonateURL>
-  <Changelog>====================
+====================
      07-06-2018
 ====================
 
@@ -55,5 +42,4 @@ f93dbcf  livedisplay: Move initialization of mActiveModeId to constructor  [Saga
 393f809  livedisplay: Don't use a singleton for Color service  [Sagar Shah]
 8d0e53f  livedisplay: Fix bogus print  [Sagar Shah]
 b781273  Revert "livedisplay: Don't use singletons for the stack"  [Sagar Shah]
-ef81710  livedisplay: Don't use singletons for the stack  [Sagar Shah]</Changelog>
-</ROM>
+ef81710  livedisplay: Don't use singletons for the stack  [Sagar Shah]
