@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROM>
+  <RomName>Cosmic-OS_jalebi_8.1.0</RomName>
+  <VersionName><![CDATA[ Cosmic-OS_Pulsar_jalebi_8.1.0_20180707_3.2-OFFICIAL ]]></VersionName>
+  <VersionNumber type="integer">20180707</VersionNumber>
+  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/jalebi/Cosmic-OS_Pulsar_jalebi_8.1.0_20180707_3.2-OFFICIAL.zip</DirectUrl>
+  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/jalebi</HttpUrl>
+  <Android>8.1.0</Android>
+  <CheckMD5>fec75b1d0f03710edf6a00c7507a9744</CheckMD5>
+  <FileSize type="integer">316478742</FileSize>
+  <Developer>MaazMuzammil</Developer>
+  <WebsiteURL nil="true">cosmic-os.org</WebsiteURL>
+  <DonateURL>paypal.me/CosmicOS</DonateURL>
+  <Changelog>====================
+     07-07-2018
+====================
+
+   * frameworks/base/
+3064715  SystemUI: make recents membar use theme accent  [Sagar Shah]
+c7e26d1  Make Recents Free Ram text translatable  [Sagar Shah]
+6b8ec6c  SystemUI: make recents FAB use theme accent  [Sagar Shah]
+e7b1e07  Fix possible NPE  [Sagar Shah]
+073b6fa  screenrecord: add support for 18:9 resolutions  [Sagar Shah]
+a3e3af6  base: ROM size calculation error on 4GB ROM device  [Sagar Shah]
+   * hardware/qcom/display-caf/msm8998/
+9fa8467  gralloc: Add missing BT601_6_625 handing  [Michael Bestas]
+20bd3e8  gralloc1: Add support for secure display.  [Michael Bestas]
+6c718aa  liblight: Use char array instead of char pointer array for file name  [Michael Bestas]
+   * vendor/ota/
+4a8debf  OTA: Update mido (06/07/2018)  [Sebastian]
+bf4b821  OTA: Update tissot (06/07/2018)  [Sebastian]
+
+====================
+     07-06-2018
+====================
+
+   * packages/apps/Galaxy/
+4536033  galaxy: Update Russian translations (#25)  [Sagar Shah]
+   * packages/apps/Settings/
+d5be1cd  settings: Update Russian translations (#8)  [Sagar Shah]
+
+====================
+     07-05-2018
+====================
+
+   * frameworks/base/
+44ee7e8  Telephony: Stop using rssnr, it falsly shows wrong signal bars Pixel and other devices drop this  [Sagar Shah]
+   * vendor/ota/
+2d314b3  OTA: Update j7velte (04/07/2018) (#156)  [Sagar Shah]
+db73a25  OTA: Update santoni (04/07/2018)  [Sidharth Soni]
+
+====================
+     07-04-2018
+====================
+
+   * build/make/
+37a5029  Merge pull request #14 from ManoloRey/pulsar-release  [GitHub]
+   * frameworks/av/</Changelog>
+</ROM>
