@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_huashan_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Pulsar_huashan_8.1.0_20180710_3.2-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180710</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/huashan/Cosmic-OS_Pulsar_huashan_8.1.0_20180710_3.2-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/huashan</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5>c9ab6b8756757a98c9e1304a9b1f827d</CheckMD5>
-  <FileSize type="integer">329015825</FileSize>
-  <Developer>dic1911</Developer>
-  <WebsiteURL nil="true">cosmic-os.org</WebsiteURL>
-  <DonateURL>paypal.me/CosmicOS</DonateURL>
-  <Changelog>====================
+====================
      07-10-2018
 ====================
 
@@ -55,5 +42,4 @@ b06e15f  power: Adding hints for SDM845  [Bruno Martins]
 4536033  galaxy: Update Russian translations (#25)  [Sagar Shah]
    * packages/apps/Settings/
 d5be1cda7a  settings: Update Russian translations (#8)  [Sagar Shah]
-   * vendor/ota/</Changelog>
-</ROM>
+   * vendor/ota/
