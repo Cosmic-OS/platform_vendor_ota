@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_land_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Pulsar_land_8.1.0_20180710_3.2-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180710</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/land/Cosmic-OS_Pulsar_land_8.1.0_20180710_3.2-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/land</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5>a0f8dc6a391318236153edc95f8ddba0</CheckMD5>
-  <FileSize type="integer">410828252</FileSize>
-  <Developer>klozz(TeamMEX)</Developer>
-  <WebsiteURL nil="true">cosmic-os.org</WebsiteURL>
-  <DonateURL>paypal.me/CosmicOS</DonateURL>
-  <Changelog>====================
+====================
      07-10-2018
 ====================
 
@@ -55,5 +42,4 @@ a3e3af6  base: ROM size calculation error on 4GB ROM device  [Sagar Shah]
    * packages/apps/Galaxy/
 4536033  galaxy: Update Russian translations (#25)  [Sagar Shah]
    * packages/apps/Settings/
-d5be1cd  settings: Update Russian translations (#8)  [Sagar Shah]</Changelog>
-</ROM>
+d5be1cd  settings: Update Russian translations (#8)  [Sagar Shah]
