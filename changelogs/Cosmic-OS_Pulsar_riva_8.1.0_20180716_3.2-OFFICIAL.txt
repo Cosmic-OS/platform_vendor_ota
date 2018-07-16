@@ -1,1 +1,4 @@
-First release with OTA build
+*17-06-2018*
+
+Now comes with OTA support
+Many more things
