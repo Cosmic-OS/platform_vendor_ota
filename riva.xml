@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROM>
+  <RomName>Cosmic-OS_riva_8.1.0</RomName>
+  <VersionName><![CDATA[ Cosmic-OS_Pulsar_riva_8.1.0_20180716_3.2-OFFICIAL ]]></VersionName>
+  <VersionNumber type="integer">20180716</VersionNumber>
+  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/riva/Cosmic-OS_Pulsar_riva_8.1.0_20180716_3.2-OFFICIAL.zip</DirectUrl>
+  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/riva</HttpUrl>
+  <Android>8.1.0</Android>
+  <CheckMD5></CheckMD5>
+  <FileSize type="integer"></FileSize>
+  <Developer>Ankan Ghosh</Developer>
+  <WebsiteURL nil="true">cosmic-os.org</WebsiteURL>
+  <DonateURL>paypal.me/CosmicOS</DonateURL>
+  <Changelog>First release with OTA build</Changelog>
+</ROM>
