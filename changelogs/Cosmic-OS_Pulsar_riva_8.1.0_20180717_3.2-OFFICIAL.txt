@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_riva_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Pulsar_riva_8.1.0_20180717_3.2-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180717</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/riva/Cosmic-OS_Pulsar_riva_8.1.0_20180717_3.2-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/riva</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5></CheckMD5>
-  <FileSize type="integer"></FileSize>
-  <Developer>Ankan Ghosh</Developer>
-  <WebsiteURL nil="true">cosmic-os.org</WebsiteURL>
-  <DonateURL>paypal.me/CosmicOS</DonateURL>
-  <Changelog>====================
+====================
      07-16-2018
 ====================
 
@@ -55,5 +42,4 @@ cf40fe4  OTA: Update huashan (10/07/2018) (#161)  [Sagar Shah]
 
 ====================
      07-11-2018
-====================</Changelog>
-</ROM>
+====================
