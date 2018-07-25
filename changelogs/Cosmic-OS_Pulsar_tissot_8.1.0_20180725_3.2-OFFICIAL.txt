@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_tissot_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Pulsar_tissot_8.1.0_20180725_3.2-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180725</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/tissot/Cosmic-OS_Pulsar_tissot_8.1.0_20180725_3.2-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/tissot</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5>f2d01ee6318906359f47ffc7393034ac</CheckMD5>
-  <FileSize type="integer">519917826</FileSize>
-  <Developer>abhinavgupta371</Developer>
-  <WebsiteURL nil="true">cosmic-os.org</WebsiteURL>
-  <DonateURL>paypal.me/CosmicOS</DonateURL>
-  <Changelog>====================
+====================
      07-25-2018
 ====================
 
@@ -55,5 +42,4 @@ f7a58eec2  Allow using private framework API.  [Sagar Shah]
 ====================
 
    * build/make/
-68a96eba9  Move away from USE_HOST flag and introduce $BINARY_EXEC  [Sagar Shah]</Changelog>
-</ROM>
+68a96eba9  Move away from USE_HOST flag and introduce $BINARY_EXEC  [Sagar Shah]
