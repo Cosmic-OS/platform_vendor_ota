@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_lettuce_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Pulsar_lettuce_8.1.0_20180729_3.2-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180729</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/lettuce/Cosmic-OS_Pulsar_lettuce_8.1.0_20180729_3.2-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/lettuce</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5>1c87a0315c8c8b1f3e71ef34e1643136</CheckMD5>
-  <FileSize type="integer">444972470</FileSize>
-  <Developer>abhinavgupta371</Developer>
-  <WebsiteURL nil="true">cosmic-os.org</WebsiteURL>
-  <DonateURL>paypal.me/CosmicOS</DonateURL>
-  <Changelog>====================
+====================
      07-29-2018
 ====================
 
@@ -55,5 +42,4 @@ a42e274  OTA: Update tissot (25/07/2018)  [Sebastian]
    * hardware/ril-caf/
 5380335  libril: Protect against NULL unsolicited response function  [Han Wang]
 
-====================</Changelog>
-</ROM>
+====================
