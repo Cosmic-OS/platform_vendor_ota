@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_land_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Pulsar_land_8.1.0_20180729_3.2-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180729</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/land/Cosmic-OS_Pulsar_land_8.1.0_20180729_3.2-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/land</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5>44fe503e6610f13a03dd86f503a1f517</CheckMD5>
-  <FileSize type="integer">411842519</FileSize>
-  <Developer>klozz(TeamMEX)</Developer>
-  <WebsiteURL nil="true">cosmic-os.org</WebsiteURL>
-  <DonateURL>paypal.me/CosmicOS</DonateURL>
-  <Changelog>====================
+====================
      07-29-2018
 ====================
 
@@ -55,5 +42,4 @@ a42e274  OTA: Update tissot (25/07/2018)  [Sebastian]
    * hardware/ril-caf/
 5380335  libril: Protect against NULL unsolicited response function  [Han Wang]
    * vendor/ota/
-1bbd619  OTA: Update riva for Tue Jul 24 18:09:11 BST 2018 (#166)  [Sagar Shah]</Changelog>
-</ROM>
+1bbd619  OTA: Update riva for Tue Jul 24 18:09:11 BST 2018 (#166)  [Sagar Shah]
