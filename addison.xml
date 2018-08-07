@@ -1,59 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
   <RomName>Cosmic-OS_addison_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Pulsar_addison_8.1.0_20180704_3.2-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180704</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/addison/Cosmic-OS_Pulsar_addison_8.1.0_20180704_3.2-OFFICIAL.zip</DirectUrl>
+  <VersionName><![CDATA[ Cosmic-OS_Pulsar_addison_8.1.0_20180807_3.2-OFFICIAL ]]></VersionName>
+  <VersionNumber type="integer">20180807</VersionNumber>
+  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/addison/Cosmic-OS_Pulsar_addison_8.1.0_20180807_3.2-OFFICIAL.zip</DirectUrl>
   <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/addison</HttpUrl>
   <Android>8.1.0</Android>
-  <CheckMD5>5b94604ab40b7db12ebe7cd67a2e325f</CheckMD5>
-  <FileSize type="integer">520266167</FileSize>
+  <CheckMD5>eaeff3ab72da50fd1ffcbd0bd85052ba</CheckMD5>
+  <FileSize type="integer">521127022</FileSize>
   <Developer>klozz(TeamMEX)</Developer>
   <WebsiteURL nil="true">cosmic-os.org</WebsiteURL>
   <DonateURL>paypal.me/CosmicOS</DonateURL>
   <Changelog>====================
-     07-04-2018
+     08-07-2018
 ====================
 
+   * hardware/qcom/power/
+34c7410  power: Fix several typos in power profiles  [Michael Bestas]
    * vendor/cos/
-ff2d832  fix official on my pc  [klozz]
-043c10e  Add maintainer Redmi 4  [Sebastian]
+e69eef5  fix official on my pc  [klozz]
 
 ====================
-     07-03-2018
+     08-06-2018
 ====================
 
-   * vendor/cos/
-22b3755  vendor: Reduce bootanimation size (#91)  [Sagar Shah]
 
 ====================
-     07-02-2018
+     08-05-2018
 ====================
 
-   * packages/apps/Galaxy/
-3b319a5  galaxy: Russian translations (#23)  [Sagar Shah]
-   * packages/apps/Settings/
-16f1ca715d  settings: Russian translations (#6)  [Sagar Shah]
-   * vendor/cos/
-41ec6c4  Add Redmeme 4/4x  (santoni)  [GitHub]
 
 ====================
-     07-01-2018
+     08-04-2018
 ====================
 
-   * hardware/qcom/audio-caf/msm8996/
-3248c6424  Merge tag 'LA.UM.6.6.r1-08900-89xx.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/audio into lineage-15.1-caf-8996  [Michael Bestas]
-   * hardware/qcom/media-caf/msm8916/
-844c3d4ec  Merge tag 'LA.BR.1.2.9.1-02310-8x16.0' into lineage-15.1-caf-8916  [Michael Bestas]
 
 ====================
-     06-30-2018
+     08-03-2018
 ====================
 
-   * manifest/
-03b42c24  manifest: Add msm8916 hals (#26)  [Sagar Shah]
 
 ====================
-     06-29-2018
-====================</Changelog>
+     08-02-2018
+====================
+
+
+====================
+     08-01-2018
+====================
+
+
+====================
+     07-31-2018
+====================
+
+   * vendor/ota/
+faae106  Merge pull request #172 from anupritaisno1/pulsar-release  [GitHub]</Changelog>
 </ROM>
