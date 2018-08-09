@@ -1,59 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
-  <RomName>Cosmic-OS_riva_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Pulsar_riva_8.1.0_20180724_3.2-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180724</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/riva/Cosmic-OS_Pulsar_riva_8.1.0_20180724_3.2-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/riva</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5>d287d2c944337a44139225346d930dc2</CheckMD5>
-  <FileSize type="integer">508309060</FileSize>
-  <Developer>Ankan Ghosh</Developer>
-  <WebsiteURL nil="true">cosmic-os.org</WebsiteURL>
-  <DonateURL>paypal.me/CosmicOS</DonateURL>
-  <Changelog><![CDATA[====================
-     07-24-2018
-====================
-
-   * vendor/ota/
-3a923c7  OTA: Update riva (24/07/2018)  [ankan005]
-
-====================
-     07-23-2018
-====================
-
-
-====================
-     07-22-2018
-====================
-
-   * build/make/
-68a96eb  Move away from USE_HOST flag and introduce $BINARY_EXEC  [Sagar Shah]
-631367c  core: config: Use host flex if requested  [Sagar Shah]
-   * frameworks/base/
-4aec2b1  Revert "Fix to android 7.0+ Intent Flag Bug"  [Sagar Shah]
-   * frameworks/opt/telephony/
-2d9cbb7  Revert "IMS: Use proper phone to route emergency calls"  [Sagar Shah]
-8c55fd2  RIL: Allow overriding RadioResponse and RadioIndication  [Sagar Shah]
-2310836  TelephonyComponentFactory: Overload makeSubscriptionInfoUpdater  [Sagar Shah]
-0f27cc1  DcTracker: Change access modifier of isNvSubscription to protected  [Sagar Shah]
-4e3f08a  IMS: Use proper phone to route emergency calls  [Sagar Shah]
-ca3dcb9  PhoneFactory: fix creating a cdma phone type  [Sagar Shah]
-4ef9034  Telephony: Enable NV based CDMA data call.  [Sagar Shah]
-88aca29  MMS: Update apnProfileID for MMS only apn.  [Sagar Shah]
-974ff36  Revert "Add support for Huawei signal configuration"  [Sagar Shah]
-   * packages/apps/Contacts/
-75d3324  Hide help and feedback in AOSP contacts  [Sagar Shah]
-902736c  Place EmergencyInfo shortcut on drawer  [Sagar Shah]
-e861e01  Place MyInfo shortcut on drawer  [Sagar Shah]
-84eda71  Contacts: Ignore device null account.  [Sagar Shah]
-d1bb2db  Contacts: Enable support for device contact.  [Sagar Shah]
-f72bb94  Contacts: fix handling non-google accounts in customize view  [Sagar Shah]
-   * packages/apps/Dialer/
-3f5c1d1  Re-add call recording.  [Sagar Shah]
-19a417d  Re-add call statistics.  [Sagar Shah]
-3fc01a7  Allow per-call account selection.  [Sagar Shah]
-95a1ba8  Improve contatcts layout  [Sagar Shah]
-f7a58ee  Allow using private framework API.  [Sagar Shah]
-162ce5e  incoming call screen & incall screen: contact name on 2 lines  [Sagar Shah] ]]</Changelog>
+    <RomName>Cosmic-OS_riva_8.1.0</RomName>
+    <VersionName><![CDATA[ Cosmic-OS_Pulsar_riva_8.1.0_20180724_3.2-OFFICIAL ]]></VersionName>
+    <VersionNumber type="integer">20180724</VersionNumber>
+    <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/riva/Cosmic-OS_Pulsar_riva_8.1.0_20180724_3.2-OFFICIAL.zip</DirectUrl>
+    <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/riva</HttpUrl>
+    <Android>8.1.0</Android>
+    <CheckMD5>d287d2c944337a44139225346d930dc2</CheckMD5>
+    <FileSize type="integer">508309060</FileSize>
+    <Developer>Ankan Ghosh</Developer>
+    <WebsiteURL nil="true">cosmic-os.org</WebsiteURL>
+    <DonateURL>paypal.me/CosmicOS</DonateURL>
+    <Changelog>
+        ====================
+         07-24-2018
+        ====================
+        
+           * vendor/ota/
+        3a923c7  OTA: Update riva (24/07/2018)  [ankan005]
+        
+        ====================
+             07-23-2018
+        ====================
+        
+        
+        ====================
+             07-22-2018
+        ====================
+        
+           * build/make/
+        68a96eb  Move away from USE_HOST flag and introduce $BINARY_EXEC  [Sagar Shah]
+        631367c  core: config: Use host flex if requested  [Sagar Shah]
+           * frameworks/base/
+        4aec2b1  Revert "Fix to android 7.0+ Intent Flag Bug"  [Sagar Shah]
+           * frameworks/opt/telephony/
+        2d9cbb7  Revert "IMS: Use proper phone to route emergency calls"  [Sagar Shah]
+        8c55fd2  RIL: Allow overriding RadioResponse and RadioIndication  [Sagar Shah]
+        2310836  TelephonyComponentFactory: Overload makeSubscriptionInfoUpdater  [Sagar Shah]
+        0f27cc1  DcTracker: Change access modifier of isNvSubscription to protected  [Sagar Shah]
+        4e3f08a  IMS: Use proper phone to route emergency calls  [Sagar Shah]
+        ca3dcb9  PhoneFactory: fix creating a cdma phone type  [Sagar Shah]
+        4ef9034  Telephony: Enable NV based CDMA data call.  [Sagar Shah]
+        88aca29  MMS: Update apnProfileID for MMS only apn.  [Sagar Shah]
+        974ff36  Revert "Add support for Huawei signal configuration"  [Sagar Shah]
+           * packages/apps/Contacts/
+        75d3324  Hide help and feedback in AOSP contacts  [Sagar Shah]
+        902736c  Place EmergencyInfo shortcut on drawer  [Sagar Shah]
+        e861e01  Place MyInfo shortcut on drawer  [Sagar Shah]
+        84eda71  Contacts: Ignore device null account.  [Sagar Shah]
+        d1bb2db  Contacts: Enable support for device contact.  [Sagar Shah]
+        f72bb94  Contacts: fix handling non-google accounts in customize view  [Sagar Shah]
+           * packages/apps/Dialer/
+        3f5c1d1  Re-add call recording.  [Sagar Shah]
+        19a417d  Re-add call statistics.  [Sagar Shah]
+        3fc01a7  Allow per-call account selection.  [Sagar Shah]
+        95a1ba8  Improve contatcts layout  [Sagar Shah]
+        f7a58ee  Allow using private framework API.  [Sagar Shah]
+        162ce5e  incoming call screen and incall screen: contact name on 2 lines  [Sagar Shah] ]]
+    </Changelog>
 </ROM>
