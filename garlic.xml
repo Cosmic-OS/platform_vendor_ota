@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROM>
+  <RomName>Cosmic-OS_garlic_8.1.0</RomName>
+  <VersionName><![CDATA[ Cosmic-OS_Pulsar_garlic_8.1.0_20180710_3.2-OFFICIAL ]]></VersionName>
+  <VersionNumber type="integer">20170710</VersionNumber>
+  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/garlic/Cosmic-OS_Pulsar_garlic_8.1.0_20180710_3.2-OFFICIAL.zip</DirectUrl>
+  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/garlic</HttpUrl>
+  <Android>8.1.0</Android>
+  <CheckMD5>9593d96131b3bc53f7ce0434289bb697</CheckMD5>
+  <FileSize type="integer">502600000</FileSize>
+  <Developer>Sagar Shah</Developer>
+  <WebsiteURL nil="true">cosmic-os.org</WebsiteURL>
+  <DonateURL>paypal.me/Cosmic-OS</DonateURL>
+<Changelog>
+</Changelog>
+</ROM>

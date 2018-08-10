@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROM>
+    <RomName>Cosmic-OS_marlin_8.1.0</RomName>
+    <VersionName><![CDATA[ Cosmic-OS_Pulsar_marlin_8.1.0_20180717_3.2-OFFICIAL ]]></VersionName>
+    <VersionNumber type="integer">20180717</VersionNumber>
+    <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/riva/Cosmic-OS_Pulsar_marlin_8.1.0_20180717_3.2-OFFICIAL.zip</DirectUrl>
+    <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/marlin</HttpUrl>
+    <Android>8.1.0</Android>
+    <CheckMD5>202ac29b685d8ff307029ff804f95845</CheckMD5>
+    <FileSize type="integer">428500000</FileSize>
+    <Developer>Joe Pacino</Developer>
+    <WebsiteURL nil="true">cosmic-os.org</WebsiteURL>
+    <DonateURL>paypal.me/CosmicOS</DonateURL>
+    <Changelog>
+    </Changelog>
+</ROM>
