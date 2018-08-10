@@ -1,0 +1,45 @@
+====================
+     08-06-2018
+====================
+
+
+====================
+     08-05-2018
+====================
+
+
+====================
+     08-04-2018
+====================
+
+
+====================
+     08-03-2018
+====================
+
+
+====================
+     08-02-2018
+====================
+
+
+====================
+     08-01-2018
+====================
+
+
+====================
+     07-31-2018
+====================
+
+
+====================
+     07-30-2018
+====================
+
+   * hardware/qcom/audio-caf/msm8998/
+cc24d96  hal: Add missing compress voip PCM device ID  [Erfan Abdi]
+   * vendor/ota/
+faae106  Merge pull request #172 from anupritaisno1/pulsar-release  [GitHub]
+ce19894  oneplus2: fix maintainer name  [anupritaisno1]
+1e81e06  Merge pull request #171 from anupritaisno1/pulsar-release  [GitHub]
