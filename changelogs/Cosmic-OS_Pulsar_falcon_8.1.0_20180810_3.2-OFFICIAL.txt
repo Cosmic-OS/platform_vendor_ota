@@ -1,18 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_falcon_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Pulsar_falcon_8.1.0_20180810_3.2-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180810</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/falcon/Cosmic-OS_Pulsar_falcon_8.1.0_20180810_3.2-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/falcon</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5>0416c9cab4678be5e77a72d89267df5c</CheckMD5>
-  <SHA256>ask</SHA256>
-  <FileSize type="integer">292033609</FileSize>
-  <Developer>klozz(TeamMEX)</Developer>
-  <WebsiteURL nil="true">cosmic-os.org</WebsiteURL>
-  <DonateURL>paypal.me/CosmicOS</DonateURL>
-  <Changelog>====================
+====================
      08-10-2018
 ====================
 
@@ -56,5 +42,4 @@ e35891ed7  Revert "Dialer: disable anti-falsing for call answer screen"  [Sagar 
 7a958c368  Merge tag 'android-8.1.0_r43' of https://android.googlesource.com/platform/system/core into pulsar-release  [Sagar Shah]
    * system/media/
 16a5e8b1  Merge tag 'android-8.1.0_r43' of https://android.googlesource.com/platform/system/media into HEAD  [Sagar Shah]
-   * vendor/ota/</Changelog>
-</ROM>
+   * vendor/ota/
