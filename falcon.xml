@@ -1,59 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
   <RomName>Cosmic-OS_falcon_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Universe_falcon_8.1.0_20180503_3.1-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180503</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/falcon/Cosmic-OS_Universe_falcon_8.1.0_20180503_3.1-OFFICIAL.zip</DirectUrl>
+  <VersionName><![CDATA[ Cosmic-OS_Pulsar_falcon_8.1.0_20180810_3.2-OFFICIAL ]]></VersionName>
+  <VersionNumber type="integer">20180810</VersionNumber>
+  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/falcon/Cosmic-OS_Pulsar_falcon_8.1.0_20180810_3.2-OFFICIAL.zip</DirectUrl>
   <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/falcon</HttpUrl>
   <Android>8.1.0</Android>
-  <CheckMD5>82de9ee78d9b2d20bfa7bf9fa7588063</CheckMD5>
-  <FileSize type="integer">289610105</FileSize>
+  <CheckMD5>0416c9cab4678be5e77a72d89267df5c</CheckMD5>
+  <SHA256>658659c742a6f0b10e344cc9da7a7830bbecd7320b253553f06b7b7278e9e62c</SHA256>
+  <FileSize type="integer">292033609</FileSize>
   <Developer>klozz(TeamMEX)</Developer>
   <WebsiteURL nil="true">cosmic-os.org</WebsiteURL>
   <DonateURL>paypal.me/CosmicOS</DonateURL>
   <Changelog>====================
-     05-03-2018
+     08-10-2018
 ====================
 
-   * device/cosmic/sepolicy/
-245d64a  sepolicy: move to coredomain some domains and use vendor_file_type to allow execution from vendor in treble builds  [klozz]
+   * vendor/cos/
+ffba250  fix official on my pc  [klozz]
    * vendor/ota/
-0ff0d41  OTA: Update addison (03/05/2018)  [klozz]
-f17a40c  OTA: Update land (03/05/2018)  [Sebastian]
+3e141c1  Merge branch 'pulsar-release' of github.com:Cosmic-OS/platform_vendor_ota into pulsar-release  [Sid-Sun]
+8c5788c  Add SHA256  [Sid-Sun]
+b0380c4  OTA: Update kenzo (06/08/2018) (#173)  [Sagar Shah]
+9df37cd  mka marlin  [GitHub]
+319abbb  mka garlic  [GitHub]
 
 ====================
-     05-02-2018
+     08-09-2018
 ====================
 
-   * vendor/ota/
-7d47042  OTA: Update lettuce (01/05/2018)  [Sagar Shah]
-d3fd12c  OTA: Update tissot (01/05/2018)  [Sagar Shah]
-
-====================
-     05-01-2018
-====================
-
-   * vendor/ota/
-a012dd5  OTA: Update mido (01/05/2018)  [Sagar Shah]
-
-====================
-     04-30-2018
-====================
-
-   * device/cosmic/sepolicy/
-a16a39d  Revert "sepolicy: suppress denial logspam"  [Sagar Shah]
-e50c9c4  sepolicy: Improve external storage rules  [Sagar Shah]
-   * device/qcom/sepolicy/
-3d58db1  sepolicy: Remove sf_lcd_density_prop additions  [Sagar Shah]
-fb03f10  sepolicy: Include cosmic sepolicy  [Sagar Shah]
-   * system/sepolicy/
-c8f26d5  Hide some denials.  [Sagar Shah]
-bc84c42  priv_app: suppress denials for /proc/stat  [Sagar Shah]
-40d1806  Suppress denials for non-API access  [Sagar Shah]
-52ca920  priv_app: move logspam suppression to core policy  [Sagar Shah]
-0a37648  Suppress denials from sdcardfs (b/67454004)  [Sagar Shah]
-7773971  Allow system_server to update timerslack_ns for hal_audio_default  [Sagar Shah]
-b7facdf  system_server: allow writing to timerslack_ns  [Sagar Shah]
-   * vendor/ota/
-41d93e5  ota: Update website and donation URL  [Sagar Shah]</Changelog>
+   * build/make/
+425124de4  Merge tag 'android-8.1.0_r43' of https://android.googlesource.com/platform/build into pulsar-release  [Sagar Shah]
+   * frameworks/av/
+145b9f9eb  Merge tag 'android-8.1.0_r43' of https://android.googlesource.com/platform/frameworks/av into pulsar-release  [Sagar Shah]
+   * frameworks/base/
+b50d492d28b  Merge tag 'android-8.1.0_r43' of https://android.googlesource.com/platform/frameworks/base into pulsar-release  [Sagar Shah]
+   * frameworks/native/
+15f5a3c98  Merge tag 'android-8.1.0_r43' of https://android.googlesource.com/platform/frameworks/native into pulsar-release  [Sagar Shah]
+   * frameworks/opt/telephony/
+bc0dc1166  Merge tag 'android-8.1.0_r43' of https://android.googlesource.com/platform/frameworks/opt/telephony into pulsar-release  [Sagar Shah]
+   * hardware/interfaces/
+7fa2d5c9  Merge tag 'android-8.1.0_r43' of https://android.googlesource.com/platform/hardware/interfaces into HEAD  [Sagar Shah]
+   * manifest/
+c61bc52d  Merge branch 'android-8.1.0_r43' of https://android.googlesource.com/platform/manifest into HEAD  [Sagar Shah]
+   * packages/apps/Dialer/
+1376b9568  Revert "Expedite the processing of destroying Incall UI after end call"  [Sagar Shah]
+e35891ed7  Revert "Dialer: disable anti-falsing for call answer screen"  [Sagar Shah]
+   * packages/apps/Settings/
+6495e844cc  Merge tag 'android-8.1.0_r43' of https://android.googlesource.com/platform/packages/apps/Settings into pulsar-release  [Sagar Shah]
+   * packages/services/Telecomm/
+6e37d549  Merge tag 'android-8.1.0_r43' of https://android.googlesource.com/platform/packages/services/Telecomm into pulsar-release  [Sagar Shah]
+   * system/bt/
+70d57e6b  Merge tag 'android-8.1.0_r43' of https://android.googlesource.com/platform/system/bt into pulsar-release  [Sagar Shah]
+   * system/core/
+7a958c368  Merge tag 'android-8.1.0_r43' of https://android.googlesource.com/platform/system/core into pulsar-release  [Sagar Shah]
+   * system/media/
+16a5e8b1  Merge tag 'android-8.1.0_r43' of https://android.googlesource.com/platform/system/media into HEAD  [Sagar Shah]
+   * vendor/ota/</Changelog>
 </ROM>
