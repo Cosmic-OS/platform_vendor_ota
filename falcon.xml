@@ -7,7 +7,7 @@
   <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/falcon</HttpUrl>
   <Android>8.1.0</Android>
   <CheckMD5>0416c9cab4678be5e77a72d89267df5c</CheckMD5>
-  <SHA256>ask</SHA256>
+  <SHA256>658659c742a6f0b10e344cc9da7a7830bbecd7320b253553f06b7b7278e9e62c</SHA256>
   <FileSize type="integer">292033609</FileSize>
   <Developer>klozz(TeamMEX)</Developer>
   <WebsiteURL nil="true">cosmic-os.org</WebsiteURL>
