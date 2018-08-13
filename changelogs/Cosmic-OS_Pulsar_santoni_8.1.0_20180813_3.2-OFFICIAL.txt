@@ -1,18 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_santoni_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Pulsar_santoni_8.1.0_20180813_3.2-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180813</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/santoni/Cosmic-OS_Pulsar_santoni_8.1.0_20180813_3.2-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/santoni</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5></CheckMD5>
-  <SHA256></SHA256>
-  <FileSize type="integer"></FileSize>
-  <Developer>infinity-plus</Developer>
-  <WebsiteURL nil="true">cosmic-os.org</WebsiteURL>
-  <DonateURL>paypal.me/CosmicOS</DonateURL>
-  <Changelog>====================
+====================
      08-12-2018
 ====================
 
@@ -56,5 +42,4 @@ e35891e  Revert "Dialer: disable anti-falsing for call answer screen"  [Sagar Sh
    * vendor/ota/
 3e141c1  Merge branch 'pulsar-release' of github.com:Cosmic-OS/platform_vendor_ota into pulsar-release  [Sid-Sun]
 8c5788c  Add SHA256  [Sid-Sun]
-b0380c4  OTA: Update kenzo (06/08/2018) (#173)  [Sagar Shah]</Changelog>
-</ROM>
+b0380c4  OTA: Update kenzo (06/08/2018) (#173)  [Sagar Shah]
