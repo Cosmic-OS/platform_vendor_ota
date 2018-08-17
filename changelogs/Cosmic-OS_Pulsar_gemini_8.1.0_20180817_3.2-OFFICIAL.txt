@@ -1,18 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_gemini_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Pulsar_gemini_8.1.0_20180817_3.2-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180817</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/gemini/Cosmic-OS_Pulsar_gemini_8.1.0_20180817_3.2-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/gemini</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5>85f6080a38efc3dd55c603bcea666c78</CheckMD5>
-  <SHA256>ask</SHA256>
-  <FileSize type="integer">511191912</FileSize>
-  <Developer>Sebastian</Developer>
-  <WebsiteURL nil="true">cosmic-os.org</WebsiteURL>
-  <DonateURL>paypal.me/CosmicOS</DonateURL>
-  <Changelog>====================
+====================
      08-17-2018
 ====================
 
@@ -56,5 +42,4 @@ e31ce25  OTA: Update santoni (13/08/2018)  [infinity-plus]
      08-11-2018
 ====================
 
-   * packages/services/Telecomm/</Changelog>
-</ROM>
+   * packages/services/Telecomm/
