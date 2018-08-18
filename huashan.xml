@@ -7,7 +7,7 @@
   <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/huashan</HttpUrl>
   <Android>8.1.0</Android>
   <CheckMD5>8a3d09c86132c345f92d52123cc6488f</CheckMD5>
-  <SHA256></SHA256>
+  <SHA256>1ef8397e55ad5e2a9576d2fe617b4e275f4ca9289fbfae62f7839be7d4859c2d</SHA256>
   <FileSize type="integer">330289399</FileSize>
   <Developer>dic1911</Developer>
   <WebsiteURL nil="true">cosmic-os.org</WebsiteURL>
