@@ -1,18 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <RomName>Cosmic-OS_huashan_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Pulsar_huashan_8.1.0_20180818_3.2-OFFICIAL ]]></VersionName>
-  <VersionNumber type="integer">20180818</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/huashan/Cosmic-OS_Pulsar_huashan_8.1.0_20180818_3.2-OFFICIAL.zip</DirectUrl>
-  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/huashan</HttpUrl>
-  <Android>8.1.0</Android>
-  <CheckMD5>8a3d09c86132c345f92d52123cc6488f</CheckMD5>
-  <SHA256></SHA256>
-  <FileSize type="integer">330289399</FileSize>
-  <Developer>dic1911</Developer>
-  <WebsiteURL nil="true">cosmic-os.org</WebsiteURL>
-  <DonateURL>paypal.me/CosmicOS</DonateURL>
-  <Changelog>====================
+====================
      08-18-2018
 ====================
 
@@ -56,5 +42,4 @@ f57364b  sepolicy: Resolve hal_graphics_allocator denials  [dic1911]
 e7da4806334  UPSTREAM: packet: hold bind lock when rebinding to fanout hook  [Adrian DC]
 9e6e7dcebcd  packet: fix races in fanout_add()  [Adrian DC]
 d44ef3ec395  ipsec: Fix aborted xfrm policy dump crash  [Adrian DC]
-035e4743c18  BACKPORT: packet: in packet_do_bind, test fanout with bind_lock held  [Adrian DC]</Changelog>
-</ROM>
+035e4743c18  BACKPORT: packet: in packet_do_bind, test fanout with bind_lock held  [Adrian DC]
