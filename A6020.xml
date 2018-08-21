@@ -1,0 +1,15 @@
+   <?xml version="1.0" encoding="UTF-8"?>
+<ROM>
+  <RomName>Cosmic-OS_Pulsar_A6020_8.1.0_20180801_3.2-OFFICIAL.zip</RomName>
+  <VersionName><![CDATA[ Cosmic-OS_Pulsar_A6020_8.1.0_20180801_3.2-OFFICIAL.zip]]></VersionName>
+  <VersionNumber type="integer">20170420</VersionNumber>
+  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/a6020/Cosmic-OS_Pulsar_A6020_8.1.0_20180801_3.2-OFFICIAL.zip</DirectUrl>
+  <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/a6020</HttpUrl>
+  <Android>8.1.0</Android>
+  <CheckMD5>4673e5332f75998cea1bbffc5ef94182</CheckMD5>
+  <FileSize type="integer">470016</FileSize>
+  <Developer>Chaitanaya Mittal(@Professional_Guider)</Developer>
+  <WebsiteURL nil="true">cosmic-os.com</WebsiteURL>
+  <DonateURL>paypal.me/Cosmic-OS</DonateURL>
+  <Changelog>*First bring up For A6020 official support</Changelog>
+</ROM>
