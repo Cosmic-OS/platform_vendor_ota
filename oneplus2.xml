@@ -1,21 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
   <RomName>Cosmic-OS_oneplus2_8.1.0</RomName>
-  <VersionName><![CDATA[ Cosmic-OS_Pulsar_oneplus2-july-release-patch1 ]]></VersionName>
-  <VersionNumber type="integer">20180729</VersionNumber>
-  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/oneplus2/cosmic-os-july-release-patch1.zip</DirectUrl>
+  <VersionName><![CDATA[ Cosmic-OS_Pulsar_oneplus2-august-release ]]></VersionName>
+  <VersionNumber type="integer">20180824</VersionNumber>
+  <DirectUrl>https://downloads.sourceforge.net/project/cosmic-os/oneplus2/cosmic-os-august-release.zip</DirectUrl>
   <HttpUrl>https://sourceforge.net/projects/cosmic-os/files/oneplus2</HttpUrl>
   <Android>8.1.0</Android>
-  <CheckMD5>20001ab0644f6fc88f3dc74043050e65</CheckMD5>
-  <FileSize type="integer">557411834</FileSize>
+  <CheckMD5>418894bd0aad453006904a65e3eb07f0</CheckMD5>
+  <SHA256>596c4954b055cd05c2b0f86082450a88166beb6912a3f9e0268b7b2733934836</SHA256>
+  <FileSize type="integer">567869226</FileSize>
   <Developer>anupritaisno1</Developer>
-  <WebsiteURL>cosmic-os.org</WebsiteURL>
-  <DonateURL>paypal.me/Cosmic-OS</DonateURL>
+  <WebsiteURL>https://cosmic-os.org/</WebsiteURL>
+  <DonateURL>https://paypal.me/Cosmic-OS/</DonateURL>
   <Changelog>
 	  Do NOT flash this build before reading the XDA announcement 
 	  Bugfixing release. Check github for full changelog
+	  August 5 security patch
+	  updated EAS energy model
+	  updated sdfat to 2.0.8
+	  updated wireguard to latest driver
 	  added vendor partition
 	  ROM will now force encryption at boot
-	  improved boot time
+	  if could take upto 40 minutes for first boot so be patient
   </Changelog>
 </ROM>
