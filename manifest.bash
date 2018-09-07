@@ -10,7 +10,7 @@ function write_xml() {
   echo "  <HttpUrl>$url</HttpUrl>"
   echo "  <Android>$android</Android>"
   echo "  <CheckMD5>"$(md5sum $OUT/$version.zip | awk '{print $1}')"</CheckMD5>"
-  echo "  <SHA256>"$(sha256 $OUT/$version.zip | awk '{print $2}')"</SHA256>"
+  echo "  <SHA256>"$(sha256sum $OUT/$version.zip | awk '{print $1}')"</SHA256>"
   echo "  <FileSize type=\"integer\">"$(stat --printf="%s" $OUT/${version}.zip)"</FileSize>"
   echo "  <Developer>$MAINTAINER</Developer>"
   echo "  <WebsiteURL nil=\"true\">cosmic-os.org</WebsiteURL>"
