@@ -33,7 +33,7 @@ function update_target() {
     version="$COS_VERSION"
     version_date=$(echo $version | rev | cut -d _ -f 2 | rev)
     device=$(echo $TARGET_PRODUCT | cut -d _ -f 2,3)
-    android="8.1.0"
+    android="9.0"
     product=Cosmic-OS_${device}_${android}
     if [[ "$CUSTOM_DATE" == true ]]; then
       printf 'Enter date in format YYYYMMDD: '
@@ -54,7 +54,7 @@ function update_target() {
     version=$(echo $version | sed -e "s/${version_date}/${date}/g")
     cd $(gettop)/vendor/ota
     git reset --hard HEAD
-    git pull cosmic-os pulsar-release
+    git pull cosmic-os corona-release
     mkdir -p $(gettop)/vendor/ota/changelogs
     touch $(gettop)/vendor/ota/changelogs/${version}.txt
     head -n 45 $OUT/cos_${device}-Changelog.txt > $(gettop)/vendor/ota/changelogs/${version}.txt
@@ -67,16 +67,11 @@ function update_target() {
       read MAINTAINER
       echo "Hello ${MAINTAINER}!"
     fi
-    
+
     write_xml > $device.xml
     git add -A
     git commit -m "OTA: Update $device ($(date -d "$mdate" +'%d/%m/%Y'))"
-    echo
-    if [[ "$COS_BIWEEKLY" == true ]]; then
-      git push https://${GUSER}:${GPASS}@github.com/${GREPO} -f
-    else
-      echo "Please push the commit and open a PR."
-    fi
+    echo "Please push the commit and open a PR."
   else
     echo "Device is not official."
   fi
